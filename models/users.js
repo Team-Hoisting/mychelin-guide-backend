@@ -1,17 +1,17 @@
 const jwt = require('jsonwebtoken');
 
+// username -> nickname
+// userid -> email
+// 계정 4개 만들기
+// 이미지 변경 방법
 let users = [
   {
-    _id: 1,
     userid: 'test@naver.com',
     password: 'test123',
     username: 'test계정',
-  },
-  {
-    _id: 2,
-    userid: 'example@naver.com',
-    password: 'example123',
-    username: 'example계정',
+    myLink: '',
+    isCertified: false,
+    voteOrder: [],
   },
 ];
 
