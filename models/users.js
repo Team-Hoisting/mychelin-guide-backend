@@ -6,9 +6,9 @@ const jwt = require('jsonwebtoken');
 // 이미지 변경 방법
 let users = [
   {
-    userid: 'test@naver.com',
+    email: 'test@naver.com',
     password: 'test123',
-    username: 'test계정',
+    nickname: 'test계정',
     myLink: '',
     isCertified: false,
     voteOrder: [],
@@ -17,27 +17,22 @@ let users = [
 
 const generateNextId = () => Math.max(...users.map((user) => user._id), 0) + 1;
 
-const generateToken = (userid, username) => {
-  const { _id } = findUserByUserid(userid);
+const generateToken = (email, nickname) => {
+  const { _id } = findUserByEmail(email);
 
-  const token = jwt.sign(
-    { _id, userid, username },
-    process.env.JWT_SECRET_KEY,
-    {
-      expiresIn: '7d',
-    },
-  );
+  const token = jwt.sign({ _id, email, nickname }, process.env.JWT_SECRET_KEY, {
+    expiresIn: '7d',
+  });
 
   return token;
 };
 
 const findById = (_id) => users.find((user) => user._id === _id);
 
-const findUserByUserid = (userid) =>
-  users.find((user) => user.userid === userid);
+const findUserByEmail = (email) => users.find((user) => user.email === email);
 
-const findUser = (userid, password) =>
-  users.find((user) => user.userid === userid && user.password === password);
+const findUser = (email, password) =>
+  users.find((user) => user.email === email && user.password === password);
 
 const createUser = (user) => {
   const _id = generateNextId();
@@ -55,7 +50,7 @@ const getUsers = () => users;
 module.exports = {
   createUser,
   findById,
-  findUserByUserid,
+  findUserByEmail,
   findUser,
   getUsers,
   generateToken,
