@@ -21,19 +21,19 @@ const votes = [
   },
   {
     storeId: '20328809',
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     categoryCode: 'GB09',
     votedAt: curDate,
   },
   {
     storeId: '24275104727514796',
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     categoryCode: 'WE04',
     votedAt: curDate,
   },
   {
     storeId: '589846825',
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     categoryCode: 'BS05',
     votedAt: curDate,
   },
