@@ -55,7 +55,7 @@ let comments = [
   },
   {
     commentId: 9,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '427510472',
     comment: '사이다가 더 맛있음',
   },
@@ -67,7 +67,7 @@ let comments = [
   },
   {
     commentId: 11,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '682483214',
     comment: '최애 맛집. 한 번 가면 못 빠져나온다.',
   },
@@ -85,7 +85,7 @@ let comments = [
   },
   {
     commentId: 14,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '19037502',
     comment: '굿',
   },
@@ -115,7 +115,7 @@ let comments = [
   },
   {
     commentId: 19,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '1130537615',
     comment: '굿굿 아주 베리 굿굿굿굿굿',
   },
@@ -163,7 +163,7 @@ let comments = [
   },
   {
     commentId: 27,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '1453970380',
     comment: '집에 온 것 같은 맛이랍니다.',
   },
@@ -235,7 +235,7 @@ let comments = [
   },
   {
     commentId: 39,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '1386103378',
     comment: '맛의 꼭대기',
   },
@@ -253,7 +253,7 @@ let comments = [
   },
   {
     commentId: 42,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '971062870',
     comment: '맛의 꼭대기',
   },
@@ -301,7 +301,7 @@ let comments = [
   },
   {
     commentId: 50,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '11162155',
     comment: '귯귯',
   },
@@ -325,7 +325,7 @@ let comments = [
   },
   {
     commentId: 54,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '1349950333',
     comment: '경민이가 자신있게 추천하는 수원 맛집!',
   },
@@ -349,7 +349,7 @@ let comments = [
   },
   {
     commentId: 58,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '14513092',
     comment: '산본 게 더 맛있어요',
   },
@@ -361,7 +361,7 @@ let comments = [
   },
   {
     commentId: 60,
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     storeId: '14513092',
     comment: '아주 좋아요',
   },

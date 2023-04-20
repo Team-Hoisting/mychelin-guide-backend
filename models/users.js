@@ -26,7 +26,7 @@ let users = [
     voteOrder: [],
   },
   {
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     password: 'adfkjadfkjakfd',
     nickname: '퐉경맥쓰',
     myLink: '',
