@@ -57,19 +57,19 @@ const votes = [
   },
   {
     storeId: '19037502',
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     categoryCode: 'KO01',
     votedAt: curDate,
   },
   {
     storeId: '682483214',
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     categoryCode: 'WE04',
     votedAt: curDate,
   },
   {
     storeId: '26356307',
-    email: 'fearofgit@gmail.com',
+    email: 'sanbondeveloper@gmail.com',
     categoryCode: 'CH02',
     votedAt: curDate,
   },

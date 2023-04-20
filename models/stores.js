@@ -102,7 +102,7 @@ let stores = [
     storeId: '984709951',
     storeName: '싱싱전포차',
     address: '경기 수원시 영통구 신원로 98',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-206-2526',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/11.%EC%8B%B1%EC%8B%B1%EC%A0%84%ED%8F%AC%EC%B0%A8.jpeg?raw=true',
@@ -111,7 +111,7 @@ let stores = [
     storeId: '21366133',
     storeName: '소문난대구왕뽈찜',
     address: '경기 수원시 영통구 영통로102번길 37-20 1, 2층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '010-3391-3468',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/12.%EC%86%8C%EB%AC%B8%EB%82%9C%EB%8C%80%EA%B5%AC%EC%99%95%EB%BD%88%EC%B0%9C.jpg?raw=true',
@@ -129,7 +129,7 @@ let stores = [
     storeId: '2092147534',
     storeName: '미나리고사리솥뚜껑생삼겹살',
     address: '경기 화성시 지산2길 5',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-376-9252',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/14.%EB%AF%B8%EB%82%98%EB%A6%AC%EA%B3%A0%EC%82%AC%EB%A6%AC%EC%86%A5%EB%9A%9C%EA%BB%91%EC%83%9D%EC%82%BC%EA%B2%B9%EC%82%B4.jpeg?raw=true',
@@ -138,7 +138,7 @@ let stores = [
     storeId: '1386103378',
     storeName: '일품등심',
     address: '경기 군포시 곡란로8번길 42 1층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-397-0606',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/15.%EC%9D%BC%ED%92%88%EB%93%B1%EC%8B%AC.jpeg?raw=true',
@@ -156,7 +156,7 @@ let stores = [
     storeId: '1798961498',
     storeName: '홍화루',
     address: '경기 수원시 영통구 매여울로40번길 56',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-216-3320',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/17.%ED%99%8D%ED%99%94%EB%A3%A8.jpeg?raw=true',
@@ -174,7 +174,7 @@ let stores = [
     storeId: '1349950333',
     storeName: '팜투하녹',
     address: '경기 수원시 팔달구 신풍로23번길 63-18 1,2층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '010-8654-8120',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/19.%ED%8C%9C%ED%88%AC%ED%95%98%EB%85%B9.jpeg?raw=true',
@@ -192,7 +192,7 @@ let stores = [
     storeId: '19499643',
     storeName: '코끼리분식',
     address: '경기 수원시 권선구 매실로 57',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-294-2796',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/21.%EC%BD%94%EB%81%BC%EB%A6%AC%EB%B6%84%EC%8B%9D.jpeg?raw=true',
@@ -201,7 +201,7 @@ let stores = [
     storeId: '1490921549',
     storeName: '호랑이분식 서현본점',
     address: '경기 성남시 분당구 서현로 204',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-702-2221',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/22.%ED%98%B8%EB%9E%91%EC%9D%B4%EB%B6%84%EC%8B%9D%20%EC%84%9C%ED%98%84%EB%B3%B8%EC%A0%90.jpeg?raw=true',
@@ -228,7 +228,7 @@ let stores = [
     storeId: '497570902',
     storeName: '비스트로302',
     address: '경기 군포시 산본로 329 경원빌딩 1층 10호',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '070-7779-4669',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/25.%EB%B9%84%EC%8A%A4%ED%8A%B8%EB%A1%9C302.jpeg?raw=true',
@@ -246,7 +246,7 @@ let stores = [
     storeId: '1314518762',
     storeName: '남도김치찜',
     address: '경기 수원시 영통구 매탄로37번길 10-2',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/27.%EB%82%A8%EB%8F%84%EA%B9%80%EC%B9%98%EC%B0%9C.jpg?raw=true',
@@ -255,7 +255,7 @@ let stores = [
     storeId: '231113168',
     storeName: '작은집이자카야',
     address: '경기 수원시 영통구 청명북로7번길 16-2 1층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-308-2222',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/28.%EC%9E%91%EC%9D%80%EC%9D%B4%EC%9E%90%EC%B9%B4%EC%95%BC.jpg?raw=true',
@@ -273,7 +273,7 @@ let stores = [
     storeId: '23701213',
     storeName: '영스피제리아',
     address: '경기 수원시 팔달구 신풍로23번길 26 1층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '031-251-9061',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/30.%EC%98%81%EC%8A%A4%ED%94%BC%EC%A0%9C%EB%A6%AC%EC%95%84.jpg?raw=true',
@@ -282,7 +282,7 @@ let stores = [
     storeId: '13288545',
     storeName: '풍년닭도리탕',
     address: '서울 중구 세종대로14길 17-5 1층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-755-5278',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/31.%ED%92%8D%EB%85%84%EB%8B%AD%EB%8F%84%EB%A6%AC%ED%83%95.jpeg?raw=true',
@@ -309,7 +309,7 @@ let stores = [
     storeId: '287476545',
     storeName: '그릴드300',
     address: '서울 마포구 동교로 230 2층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-3144-2530',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/34.%EA%B7%B8%EB%A6%B4%EB%93%9C300.jpeg?raw=true',
@@ -444,7 +444,7 @@ let stores = [
     storeId: '1378177446',
     storeName: '더메리어',
     address: '서울 강남구 논현로68길 5 지하1층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-335-3600',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/49.%EB%8D%94%EB%A9%94%EB%A6%AC%EC%96%B4.jpeg?raw=true',
@@ -498,7 +498,7 @@ let stores = [
     storeId: '1804081660',
     storeName: '멜팅피자',
     address: '서울 강남구 강남대로62길 22 황산빌딩 1층 102호',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '070-8880-3838',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/55.%EB%A9%9C%ED%8C%85%ED%94%BC%EC%9E%90.jpeg?raw=true',
@@ -525,7 +525,7 @@ let stores = [
     storeId: '1153109923',
     storeName: '프레드피자 서울강남점',
     address: '서울 강남구 봉은사로49길 26 A동 지하 1층 101호',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '070-4795-9809',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/58.%ED%94%84%EB%A0%88%EB%93%9C%ED%94%BC%EC%9E%90.jpeg?raw=true',
@@ -642,7 +642,7 @@ let stores = [
     storeId: '27315733',
     storeName: '경주식당',
     address: '서울 마포구 와우산로13길 49-7',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-322-1674',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/71.%EA%B2%BD%EC%A3%BC%EC%8B%9D%EB%8B%B9.jpeg?raw=true',
@@ -651,7 +651,7 @@ let stores = [
     storeId: '474254018',
     storeName: '손오공마라탕 서교점',
     address: '서울 마포구 잔다리로6길 23 2층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-336-4888',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/72.%EC%86%90%EC%98%A4%EA%B3%B5%EB%A7%88%EB%9D%BC%ED%83%95%20%EC%84%9C%EA%B5%90%EC%A0%90.jpeg?raw=true',
@@ -660,7 +660,7 @@ let stores = [
     storeId: '913901166',
     storeName: '용용선생 신촌점',
     address: '서울 서대문구 연세로7길 20',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-336-4888',
     imgUrl: '',
   },
@@ -855,7 +855,7 @@ let stores = [
     storeId: '27494588',
     storeName: '아이엠베이글 공덕점',
     address: '서울 마포구 백범로 152 공덕파크자이 101동',
-    firstUserId: 'fearofgit@gmail.com;',
+    firstUserId: 'sanbondeveloper@gmail.com;',
     phoneNumber: '070-7718-2881',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/95.%EC%95%84%EC%9D%B4%EC%97%A0%EB%B2%A0%EC%9D%B4%EA%B8%80%20%EA%B3%B5%EB%8D%95%EC%A0%90.jpeg?raw=true',
@@ -864,7 +864,7 @@ let stores = [
     storeId: '13123075',
     storeName: '더함',
     address: '서울 용산구 청파로47길 52 명신플라자 2층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-707-3692',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/96.%EB%8D%94%ED%95%A8.jpeg?raw=true',
@@ -873,7 +873,7 @@ let stores = [
     storeId: '1165755646',
     storeName: '만동제과',
     address: '서울 서대문구 연희로 32 1층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-6489-2334',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/97.%EB%A7%8C%EB%8F%99%EC%A0%9C%EA%B3%BC.jpeg?raw=true',
@@ -882,7 +882,7 @@ let stores = [
     storeId: '2010386564',
     storeName: '멕시코식당',
     address: '서울 마포구 독막로2길 23 1층',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-336-3666',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/98.%EB%A9%95%EC%8B%9C%EC%BD%94%EC%8B%9D%EB%8B%B9.jpeg?raw=true',
@@ -891,7 +891,7 @@ let stores = [
     storeId: '27253757',
     storeName: '여우골 홍대점',
     address: '서울 마포구 와우산로19길 9',
-    firstUserId: 'fearofgit@gmail.com',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '02-325-8717',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/99.%EC%97%AC%EC%9A%B0%EA%B3%A8%20%ED%99%8D%EB%8C%80%EC%A0%90.jpeg?raw=true',
