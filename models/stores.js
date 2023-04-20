@@ -897,3 +897,9 @@ let stores = [
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/99.%EC%97%AC%EC%9A%B0%EA%B3%A8%20%ED%99%8D%EB%8C%80%EC%A0%90.jpeg?raw=true',
   },
 ];
+
+const getStores = () => stores;
+
+module.exports = {
+  getStores,
+};

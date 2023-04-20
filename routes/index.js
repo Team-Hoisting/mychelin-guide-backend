@@ -8,8 +8,13 @@ const express = require('express');
 const router = express.Router();
 
 const auth = require('./auth');
+const stores = require('./stores');
+const votes = require('./votes');
 
+// /api/store
 router.use('/auth', auth);
+router.use('/stores', stores);
+router.use('/votes', votes);
 
 router.get('/', (req, res) => {
   res.send('Hello, World!');
