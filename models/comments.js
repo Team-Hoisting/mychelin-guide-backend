@@ -1,7 +1,7 @@
 let comments = [
   {
     commentId: 0,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '26571895',
     comment: '여기 단골인데 사장님 너무 좋아요.',
   },
@@ -9,7 +9,7 @@ let comments = [
     commentId: 1,
     email: 'bin000527@naver.com',
     storeId: '26571895',
-    comment: '짱',
+    comment: '짱짱!',
   },
   {
     commentId: 2,
@@ -19,7 +19,7 @@ let comments = [
   },
   {
     commentId: 3,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '27514796',
     comment: '여기 별로',
   },
@@ -31,13 +31,13 @@ let comments = [
   },
   {
     commentId: 5,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '589846825',
     comment: '맨날 가는 맛집',
   },
   {
     commentId: 6,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '20328809',
     comment: '규성이가 자신 있게 추천하는 맛집! ',
   },
@@ -49,7 +49,7 @@ let comments = [
   },
   {
     commentId: 8,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '427510472',
     comment: '콜라 너무 맛있어요',
   },
@@ -73,7 +73,7 @@ let comments = [
   },
   {
     commentId: 12,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '682483214',
     comment: '아버님도 너무 좋아하세요 ~',
   },
@@ -97,7 +97,7 @@ let comments = [
   },
   {
     commentId: 16,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '19037502',
     comment: '굿굿 아주 베리 굿굿',
   },
@@ -109,7 +109,7 @@ let comments = [
   },
   {
     commentId: 18,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '1130537615',
     comment: '굿굿 아주 베리 굿굿굿굿',
   },
@@ -133,7 +133,7 @@ let comments = [
   },
   {
     commentId: 22,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '21180713',
     comment: '굿굿 아주 베리 굿굿굿굿굿굿굿굿',
   },
@@ -153,7 +153,7 @@ let comments = [
     commentId: 25,
     email: 'bin000527@naver.com',
     storeId: '26356307',
-    comment: '규성이가 자신 있게 추천하는 맛집 !',
+    comment: '규성이가 자신 있게 추천하는 맛집!',
   },
   {
     commentId: 26,
@@ -175,7 +175,7 @@ let comments = [
   },
   {
     commentId: 29,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '984709951',
     comment: '아주 마싯숴요',
   },
@@ -187,7 +187,7 @@ let comments = [
   },
   {
     commentId: 31,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '21366133',
     comment: '규성이가 추천하는 맛집~ ㅎㅎ',
   },
@@ -211,7 +211,7 @@ let comments = [
   },
   {
     commentId: 35,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '1855041852',
     comment: '인플루언서 제임스 씨가 자신 있게 추천하는 맛집 !!! ',
   },
@@ -223,7 +223,7 @@ let comments = [
   },
   {
     commentId: 37,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '2092147534',
     comment: '굿굿',
   },
@@ -247,7 +247,7 @@ let comments = [
   },
   {
     commentId: 41,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '1386103378',
     comment: '굿굿 또 가고 싶어요',
   },
@@ -265,19 +265,19 @@ let comments = [
   },
   {
     commentId: 44,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '971062870',
     comment: '또 가고 싶은 곳',
   },
   {
     commentId: 45,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '1798961498',
     comment: '어흥',
   },
   {
     commentId: 46,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '1798961498',
     comment: '중국집 맛의 꼭대기',
   },
@@ -295,7 +295,7 @@ let comments = [
   },
   {
     commentId: 49,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '11162155',
     comment: '귯귯',
   },
@@ -307,7 +307,7 @@ let comments = [
   },
   {
     commentId: 51,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '11162155',
     comment: '귯귯 아주 조와요',
   },
@@ -337,7 +337,7 @@ let comments = [
   },
   {
     commentId: 56,
-    email: 'sqssung@gmail.com',
+    email: 'rok.ksohn@gmail.com',
     storeId: '14513092',
     comment: '인플루언서 제임스 씨가 다녀간 요거트 맛집 ! ',
   },
