@@ -28,12 +28,17 @@ router.post('/signin', (req, res) => {
 router.post('/signup', (req, res) => {
   const { email, password, nickname } = req.body;
 
-  const user = users.findUserByEmail(email);
+  let user = users.findUserByEmail(email);
 
-  console.log('중복된 계정:', user);
+  console.log('중복된 이메일:', user);
 
   if (user)
     return res.status(409).send({ error: '중복된 이메일이 존재합니다. ' });
+
+  user = users.findByNickname(nickname);
+
+  if (user)
+    return res.status(409).send({ error: '중복된 닉네임이 존재합니다. ' });
 
   const newUser = users.createUser({ email, password, nickname });
 
@@ -55,6 +60,34 @@ router.get('/check', (req, res) => {
   if (!user) return res.status(401).send({ error: '토큰 정보가 없습니다.' });
 
   return res.send(user);
+});
+
+router.post('/checkEmail', (req, res) => {
+  const { email } = req.body;
+
+  console.log('확인할 이메일: ', email);
+
+  const user = users.findUserByEmail(email);
+
+  console.log('중복 이메일 유저: ', user);
+
+  if (user) return res.sendStatus(409);
+
+  res.sendStatus(200);
+});
+
+router.post('/checkNickname', (req, res) => {
+  const { nickname } = req.body;
+
+  console.log('확인할 닉네임: ', nickname);
+
+  const user = users.findByNickname(nickname);
+
+  console.log('중복 닉네임 유저: ', user);
+
+  if (user) return res.sendStatus(409);
+
+  res.sendStatus(200);
 });
 
 router.get('/logout', (req, res) => {

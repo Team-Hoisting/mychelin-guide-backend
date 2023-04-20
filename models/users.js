@@ -8016,6 +8016,8 @@ const generateNextId = () => Math.max(...users.map((user) => user._id), 0) + 1;
 const generateToken = (email, nickname) => {
   const { _id } = findUserByEmail(email);
 
+  console.log(process.env.JWT_SECRET_KEY);
+
   const token = jwt.sign({ _id, email, nickname }, process.env.JWT_SECRET_KEY, {
     expiresIn: '7d',
   });
@@ -8024,6 +8026,9 @@ const generateToken = (email, nickname) => {
 };
 
 const findById = (_id) => users.find((user) => user._id === _id);
+
+const findByNickname = (nickname) =>
+  users.find((user) => user.nickname === nickname);
 
 const findUserByEmail = (email) => users.find((user) => user.email === email);
 
@@ -8046,6 +8051,7 @@ const getUsers = () => users;
 module.exports = {
   createUser,
   findById,
+  findByNickname,
   findUserByEmail,
   findUser,
   getUsers,
