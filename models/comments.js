@@ -366,3 +366,10 @@ let comments = [
     comment: '아주 좋아요',
   },
 ];
+
+const findCommentsByStoreId = (storeid) =>
+  comments.filter((comment) => comment.storeId === storeid);
+
+module.exports = {
+  findCommentsByStoreId,
+};

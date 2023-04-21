@@ -10,11 +10,13 @@ const router = express.Router();
 const auth = require('./auth');
 const stores = require('./stores');
 const votes = require('./votes');
+const comments = require('./comments');
 
 // /api/store
 router.use('/auth', auth);
 router.use('/stores', stores);
 router.use('/votes', votes);
+router.use('/comments', comments);
 
 router.get('/', (req, res) => {
   res.send('Hello, World!');

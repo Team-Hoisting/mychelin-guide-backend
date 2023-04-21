@@ -900,6 +900,9 @@ let stores = [
 
 const getStores = () => stores;
 
+const findStoreById = (id) => stores.find((store) => store.storeId === id);
+
 module.exports = {
   getStores,
+  findStoreById,
 };
