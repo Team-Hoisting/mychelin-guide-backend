@@ -14,6 +14,12 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   const storeData = stores.findStoreById(req.params.id);
+
+  if (!storeData) {
+    res.send(null);
+    return;
+  }
+
   const storeId = storeData.storeId;
 
   const userName = users.findUserByEmail(storeData.firstUserId).nickname;
