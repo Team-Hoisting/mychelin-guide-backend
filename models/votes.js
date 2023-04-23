@@ -365,6 +365,9 @@ const votes = [
 
 const getVotes = () => votes;
 
+const findVotesByStoreId = (id) => votes.filter((vote) => vote.storeId === id);
+
 module.exports = {
   getVotes,
+  findVotesByStoreId,
 };

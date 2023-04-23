@@ -400,3 +400,10 @@ const archives = [
   { seq: 398, email: 'alswl99710@naver.com', storeId: '27253757' },
   { seq: 399, email: 'sanbondeveloper@gmail.com', storeId: '27253757' },
 ];
+
+const getArcivesByStoreId = (storeid) =>
+  archives.filter((arc) => arc.storeId === storeid).length;
+
+module.exports = {
+  getArcivesByStoreId,
+};

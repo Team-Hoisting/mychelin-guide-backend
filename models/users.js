@@ -18,7 +18,7 @@ let users = [
     voteOrder: [],
   },
   {
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     password: 'abcdefg',
     nickname: 'MEAN G',
     myLink: '',
