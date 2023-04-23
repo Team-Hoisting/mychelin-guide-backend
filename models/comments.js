@@ -25,7 +25,7 @@ let comments = [
   },
   {
     commentId: 4,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '589846825',
     comment: '여기 단골인데 사장님 너무 좋아요 ㅎㅎㅎㅎㅎㅎ',
   },
@@ -43,7 +43,7 @@ let comments = [
   },
   {
     commentId: 7,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '20328809',
     comment: '여기 단골인데 사장님 너무 좋아요 ㅎㅎㅎㅎㅎㅎ',
   },
@@ -61,7 +61,7 @@ let comments = [
   },
   {
     commentId: 10,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '427510472',
     comment: '짱',
   },
@@ -91,7 +91,7 @@ let comments = [
   },
   {
     commentId: 15,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '19037502',
     comment: '굿굿',
   },
@@ -103,7 +103,7 @@ let comments = [
   },
   {
     commentId: 17,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '1130537615',
     comment: '굿굿 아주 베리 굿굿굿',
   },
@@ -121,7 +121,7 @@ let comments = [
   },
   {
     commentId: 20,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '21180713',
     comment: '굿굿 아주 베리 굿굿굿굿굿굿',
   },
@@ -169,7 +169,7 @@ let comments = [
   },
   {
     commentId: 28,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '984709951',
     comment: '맛있어용',
   },
@@ -193,7 +193,7 @@ let comments = [
   },
   {
     commentId: 32,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '21366133',
     comment: '맛있어용',
   },
@@ -205,7 +205,7 @@ let comments = [
   },
   {
     commentId: 34,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '1855041852',
     comment: '엄마손맛집',
   },
@@ -229,7 +229,7 @@ let comments = [
   },
   {
     commentId: 38,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '2092147534',
     comment: '맛있어용',
   },
@@ -241,7 +241,7 @@ let comments = [
   },
   {
     commentId: 40,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '1386103378',
     comment: '맛있어용',
   },
@@ -259,7 +259,7 @@ let comments = [
   },
   {
     commentId: 43,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '971062870',
     comment: '너무 좋아요',
   },
@@ -289,7 +289,7 @@ let comments = [
   },
   {
     commentId: 48,
-    email: 'alswl99710@naver.com',
+    email: 'alswl99710@gmail.com',
     storeId: '1798961498',
     comment: '귯귯',
   },
