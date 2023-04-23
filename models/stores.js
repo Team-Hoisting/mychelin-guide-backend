@@ -898,7 +898,34 @@ let stores = [
   },
 ];
 
+/*
+  {
+    storeId: '26571895', // 카카오 API의 매장 id
+    storeName: '더백푸드트럭 해방촌점',
+    address: '서울 용산구 신흥로20길 45 1,2층',
+    firstUserId: 'rok.ksohn@gmail.com', // 최초 투표자, users의 email
+    phoneNumber: '02-777-3338',
+    imgUrl:
+      'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/0.%EB%8D%94%EB%B0%B1%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD%20%ED%95%B4%EB%B0%A9%EC%B4%8C%EC%A0%90.jpeg?raw=true',
+  },
+  {
+    storeId: '26571895',
+    email: 'bin000527@naver.com',
+    categoryCode: 'KO01',
+    votedAt: curDate,
+  },
+*/
+
 const getStores = () => stores;
+
+// const getRankedStores = (votes) => {
+//   const data = {};
+//   let sortedStores = [];
+
+//   stores.map((store) => {
+//     const validVotes = votes.filter(({ storeId }) => storeId === store.storeId);
+//   });
+// };
 
 module.exports = {
   getStores,

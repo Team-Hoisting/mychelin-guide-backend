@@ -1,12 +1,5 @@
 const curDate = new Date();
 
-/*
-  storeId: '26571895',
-  email: 'bin000527@naver.com',
-  categoryCode: 'KO01',
-  votedAt: curDate,
-*/
-
 const votes = [
   {
     storeId: '26571895',
