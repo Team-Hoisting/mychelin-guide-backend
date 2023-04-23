@@ -4,7 +4,7 @@ const votes = [
   {
     storeId: '26571895',
     email: 'bin000527@naver.com',
-    categoryCode: 'KO01',
+    categoryCode: 'BG06',
     votedAt: curDate,
   },
   {
@@ -184,7 +184,7 @@ const votes = [
   {
     storeId: '26571895',
     email: 'dcosin9@dyndns.org',
-    categoryCode: 'KO01',
+    categoryCode: 'BG06',
     votedAt: curDate,
   },
   {

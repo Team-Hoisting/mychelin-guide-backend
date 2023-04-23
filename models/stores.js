@@ -1129,7 +1129,7 @@ const getRankedStores = (votes) => {
     sortedStores.push(storeData);
   });
 
-  return sortedStores.sort((a, b) => a.totalVotes - b.totalVotes);
+  return sortedStores.sort((a, b) => b.totalVotes - a.totalVotes);
 };
 
 const findStoreById = (id) => stores.find((store) => store.storeId === id);
