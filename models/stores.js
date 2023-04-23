@@ -1106,9 +1106,36 @@ let stores = [
 
 const getStores = () => stores;
 
+const getRankedStores = (votes) => {
+  let sortedStores = [];
+
+  stores.forEach((store) => {
+    const validVotes = votes.filter(({ storeId }) => storeId === store.storeId);
+
+    const votesByCategory = {};
+
+    validVotes.forEach(({ categoryCode }) =>
+      votesByCategory[categoryCode]
+        ? votesByCategory[categoryCode]++
+        : (votesByCategory[categoryCode] = 1),
+    );
+
+    const storeData = {
+      ...store,
+      totalVotes: validVotes.length,
+      votesByCategory,
+    };
+
+    sortedStores.push(storeData);
+  });
+
+  return sortedStores.sort((a, b) => a.totalVotes - b.totalVotes);
+};
+
 const findStoreById = (id) => stores.find((store) => store.storeId === id);
 
 module.exports = {
   getStores,
   findStoreById,
+  getRankedStores,
 };

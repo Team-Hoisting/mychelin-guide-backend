@@ -7,7 +7,7 @@ const archives = require('../models/archives');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  const data = stores.getStores();
+  const data = stores.getRankedStores(votes.getVotes());
 
   res.send(data);
 });

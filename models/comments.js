@@ -319,7 +319,7 @@ let comments = [
   },
   {
     commentId: 53,
-    email: 'in000527@naver.com',
+    email: 'bin000527@naver.com',
     storeId: '1349950333',
     comment: '맛있어용',
   },
