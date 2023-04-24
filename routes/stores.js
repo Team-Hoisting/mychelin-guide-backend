@@ -12,6 +12,12 @@ router.get('/', (req, res) => {
   res.send(data);
 });
 
+router.get('/search', (req, res) => {
+  const { usersearch } = req.query;
+
+  res.send(stores.getSearchedStores(usersearch));
+});
+
 router.get('/:id', (req, res) => {
   const storeData = stores.findStoreById(req.params.id);
 
