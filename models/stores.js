@@ -421,7 +421,7 @@ let stores = [
     storeId: '10915533',
     storeName: '행화촌',
     address: '경기 수원시 팔달구 권광로180번길 42-7',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '031-239-4900',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/38.%ED%96%89%ED%99%94%EC%B4%8C.jpeg?raw=true',
@@ -432,7 +432,7 @@ let stores = [
     storeId: '10684837',
     storeName: '유치회관',
     address: '경기 수원시 팔달구 효원로292번길 67',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '031-234-6275',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/39.%EC%9C%A0%EC%B9%98%ED%9A%8C%EA%B4%80.png?raw=true',
@@ -443,7 +443,7 @@ let stores = [
     storeId: '1648266796',
     storeName: '육품',
     address: '서울 서초구 강남대로65길 12',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-6949-6582',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/40.%EC%9C%A1%ED%92%88.jpeg?raw=true',
@@ -454,7 +454,7 @@ let stores = [
     storeId: '1697940758',
     storeName: '비어룸',
     address: '서울 강남구 강남대로98길 22',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '0507-1429-5956',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/41.%EB%B9%84%EC%96%B4%EB%A3%B8.jpeg?raw=true',
@@ -476,7 +476,7 @@ let stores = [
     storeId: '263830255',
     storeName: '강남곱',
     address: '서울 강남구 역삼로3길 12 1, 2층',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-538-7592',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/43.%EA%B0%95%EB%82%A8%EA%B3%B1.jpeg?raw=true',
@@ -488,7 +488,7 @@ let stores = [
     storeId: '25550206',
     storeName: '아방궁',
     address: '서울 강남구 역삼로1길 18',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-568-0772',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/44.%EC%95%84%EB%B0%A9%EA%B6%81.jpeg?raw=true',
@@ -499,7 +499,7 @@ let stores = [
     storeId: '1912522814',
     storeName: '베트남이랑',
     address: '서울 서초구 서초대로77길 15',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/45.%EB%B2%A0%ED%8A%B8%EB%82%A8%EC%9D%B4%EB%9E%91.jpeg?raw=true',
@@ -510,7 +510,7 @@ let stores = [
     storeId: '13499124',
     storeName: '아실라',
     address: '서울 강남구 강남대로98길 16',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-508-4665',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/46.%EC%95%84%EC%8B%A4%EB%9D%BC.jpeg?raw=true',
@@ -521,7 +521,7 @@ let stores = [
     storeId: '1428481536',
     storeName: '강남진해장',
     address: '서울 강남구 테헤란로5길 11',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-557-2662',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/47.%EA%B0%95%EB%82%A8%EC%A7%84%ED%95%B4%EC%9E%A5.jpeg?raw=true',
@@ -532,7 +532,7 @@ let stores = [
     storeId: '8086138',
     storeName: '조양관',
     address: '서울 서초구 서초대로74길 29',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-3473-8181',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/48.%EC%A1%B0%EC%96%91%EA%B4%80.jpeg?raw=true',
@@ -554,7 +554,7 @@ let stores = [
     storeId: '1885154773',
     storeName: '보물베이커리',
     address: '서울 강남구 논현로67길 11',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-558-0301',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/50.%EB%B3%B4%EB%AC%BC%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC.jpeg?raw=true',
@@ -565,7 +565,7 @@ let stores = [
     storeId: '1367196580',
     storeName: '천진영감',
     address: '서울 강남구 봉은사로6길 26 1층',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-568-0355',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/51.%EC%B2%9C%EC%A7%84%EC%98%81%EA%B0%90.jpeg?raw=true',
@@ -587,7 +587,7 @@ let stores = [
     storeId: '8015540',
     storeName: '오무라안',
     address: '서울 강남구 논현로79길 66',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-569-8610',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/53.%EC%98%A4%EB%AC%B4%EB%A6%AC%EC%95%88.jpeg?raw=true',
@@ -653,7 +653,7 @@ let stores = [
     storeId: '720883151',
     storeName: '슈퍼두퍼버거 강남점',
     address: '서울 서초구 강남대로 463 리젠타워 1,2층 101,201,202호',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-336-5576',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/59.%EC%8A%88%ED%8D%BC%EB%91%90%ED%8D%BC%EB%B2%84%EA%B1%B0%20%EA%B0%95%EB%82%A8%EC%A0%90.jpeg?raw=true',
@@ -664,7 +664,7 @@ let stores = [
     storeId: '218274780',
     storeName: '바스버거 역삼점',
     address: '서울 강남구 테헤란로26길 10',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-568-6654',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/60.%EB%B0%94%EC%8A%A4%EB%B2%84%EA%B1%B0%20%EC%97%AD%EC%82%BC%EC%A0%90.jpeg?raw=true',
@@ -675,7 +675,7 @@ let stores = [
     storeId: '431631970',
     storeName: '스매쉬치즈버거',
     address: '서울 강남구 강남대로94길 89',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-556-6682',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/61.%EC%8A%A4%EB%A7%A4%EC%89%AC%EC%B9%98%EC%A6%88%EB%B2%84%EA%B1%B0.jpeg?raw=true',
@@ -686,7 +686,7 @@ let stores = [
     storeId: '915707641',
     storeName: '듀크버거',
     address: '서울 강남구 도곡로17길 29',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-2088-3349',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/62.%EB%93%80%ED%81%AC%EB%B2%84%EA%B1%B0.jpeg?raw=true',
@@ -697,7 +697,7 @@ let stores = [
     storeId: '63121054',
     storeName: '오샐러드 강남점',
     address: '서울 강남구 강남대로84길 15',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-2039-5453',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/63.%EC%98%A4%EC%83%90%EB%9F%AC%EB%93%9C%20%EA%B0%95%EB%82%A8%EC%A0%90.jpeg?raw=true',
@@ -708,7 +708,7 @@ let stores = [
     storeId: '1641451756',
     storeName: '레이지 요거트',
     address: '서울 강남구 역삼로 109',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '070-4123-5560',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/64.%EB%A0%88%EC%9D%B4%EC%A7%80%20%EC%9A%94%EA%B1%B0%ED%8A%B8.jpeg?raw=true',
@@ -719,7 +719,7 @@ let stores = [
     storeId: '2104936093',
     storeName: '하우마라탕',
     address: '서울 강남구 강남대로94길 23',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-6082-7071',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/65.%ED%95%98%EC%9A%B0%EB%A7%88%EB%9D%BC%ED%83%95.jpeg?raw=true',
@@ -741,7 +741,7 @@ let stores = [
     storeId: '1310208191',
     storeName: '하노이스토리',
     address: '서울 강남구 논현로85길 25',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-539-5525',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/67.%ED%95%98%EB%85%B8%EC%9D%B4%EC%8A%A4%ED%86%A0%EB%A6%AC.jpeg?raw=true',
@@ -753,7 +753,7 @@ let stores = [
     storeId: '1878339483',
     storeName: '강남역파스타',
     address: '서울 서초구 서초대로73길 24',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-3482-0959',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/68.%EA%B0%95%EB%82%A8%EC%97%AD%ED%8C%8C%EC%8A%A4%ED%83%80.jpeg?raw=true',
@@ -764,7 +764,7 @@ let stores = [
     storeId: '301531935',
     storeName: '마초쉐프 강남본점',
     address: '서울 강남구 강남대로106길 29',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-566-8886',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/69.%EB%A7%88%EC%B4%88%EC%89%90%ED%94%84%20%EA%B0%95%EB%82%A8%EB%B3%B8%EC%A0%90.jpeg?raw=true',
@@ -775,7 +775,7 @@ let stores = [
     storeId: '2061169084',
     storeName: '샐러드박스 마포광흥창점',
     address: '서울 마포구 창전로 44',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-717-4909',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/70.%EC%83%90%EB%9F%AC%EB%93%9C%EB%B0%95%EC%8A%A4%20%EB%A7%88%ED%8F%AC%EA%B4%91%ED%9D%A5%EC%B0%BD%EC%A0%90.jpeg?raw=true',
@@ -952,7 +952,7 @@ let stores = [
     storeId: '1908121915',
     storeName: '문일리',
     address: '서울 마포구 연남로13길 9',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '0507-1444-6555',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/86.%EB%AC%B8%EC%9D%BC%EB%A6%AC.jpeg?raw=true',
@@ -963,7 +963,7 @@ let stores = [
     storeId: '19153287',
     storeName: '산까치냉면',
     address: '서울 마포구 도화길 35',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/87.%EC%82%B0%EA%B9%8C%EC%B9%98%EB%83%89%EB%A9%B4.jpeg?raw=true',
@@ -974,7 +974,7 @@ let stores = [
     storeId: '1247140514',
     storeName: '연남닭발',
     address: '서울 서대문구 연희로 34',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-337-0557',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/88.%EC%97%B0%EB%82%A8%EB%8B%AD%EB%B0%9C.jpeg?raw=true',
@@ -985,7 +985,7 @@ let stores = [
     storeId: '26235884',
     storeName: '피오니 홍대점',
     address: '서울 마포구 독막로7길 51',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-333-5325',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/89.%ED%94%BC%EC%98%A4%EB%8B%88%20%ED%99%8D%EB%8C%80%EC%A0%90.jpeg?raw=true',
@@ -996,7 +996,7 @@ let stores = [
     storeId: '24546118',
     storeName: '와우신내떡',
     address: '서울 용산구 청파로45길 12-1',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-704-8485',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/90.%EC%99%80%EC%9A%B0%EC%8B%A0%EB%82%B4%EB%96%A1.jpeg?raw=true',
@@ -1007,7 +1007,7 @@ let stores = [
     storeId: '735994320',
     storeName: '홍곱창 숙명여대점',
     address: '서울 용산구 청파로43가길 31',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-707-0092',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/91.%ED%99%8D%EA%B3%B1%EC%B0%BD%20%EC%88%99%EB%AA%85%EC%97%AC%EB%8C%80%EC%A0%90.jpeg?raw=true',
@@ -1018,7 +1018,7 @@ let stores = [
     storeId: '1736742094',
     storeName: '마녀주방 홍대점',
     address: '서울 마포구 와우산로21길 36-10',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/92.%EB%A7%88%EB%85%80%EC%A3%BC%EB%B0%A9%20%ED%99%8D%EB%8C%80%EC%A0%90.jpeg?raw=true',
@@ -1029,7 +1029,7 @@ let stores = [
     storeId: '27341509',
     storeName: '아웃닭 신촌역점',
     address: '서울 서대문구 연세로4길 19',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/93.%EC%95%84%EC%9B%83%EB%8B%AD%20%EC%8B%A0%EC%B4%8C%EC%97%AD%EC%A0%90.jpeg?raw=true',
@@ -1040,7 +1040,7 @@ let stores = [
     storeId: '15110084',
     storeName: '탑클라우드23',
     address: '서울 마포구 백범로 192 에스오일빌딩 23층',
-    firstUserId: 'alswl99710@naver.com',
+    firstUserId: 'alswl99710@gmail.com',
     phoneNumber: '02-3275-2323',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/94.%ED%83%91%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C23.jpeg?raw=true',
@@ -1051,7 +1051,7 @@ let stores = [
     storeId: '27494588',
     storeName: '아이엠베이글 공덕점',
     address: '서울 마포구 백범로 152',
-    firstUserId: 'sanbondeveloper@gmail.com;',
+    firstUserId: 'sanbondeveloper@gmail.com',
     phoneNumber: '070-7718-2881',
     imgUrl:
       'https://github.com/Team-Hoisting/mychelin-guide-storage/blob/main/storeImages/95.%EC%95%84%EC%9D%B4%EC%97%A0%EB%B2%A0%EC%9D%B4%EA%B8%80%20%EA%B3%B5%EB%8D%95%EC%A0%90.jpeg?raw=true',
