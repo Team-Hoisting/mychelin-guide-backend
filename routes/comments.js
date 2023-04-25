@@ -30,6 +30,7 @@ router.post('/', (req, res) => {
 });
 
 router.delete('/:commentId', (req, res) => {
+  console.log('delete: ', req.params.commentId);
   comments.deleteComment(req.params.commentId);
 
   res.sendStatus(200);
