@@ -2,6 +2,14 @@ const jwt = require('jsonwebtoken');
 
 let users = [
   {
+    email: 'test@naver.com',
+    password: '123123',
+    nickname: 'Test 계정',
+    myLink: '',
+    isCertified: false,
+    voteOrder: [],
+  },
+  {
     email: 'bin000527@naver.com',
     password: '1234567',
     nickname: '웨스트달러예빈',
