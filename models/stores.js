@@ -1134,8 +1134,11 @@ const getRankedStores = (votes) => {
 
 const findStoreById = (id) => stores.find((store) => store.storeId === id);
 
+const getStoreIds = () => stores.map(({ storeId }) => storeId);
+
 module.exports = {
   getStores,
+  getStoreIds,
   findStoreById,
   getRankedStores,
 };
