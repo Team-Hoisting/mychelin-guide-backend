@@ -1104,6 +1104,8 @@ let stores = [
   },
 ];
 
+const getStores = () => stores;
+
 const getSearchedStores = (searched) =>
   stores.filter((store) => store.storeName.includes(searched));
 
@@ -1135,7 +1137,11 @@ const getRankedStores = (votes) => {
 
 const findStoreById = (id) => stores.find((store) => store.storeId === id);
 
+const getStoreIds = () => stores.map(({ storeId }) => storeId);
+
 module.exports = {
+  getStores,
+  getStoreIds,
   getSearchedStores,
   findStoreById,
   getRankedStores,

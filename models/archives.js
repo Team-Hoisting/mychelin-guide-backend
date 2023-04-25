@@ -1,4 +1,4 @@
-const archives = [
+let archives = [
   { seq: 0, email: 'rok.ksohn@gmail.com', storeId: '26571895' },
   { seq: 1, email: 'bin000527@naver.com', storeId: '26571895' },
   { seq: 2, email: 'alswl99710@naver.com', storeId: '26571895' },
@@ -404,6 +404,35 @@ const archives = [
 const getArcivesByStoreId = (storeid) =>
   archives.filter((arc) => arc.storeId === storeid).length;
 
+const getArchivesByEmail = (email) =>
+  archives.filter((arc) => arc.email === email);
+
+const generateNextId = () => Math.max(...archives.map((arc) => arc.seq), 0) + 1;
+
+const addArchive = ({ storeId, userId }) => {
+  archives = [
+    ...archives,
+    {
+      seq: generateNextId(),
+      userId,
+      storeId,
+    },
+  ];
+
+  return archives;
+};
+
+const deleteArchive = (seq) => {
+  const deletedSeq = archives.find((arc) => arc.seq === seq).seq;
+
+  console.log('deletedSeq: ', deletedSeq);
+
+  archives = archives.filter((arc) => arc.seq !== deletedSeq);
+};
+
 module.exports = {
   getArcivesByStoreId,
+  getArchivesByEmail,
+  addArchive,
+  deleteArchive,
 };
