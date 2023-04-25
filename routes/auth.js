@@ -1,5 +1,6 @@
 const express = require('express');
 const users = require('../models/users');
+const archives = require('../models/archives');
 
 const router = express.Router();
 
@@ -8,7 +9,10 @@ router.post('/signin', (req, res) => {
 
   console.log(email, password);
   const user = users.findUser(email, password);
+  const archived = archives.getArchivesByEmail(email);
+
   console.log('로그인한 계정:', user);
+  console.log('user: ');
 
   if (!user)
     return res
@@ -22,7 +26,7 @@ router.post('/signin', (req, res) => {
     httpOnly: true,
   });
 
-  res.send({ email, nickname: user.nickname });
+  res.send({ email, nickname: user.nickname, archived });
 });
 
 router.post('/signup', (req, res) => {
