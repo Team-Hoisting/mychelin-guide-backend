@@ -11,7 +11,7 @@ let users = [
   },
   {
     email: 'rok.ksohn@gmail.com',
-    password: '98765',
+    password: '123456789',
     nickname: '아리조나제임스',
     myLink: '',
     isCertified: true,
