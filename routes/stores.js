@@ -7,9 +7,28 @@ const archives = require('../models/archives');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  const data = stores.getRankedStores(votes.getVotes());
+  const { category, page_size, page } = req.query;
 
-  res.send(data);
+  const rankedStores = stores.getRankedStores(votes.getVotes());
+
+  const startIndex = (page - 1) * page_size;
+  const endIndex = startIndex + +page_size;
+
+  const filteredStores = category
+    ? rankedStores.filter(({ votesByCategory }) =>
+        Object.keys(votesByCategory).includes(category),
+      )
+    : rankedStores;
+
+  const pageStores = filteredStores.slice(startIndex, endIndex);
+
+  res.send(pageStores);
+});
+
+router.get('/search', (req, res) => {
+  const { usersearch } = req.query;
+
+  res.send(stores.getSearchedStores(usersearch));
 });
 
 router.get('/:id', (req, res) => {
