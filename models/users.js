@@ -7,7 +7,7 @@ let users = [
     nickname: 'Test 계정',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bin000527@naver.com',
@@ -15,7 +15,7 @@ let users = [
     nickname: '웨스트달러예빈',
     myLink: '',
     isCertified: true,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rok.ksohn@gmail.com',
@@ -23,7 +23,7 @@ let users = [
     nickname: '아리조나제임스',
     myLink: '',
     isCertified: true,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'alswl99710@gmail.com',
@@ -31,7 +31,7 @@ let users = [
     nickname: 'MEAN G',
     myLink: '',
     isCertified: true,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sanbondeveloper@gmail.com',
@@ -39,7 +39,7 @@ let users = [
     nickname: '퐉경맥쓰',
     myLink: '',
     isCertified: true,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'battenborrow3@de.vu',
@@ -47,7 +47,7 @@ let users = [
     nickname: 'Benni',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'abolam4@homestead.com',
@@ -55,7 +55,7 @@ let users = [
     nickname: 'Arne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ggatherer5@walmart.com',
@@ -63,7 +63,7 @@ let users = [
     nickname: 'Griff',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dboxall6@cdc.gov',
@@ -71,7 +71,7 @@ let users = [
     nickname: 'Dawn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gyo7@techcrunch.com',
@@ -79,7 +79,7 @@ let users = [
     nickname: 'Giffy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kbartali8@accuweather.com',
@@ -87,7 +87,7 @@ let users = [
     nickname: 'Keri',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dcosin9@dyndns.org',
@@ -95,7 +95,7 @@ let users = [
     nickname: 'Delphinia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cyendlea@amazon.co.uk',
@@ -103,7 +103,7 @@ let users = [
     nickname: 'Ches',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gdjokovicb@google.nl',
@@ -111,7 +111,7 @@ let users = [
     nickname: 'Gussie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kfontellesc@fc2.com',
@@ -119,7 +119,7 @@ let users = [
     nickname: 'Katerine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bdodgshund@csmonitor.com',
@@ -127,7 +127,7 @@ let users = [
     nickname: 'Berti',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pashleighe@hc360.com',
@@ -135,7 +135,7 @@ let users = [
     nickname: 'Pernell',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jpuckringf@un.org',
@@ -143,7 +143,7 @@ let users = [
     nickname: 'Jeanne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mgilsthorpeg@newyorker.com',
@@ -151,7 +151,7 @@ let users = [
     nickname: 'Marthena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'amcbratneyh@youtu.be',
@@ -159,7 +159,7 @@ let users = [
     nickname: 'Adrianna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pheildi@newyorker.com',
@@ -167,7 +167,7 @@ let users = [
     nickname: 'Paulie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wcumingj@cocolog-nifty.com',
@@ -175,7 +175,7 @@ let users = [
     nickname: 'Wang',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccobbaldk@drupal.org',
@@ -183,7 +183,7 @@ let users = [
     nickname: 'Casey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'taudleyl@yellowbook.com',
@@ -191,7 +191,7 @@ let users = [
     nickname: 'Tadio',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lcoolahanm@mapquest.com',
@@ -199,7 +199,7 @@ let users = [
     nickname: 'Luce',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gmaccluren@loc.gov',
@@ -207,7 +207,7 @@ let users = [
     nickname: 'Gale',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'atarriero@vimeo.com',
@@ -215,7 +215,7 @@ let users = [
     nickname: 'Adoree',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gmeeginp@tamu.edu',
@@ -223,7 +223,7 @@ let users = [
     nickname: 'Gregg',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hgalletleyq@addthis.com',
@@ -231,7 +231,7 @@ let users = [
     nickname: 'Hazlett',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hdemogeotr@flavors.me',
@@ -239,7 +239,7 @@ let users = [
     nickname: 'Heall',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cgarfits@cyberchimps.com',
@@ -247,7 +247,7 @@ let users = [
     nickname: 'Carl',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'frobisont@illinois.edu',
@@ -255,7 +255,7 @@ let users = [
     nickname: 'Franz',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'srallsu@wunderground.com',
@@ -263,7 +263,7 @@ let users = [
     nickname: 'Savina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mhauckev@bigcartel.com',
@@ -271,7 +271,7 @@ let users = [
     nickname: 'Mary',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'amyhanw@nyu.edu',
@@ -279,7 +279,7 @@ let users = [
     nickname: 'Aloin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jpetofix@deviantart.com',
@@ -287,7 +287,7 @@ let users = [
     nickname: 'Jaquith',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bbruhnkey@ibm.com',
@@ -295,7 +295,7 @@ let users = [
     nickname: 'Beth',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dwysez@skype.com',
@@ -303,7 +303,7 @@ let users = [
     nickname: 'Darrin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hsivills10@google.pl',
@@ -311,7 +311,7 @@ let users = [
     nickname: 'Hilario',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cjay11@seattletimes.com',
@@ -319,7 +319,7 @@ let users = [
     nickname: 'Carlye',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bblaze12@comcast.net',
@@ -327,7 +327,7 @@ let users = [
     nickname: 'Britney',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tczajkowska13@yellowpages.com',
@@ -335,7 +335,7 @@ let users = [
     nickname: 'Tybie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hhearty14@stanford.edu',
@@ -343,7 +343,7 @@ let users = [
     nickname: 'Haywood',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'emacdonell15@webs.com',
@@ -351,7 +351,7 @@ let users = [
     nickname: 'Emily',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kteeney16@sun.com',
@@ -359,7 +359,7 @@ let users = [
     nickname: 'Kelsy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hharland17@hud.gov',
@@ -367,7 +367,7 @@ let users = [
     nickname: 'Hedda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ablacksland18@reddit.com',
@@ -375,7 +375,7 @@ let users = [
     nickname: 'Artus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'swoodley19@imdb.com',
@@ -383,7 +383,7 @@ let users = [
     nickname: 'Sansone',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sborrott1a@mozilla.com',
@@ -391,7 +391,7 @@ let users = [
     nickname: 'Shelbi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lranson1b@jalbum.net',
@@ -399,7 +399,7 @@ let users = [
     nickname: 'Lance',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cponting1c@pcworld.com',
@@ -407,7 +407,7 @@ let users = [
     nickname: 'Cyril',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kmaurice1d@bravesites.com',
@@ -415,7 +415,7 @@ let users = [
     nickname: 'King',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wovey1e@yale.edu',
@@ -423,7 +423,7 @@ let users = [
     nickname: 'Willamina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'chaveline1f@apache.org',
@@ -431,7 +431,7 @@ let users = [
     nickname: 'Cacilia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rclayill1g@pinterest.com',
@@ -439,7 +439,7 @@ let users = [
     nickname: 'Redd',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'brunge1h@google.com.br',
@@ -447,7 +447,7 @@ let users = [
     nickname: 'Brigitte',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dfoakes1i@tripod.com',
@@ -455,7 +455,7 @@ let users = [
     nickname: 'Dory',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ldelacoste1j@domainmarket.com',
@@ -463,7 +463,7 @@ let users = [
     nickname: 'Lauretta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sgelland1k@imgur.com',
@@ -471,7 +471,7 @@ let users = [
     nickname: 'Shaylynn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eschott1l@wikia.com',
@@ -479,7 +479,7 @@ let users = [
     nickname: 'Eleonore',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ehrishanok1m@usgs.gov',
@@ -487,7 +487,7 @@ let users = [
     nickname: 'Elysee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'clowfill1n@ucoz.ru',
@@ -495,7 +495,7 @@ let users = [
     nickname: 'Conchita',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jpruckner1o@smh.com.au',
@@ -503,7 +503,7 @@ let users = [
     nickname: 'Julina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gsimonsson1p@hexun.com',
@@ -511,7 +511,7 @@ let users = [
     nickname: 'Griz',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dstiell1q@gravatar.com',
@@ -519,7 +519,7 @@ let users = [
     nickname: 'Dennison',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nboltwood1r@last.fm',
@@ -527,7 +527,7 @@ let users = [
     nickname: 'Netta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ekleinhaut1s@tuttocitta.it',
@@ -535,7 +535,7 @@ let users = [
     nickname: 'Elvina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'minsole1t@weather.com',
@@ -543,7 +543,7 @@ let users = [
     nickname: 'Mendie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nkender1u@bbb.org',
@@ -551,7 +551,7 @@ let users = [
     nickname: 'Noah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mwheeler1v@barnesandnoble.com',
@@ -559,7 +559,7 @@ let users = [
     nickname: 'Melonie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kfaber1w@twitpic.com',
@@ -567,7 +567,7 @@ let users = [
     nickname: 'Kordula',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hrough1x@scribd.com',
@@ -575,7 +575,7 @@ let users = [
     nickname: 'Huntley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'drangle1y@reference.com',
@@ -583,7 +583,7 @@ let users = [
     nickname: 'Denys',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pbruckenthal1z@google.nl',
@@ -591,7 +591,7 @@ let users = [
     nickname: 'Prisca',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lberan20@washingtonpost.com',
@@ -599,7 +599,7 @@ let users = [
     nickname: 'Lukas',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ehaisell21@google.co.jp',
@@ -607,7 +607,7 @@ let users = [
     nickname: 'Ediva',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mmarden22@edublogs.org',
@@ -615,7 +615,7 @@ let users = [
     nickname: 'Murdoch',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bwhitewood23@sciencedirect.com',
@@ -623,7 +623,7 @@ let users = [
     nickname: 'Bernetta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'btwinberrow24@dion.ne.jp',
@@ -631,7 +631,7 @@ let users = [
     nickname: 'Beniamino',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gpablo25@bloglines.com',
@@ -639,7 +639,7 @@ let users = [
     nickname: 'Gordie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ibyres26@google.co.uk',
@@ -647,7 +647,7 @@ let users = [
     nickname: 'Izzy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ddowning27@linkedin.com',
@@ -655,7 +655,7 @@ let users = [
     nickname: 'Dacia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ostanbridge28@unc.edu',
@@ -663,7 +663,7 @@ let users = [
     nickname: 'Onida',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pseaman29@infoseek.co.jp',
@@ -671,7 +671,7 @@ let users = [
     nickname: 'Patricia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dpettipher2a@amazon.de',
@@ -679,7 +679,7 @@ let users = [
     nickname: 'Drucill',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gjosowitz2b@loc.gov',
@@ -687,7 +687,7 @@ let users = [
     nickname: 'Grove',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cchaff2c@marketwatch.com',
@@ -695,7 +695,7 @@ let users = [
     nickname: 'Chandler',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'llockhart2d@netvibes.com',
@@ -703,7 +703,7 @@ let users = [
     nickname: 'Lilli',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lloughnan2e@vkontakte.ru',
@@ -711,7 +711,7 @@ let users = [
     nickname: 'Lonnie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dgredden2f@admin.ch',
@@ -719,7 +719,7 @@ let users = [
     nickname: 'Deerdre',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cnorthill2g@xinhuanet.com',
@@ -727,7 +727,7 @@ let users = [
     nickname: 'Cyndi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lbissex2h@accuweather.com',
@@ -735,7 +735,7 @@ let users = [
     nickname: 'Lillian',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ystroulger2i@quantcast.com',
@@ -743,7 +743,7 @@ let users = [
     nickname: 'Yalonda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'grosbotham2j@ucoz.com',
@@ -751,7 +751,7 @@ let users = [
     nickname: 'Garrott',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'beverex2k@plala.or.jp',
@@ -759,7 +759,7 @@ let users = [
     nickname: 'Benjie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mdash2l@huffingtonpost.com',
@@ -767,7 +767,7 @@ let users = [
     nickname: 'Margaretta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'oundrell2m@mapy.cz',
@@ -775,7 +775,7 @@ let users = [
     nickname: 'Orlando',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'smapstone2n@mlb.com',
@@ -783,7 +783,7 @@ let users = [
     nickname: 'Sadella',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ehyett2o@simplemachines.org',
@@ -791,7 +791,7 @@ let users = [
     nickname: 'Edith',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ewoodnutt2p@mozilla.org',
@@ -799,7 +799,7 @@ let users = [
     nickname: 'Eamon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ebarensky2q@mac.com',
@@ -807,7 +807,7 @@ let users = [
     nickname: 'Erma',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ssimenot2r@smh.com.au',
@@ -815,7 +815,7 @@ let users = [
     nickname: 'Stuart',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rchevers2s@scribd.com',
@@ -823,7 +823,7 @@ let users = [
     nickname: 'Rubi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nmaccaughan2t@zdnet.com',
@@ -831,7 +831,7 @@ let users = [
     nickname: 'Noe',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cseston2u@europa.eu',
@@ -839,7 +839,7 @@ let users = [
     nickname: 'Corissa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mrishman2v@creativecommons.org',
@@ -847,7 +847,7 @@ let users = [
     nickname: 'Marne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'acescon2w@nih.gov',
@@ -855,7 +855,7 @@ let users = [
     nickname: 'Aggi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pbrockington2x@livejournal.com',
@@ -863,7 +863,7 @@ let users = [
     nickname: 'Pate',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lhaith2y@slashdot.org',
@@ -871,7 +871,7 @@ let users = [
     nickname: 'Leonore',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dallcock2z@soundcloud.com',
@@ -879,7 +879,7 @@ let users = [
     nickname: 'Dulci',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ngrissett30@biglobe.ne.jp',
@@ -887,7 +887,7 @@ let users = [
     nickname: 'Noby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gzamudio31@webs.com',
@@ -895,7 +895,7 @@ let users = [
     nickname: 'Gustavo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gwhorall32@businessinsider.com',
@@ -903,7 +903,7 @@ let users = [
     nickname: 'Gale',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wreardon33@stumbleupon.com',
@@ -911,7 +911,7 @@ let users = [
     nickname: 'Willie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bbarwick34@dailymotion.com',
@@ -919,7 +919,7 @@ let users = [
     nickname: 'Brew',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ssturge35@amazon.co.uk',
@@ -927,7 +927,7 @@ let users = [
     nickname: 'Samuele',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cwadsworth36@yale.edu',
@@ -935,7 +935,7 @@ let users = [
     nickname: 'Cherye',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ahackford37@smh.com.au',
@@ -943,7 +943,7 @@ let users = [
     nickname: 'Augustin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rbarten38@wikipedia.org',
@@ -951,7 +951,7 @@ let users = [
     nickname: 'Reidar',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vgroven39@harvard.edu',
@@ -959,7 +959,7 @@ let users = [
     nickname: 'Violette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rburgott3a@zdnet.com',
@@ -967,7 +967,7 @@ let users = [
     nickname: 'Rachele',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ntharme3b@webs.com',
@@ -975,7 +975,7 @@ let users = [
     nickname: 'Nickola',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'csteljes3c@miibeian.gov.cn',
@@ -983,7 +983,7 @@ let users = [
     nickname: 'Charlot',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'asiveter3d@gizmodo.com',
@@ -991,7 +991,7 @@ let users = [
     nickname: 'Andrey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gtuite3e@illinois.edu',
@@ -999,7 +999,7 @@ let users = [
     nickname: 'Gayleen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mneasham3f@spotify.com',
@@ -1007,7 +1007,7 @@ let users = [
     nickname: 'Marlo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rhorney3g@soundcloud.com',
@@ -1015,7 +1015,7 @@ let users = [
     nickname: 'Ronica',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bshelp3h@technorati.com',
@@ -1023,7 +1023,7 @@ let users = [
     nickname: 'Boony',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'snorfolk3i@who.int',
@@ -1031,7 +1031,7 @@ let users = [
     nickname: 'Stephan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cgallant3j@ebay.co.uk',
@@ -1039,7 +1039,7 @@ let users = [
     nickname: 'Cammy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'smacallam3k@ca.gov',
@@ -1047,7 +1047,7 @@ let users = [
     nickname: 'Shurwood',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'flauchlan3l@clickbank.net',
@@ -1055,7 +1055,7 @@ let users = [
     nickname: 'Ferdinande',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lhaestier3m@bizjournals.com',
@@ -1063,7 +1063,7 @@ let users = [
     nickname: 'Lavena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'smarrison3n@webs.com',
@@ -1071,7 +1071,7 @@ let users = [
     nickname: 'Shurlocke',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pellicott3o@elpais.com',
@@ -1079,7 +1079,7 @@ let users = [
     nickname: 'Phillipe',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pwildbore3p@boston.com',
@@ -1087,7 +1087,7 @@ let users = [
     nickname: 'Preston',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'psimonett3q@forbes.com',
@@ -1095,7 +1095,7 @@ let users = [
     nickname: 'Petr',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'agilardi3r@microsoft.com',
@@ -1103,7 +1103,7 @@ let users = [
     nickname: 'Axel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gespinay3s@jigsy.com',
@@ -1111,7 +1111,7 @@ let users = [
     nickname: 'Glenden',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bsprules3t@amazon.com',
@@ -1119,7 +1119,7 @@ let users = [
     nickname: 'Burnard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'abrockwell3u@mashable.com',
@@ -1127,7 +1127,7 @@ let users = [
     nickname: 'Addie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cleng3v@seesaa.net',
@@ -1135,7 +1135,7 @@ let users = [
     nickname: 'Cosimo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lqueyeiro3w@wikimedia.org',
@@ -1143,7 +1143,7 @@ let users = [
     nickname: 'Lila',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'okrzyzowski3x@imgur.com',
@@ -1151,7 +1151,7 @@ let users = [
     nickname: 'Olympie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hmccoid3y@example.com',
@@ -1159,7 +1159,7 @@ let users = [
     nickname: 'Hilliary',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tshilling3z@163.com',
@@ -1167,7 +1167,7 @@ let users = [
     nickname: 'Thane',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fhallworth40@mtv.com',
@@ -1175,7 +1175,7 @@ let users = [
     nickname: 'Flossie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nmcclure41@dell.com',
@@ -1183,7 +1183,7 @@ let users = [
     nickname: 'Nonie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbracci42@shutterfly.com',
@@ -1191,7 +1191,7 @@ let users = [
     nickname: 'Marlena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tpales43@skype.com',
@@ -1199,7 +1199,7 @@ let users = [
     nickname: 'Teodorico',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'boscully44@apple.com',
@@ -1207,7 +1207,7 @@ let users = [
     nickname: 'Bertie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jhardwidge45@bandcamp.com',
@@ -1215,7 +1215,7 @@ let users = [
     nickname: 'Jorry',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'csilvester46@is.gd',
@@ -1223,7 +1223,7 @@ let users = [
     nickname: 'Clayson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lhouten47@go.com',
@@ -1231,7 +1231,7 @@ let users = [
     nickname: 'Laure',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rarmal48@amazon.com',
@@ -1239,7 +1239,7 @@ let users = [
     nickname: 'Rogers',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mdray49@techcrunch.com',
@@ -1247,7 +1247,7 @@ let users = [
     nickname: 'Matthus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bmacqueen4a@accuweather.com',
@@ -1255,7 +1255,7 @@ let users = [
     nickname: 'Brade',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ljacquot4b@google.it',
@@ -1263,7 +1263,7 @@ let users = [
     nickname: 'Lorry',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ndeekes4c@instagram.com',
@@ -1271,7 +1271,7 @@ let users = [
     nickname: 'Nanon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rsandels4d@apple.com',
@@ -1279,7 +1279,7 @@ let users = [
     nickname: 'Rosemonde',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gmitskevich4e@hubpages.com',
@@ -1287,7 +1287,7 @@ let users = [
     nickname: 'Glennie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sfouracres4f@amazon.co.uk',
@@ -1295,7 +1295,7 @@ let users = [
     nickname: 'Stacia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jrosen4g@t.co',
@@ -1303,7 +1303,7 @@ let users = [
     nickname: 'Johnath',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aflamank4h@ox.ac.uk',
@@ -1311,7 +1311,7 @@ let users = [
     nickname: 'Antonetta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kwhitesel4i@ed.gov',
@@ -1319,7 +1319,7 @@ let users = [
     nickname: 'Kelvin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'critter4j@yandex.ru',
@@ -1327,7 +1327,7 @@ let users = [
     nickname: 'Carlina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bmoorwood4k@devhub.com',
@@ -1335,7 +1335,7 @@ let users = [
     nickname: 'Babette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nbettis4l@jalbum.net',
@@ -1343,7 +1343,7 @@ let users = [
     nickname: 'Nikki',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'scoche4m@google.co.uk',
@@ -1351,7 +1351,7 @@ let users = [
     nickname: 'Say',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bblything4n@google.cn',
@@ -1359,7 +1359,7 @@ let users = [
     nickname: 'Blane',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'schanter4o@liveinternet.ru',
@@ -1367,7 +1367,7 @@ let users = [
     nickname: 'Sapphira',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tkrzyzanowski4p@pcworld.com',
@@ -1375,7 +1375,7 @@ let users = [
     nickname: 'Travus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mjakubczyk4q@over-blog.com',
@@ -1383,7 +1383,7 @@ let users = [
     nickname: 'Mart',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'espeirs4r@nytimes.com',
@@ -1391,7 +1391,7 @@ let users = [
     nickname: 'Eleanor',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'acansdall4s@telegraph.co.uk',
@@ -1399,7 +1399,7 @@ let users = [
     nickname: 'Alys',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jlinham4t@tiny.cc',
@@ -1407,7 +1407,7 @@ let users = [
     nickname: 'Justine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'haires4u@noaa.gov',
@@ -1415,7 +1415,7 @@ let users = [
     nickname: 'Hendrik',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mdidball4v@scribd.com',
@@ -1423,7 +1423,7 @@ let users = [
     nickname: 'Mira',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wsprionghall4w@barnesandnoble.com',
@@ -1431,7 +1431,7 @@ let users = [
     nickname: 'Wolfy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rcalkin4x@stanford.edu',
@@ -1439,7 +1439,7 @@ let users = [
     nickname: 'Rene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vvanini4y@ezinearticles.com',
@@ -1447,7 +1447,7 @@ let users = [
     nickname: 'Verge',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dlakes4z@soundcloud.com',
@@ -1455,7 +1455,7 @@ let users = [
     nickname: 'Darin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'agiraudy50@wikipedia.org',
@@ -1463,7 +1463,7 @@ let users = [
     nickname: 'Angelo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vdahler51@ameblo.jp',
@@ -1471,7 +1471,7 @@ let users = [
     nickname: 'Verine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gjedrzaszkiewicz52@nature.com',
@@ -1479,7 +1479,7 @@ let users = [
     nickname: 'Grata',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ndaniel53@deliciousdays.com',
@@ -1487,7 +1487,7 @@ let users = [
     nickname: 'Norry',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tfalshaw54@hugedomains.com',
@@ -1495,7 +1495,7 @@ let users = [
     nickname: 'Tuesday',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lpounsett55@networkadvertising.org',
@@ -1503,7 +1503,7 @@ let users = [
     nickname: 'Lexy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dholsey56@slideshare.net',
@@ -1511,7 +1511,7 @@ let users = [
     nickname: 'Dorey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tdubery57@ebay.com',
@@ -1519,7 +1519,7 @@ let users = [
     nickname: 'Tris',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mleander58@vk.com',
@@ -1527,7 +1527,7 @@ let users = [
     nickname: 'Malissa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'egoare59@last.fm',
@@ -1535,7 +1535,7 @@ let users = [
     nickname: 'Eldon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cmantz5a@house.gov',
@@ -1543,7 +1543,7 @@ let users = [
     nickname: 'Charissa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bberkelay5b@live.com',
@@ -1551,7 +1551,7 @@ let users = [
     nickname: 'Brien',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nsharvell5c@nymag.com',
@@ -1559,7 +1559,7 @@ let users = [
     nickname: 'Nance',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kkonertz5d@arizona.edu',
@@ -1567,7 +1567,7 @@ let users = [
     nickname: 'Kari',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hatwood5e@kickstarter.com',
@@ -1575,7 +1575,7 @@ let users = [
     nickname: 'Halie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jllewellen5f@usda.gov',
@@ -1583,7 +1583,7 @@ let users = [
     nickname: 'Janenna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ocompton5g@chronoengine.com',
@@ -1591,7 +1591,7 @@ let users = [
     nickname: 'Olwen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eochterlonie5h@ocn.ne.jp',
@@ -1599,7 +1599,7 @@ let users = [
     nickname: 'Enid',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nfranzetti5i@arizona.edu',
@@ -1607,7 +1607,7 @@ let users = [
     nickname: 'Nonah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mdeetlof5j@myspace.com',
@@ -1615,7 +1615,7 @@ let users = [
     nickname: 'Myrtle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dbeagles5k@ifeng.com',
@@ -1623,7 +1623,7 @@ let users = [
     nickname: 'Dennison',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bgerlack5l@princeton.edu',
@@ -1631,7 +1631,7 @@ let users = [
     nickname: 'Bertrando',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tdennerley5m@rambler.ru',
@@ -1639,7 +1639,7 @@ let users = [
     nickname: 'Titus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rwrate5n@toplist.cz',
@@ -1647,7 +1647,7 @@ let users = [
     nickname: 'Robinson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sobrollachain5o@eepurl.com',
@@ -1655,7 +1655,7 @@ let users = [
     nickname: 'Simona',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'clushey5p@furl.net',
@@ -1663,7 +1663,7 @@ let users = [
     nickname: 'Conney',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bpiercy5q@uiuc.edu',
@@ -1671,7 +1671,7 @@ let users = [
     nickname: 'Bar',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tdumbrall5r@bloomberg.com',
@@ -1679,7 +1679,7 @@ let users = [
     nickname: 'Terrill',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rweekley5s@nhs.uk',
@@ -1687,7 +1687,7 @@ let users = [
     nickname: 'Riccardo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tmaccallester5t@nih.gov',
@@ -1695,7 +1695,7 @@ let users = [
     nickname: 'Tomi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gsemechik5u@netscape.com',
@@ -1703,7 +1703,7 @@ let users = [
     nickname: 'Gunar',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bsummerbell5v@woothemes.com',
@@ -1711,7 +1711,7 @@ let users = [
     nickname: 'Bertrand',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rsings5w@addthis.com',
@@ -1719,7 +1719,7 @@ let users = [
     nickname: 'Rozalin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vmeakes5x@geocities.com',
@@ -1727,7 +1727,7 @@ let users = [
     nickname: 'Vinny',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'csenter5y@cam.ac.uk',
@@ -1735,7 +1735,7 @@ let users = [
     nickname: 'Cosmo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dgresswell5z@blogger.com',
@@ -1743,7 +1743,7 @@ let users = [
     nickname: 'Doti',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nzoppie60@studiopress.com',
@@ -1751,7 +1751,7 @@ let users = [
     nickname: 'Nadya',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ffleet61@archive.org',
@@ -1759,7 +1759,7 @@ let users = [
     nickname: 'Freddy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mheijne62@blogspot.com',
@@ -1767,7 +1767,7 @@ let users = [
     nickname: 'Maire',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cgouthier63@ustream.tv',
@@ -1775,7 +1775,7 @@ let users = [
     nickname: 'Crin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lelphinstone64@yahoo.co.jp',
@@ -1783,7 +1783,7 @@ let users = [
     nickname: 'Leonanie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bbulpitt65@cbsnews.com',
@@ -1791,7 +1791,7 @@ let users = [
     nickname: 'Bendick',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jmcskin66@paginegialle.it',
@@ -1799,7 +1799,7 @@ let users = [
     nickname: 'Jonell',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'egrevatt67@123-reg.co.uk',
@@ -1807,7 +1807,7 @@ let users = [
     nickname: 'Emeline',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'selener68@redcross.org',
@@ -1815,7 +1815,7 @@ let users = [
     nickname: 'Shaine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'acrosscombe69@unicef.org',
@@ -1823,7 +1823,7 @@ let users = [
     nickname: 'Alissa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tjaimez6a@ed.gov',
@@ -1831,7 +1831,7 @@ let users = [
     nickname: 'Trenna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rpragnell6b@uiuc.edu',
@@ -1839,7 +1839,7 @@ let users = [
     nickname: 'Raymund',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cdye6c@paypal.com',
@@ -1847,7 +1847,7 @@ let users = [
     nickname: 'Cass',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dnapoleon6d@theguardian.com',
@@ -1855,7 +1855,7 @@ let users = [
     nickname: 'Dore',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ecicchinelli6e@studiopress.com',
@@ -1863,7 +1863,7 @@ let users = [
     nickname: 'Eustacia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tlott6f@reverbnation.com',
@@ -1871,7 +1871,7 @@ let users = [
     nickname: 'Toddie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ldallicott6g@networkadvertising.org',
@@ -1879,7 +1879,7 @@ let users = [
     nickname: 'Lavinie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hdadd6h@ask.com',
@@ -1887,7 +1887,7 @@ let users = [
     nickname: 'Hanson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kakred6i@wordpress.com',
@@ -1895,7 +1895,7 @@ let users = [
     nickname: 'Karim',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ggergus6j@list-manage.com',
@@ -1903,7 +1903,7 @@ let users = [
     nickname: 'Gabriel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wgarfath6k@thetimes.co.uk',
@@ -1911,7 +1911,7 @@ let users = [
     nickname: 'Wood',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'alawille6l@people.com.cn',
@@ -1919,7 +1919,7 @@ let users = [
     nickname: 'Alick',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sjelleman6m@accuweather.com',
@@ -1927,7 +1927,7 @@ let users = [
     nickname: 'Shelby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bkliment6n@jugem.jp',
@@ -1935,7 +1935,7 @@ let users = [
     nickname: 'Bartel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mdocherty6o@vimeo.com',
@@ -1943,7 +1943,7 @@ let users = [
     nickname: 'Malissia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hbreache6p@dell.com',
@@ -1951,7 +1951,7 @@ let users = [
     nickname: 'Huberto',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nsimonutti6q@narod.ru',
@@ -1959,7 +1959,7 @@ let users = [
     nickname: 'Neron',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'relcocks6r@lycos.com',
@@ -1967,7 +1967,7 @@ let users = [
     nickname: 'Rosy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'todonohue6s@reverbnation.com',
@@ -1975,7 +1975,7 @@ let users = [
     nickname: 'Timmy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rbodega6t@pagesperso-orange.fr',
@@ -1983,7 +1983,7 @@ let users = [
     nickname: 'Rutherford',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aidale6u@geocities.jp',
@@ -1991,7 +1991,7 @@ let users = [
     nickname: 'Almire',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tsturney6v@godaddy.com',
@@ -1999,7 +1999,7 @@ let users = [
     nickname: 'Troy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eballston6w@sun.com',
@@ -2007,7 +2007,7 @@ let users = [
     nickname: 'Elsinore',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ssomerville6x@shinystat.com',
@@ -2015,7 +2015,7 @@ let users = [
     nickname: 'Sibley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bkezourec6y@cnn.com',
@@ -2023,7 +2023,7 @@ let users = [
     nickname: 'Batholomew',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ageering6z@mayoclinic.com',
@@ -2031,7 +2031,7 @@ let users = [
     nickname: 'Artemis',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jkiossel70@weibo.com',
@@ -2039,7 +2039,7 @@ let users = [
     nickname: 'Jeddy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sratray71@tinyurl.com',
@@ -2047,7 +2047,7 @@ let users = [
     nickname: 'Sharia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rmackenny72@jimdo.com',
@@ -2055,7 +2055,7 @@ let users = [
     nickname: 'Rosalinda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dcreer73@miibeian.gov.cn',
@@ -2063,7 +2063,7 @@ let users = [
     nickname: 'Doretta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bbarfitt74@tripod.com',
@@ -2071,7 +2071,7 @@ let users = [
     nickname: 'Benedicta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lbasill75@ucoz.com',
@@ -2079,7 +2079,7 @@ let users = [
     nickname: 'Lynsey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cmcloughlin76@edublogs.org',
@@ -2087,7 +2087,7 @@ let users = [
     nickname: 'Clareta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jballaam77@fotki.com',
@@ -2095,7 +2095,7 @@ let users = [
     nickname: 'Jaquith',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'edomenc78@a8.net',
@@ -2103,7 +2103,7 @@ let users = [
     nickname: 'Elsa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dgayther79@usatoday.com',
@@ -2111,7 +2111,7 @@ let users = [
     nickname: 'Darren',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wpoundsford7a@163.com',
@@ -2119,7 +2119,7 @@ let users = [
     nickname: 'Whitman',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pvondrasek7b@list-manage.com',
@@ -2127,7 +2127,7 @@ let users = [
     nickname: 'Petunia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'egetty7c@icio.us',
@@ -2135,7 +2135,7 @@ let users = [
     nickname: 'Eamon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wforward7d@instagram.com',
@@ -2143,7 +2143,7 @@ let users = [
     nickname: 'Wheeler',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dspringell7e@wikia.com',
@@ -2151,7 +2151,7 @@ let users = [
     nickname: 'Dora',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'blerer7f@youtube.com',
@@ -2159,7 +2159,7 @@ let users = [
     nickname: 'Buckie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'voley7g@ycombinator.com',
@@ -2167,7 +2167,7 @@ let users = [
     nickname: 'Viviyan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccamous7h@taobao.com',
@@ -2175,7 +2175,7 @@ let users = [
     nickname: 'Creigh',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kniccols7i@xinhuanet.com',
@@ -2183,7 +2183,7 @@ let users = [
     nickname: 'Kahaleel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hteare7j@wufoo.com',
@@ -2191,7 +2191,7 @@ let users = [
     nickname: 'Hailee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cdumper7k@irs.gov',
@@ -2199,7 +2199,7 @@ let users = [
     nickname: 'Clarance',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dstuehmeier7l@mlb.com',
@@ -2207,7 +2207,7 @@ let users = [
     nickname: 'Dasya',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mlaetham7m@shop-pro.jp',
@@ -2215,7 +2215,7 @@ let users = [
     nickname: 'Marisa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cbreinl7n@smh.com.au',
@@ -2223,7 +2223,7 @@ let users = [
     nickname: 'Clemente',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'agrowden7o@hugedomains.com',
@@ -2231,7 +2231,7 @@ let users = [
     nickname: 'Arlinda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dmerveille7p@tripod.com',
@@ -2239,7 +2239,7 @@ let users = [
     nickname: 'Dexter',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'msully7q@tripadvisor.com',
@@ -2247,7 +2247,7 @@ let users = [
     nickname: 'Marney',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'flovstrom7r@timesonline.co.uk',
@@ -2255,7 +2255,7 @@ let users = [
     nickname: 'Frans',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'imackniely7s@cisco.com',
@@ -2263,7 +2263,7 @@ let users = [
     nickname: 'Inger',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'iarmatidge7t@independent.co.uk',
@@ -2271,7 +2271,7 @@ let users = [
     nickname: 'Irwinn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tfabry7u@newsvine.com',
@@ -2279,7 +2279,7 @@ let users = [
     nickname: 'Tasha',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wburnep7v@mit.edu',
@@ -2287,7 +2287,7 @@ let users = [
     nickname: 'Waverley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mroberts7w@boston.com',
@@ -2295,7 +2295,7 @@ let users = [
     nickname: 'Madonna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'asimenel7x@nifty.com',
@@ -2303,7 +2303,7 @@ let users = [
     nickname: 'Alanah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'atenpenny7y@pagesperso-orange.fr',
@@ -2311,7 +2311,7 @@ let users = [
     nickname: 'Anastassia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jcantua7z@squidoo.com',
@@ -2319,7 +2319,7 @@ let users = [
     nickname: 'Jeannette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wcanadine80@mit.edu',
@@ -2327,7 +2327,7 @@ let users = [
     nickname: 'Willie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adurno81@g.co',
@@ -2335,7 +2335,7 @@ let users = [
     nickname: 'Abby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ckeenan82@oakley.com',
@@ -2343,7 +2343,7 @@ let users = [
     nickname: 'Cassy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sogormally83@uol.com.br',
@@ -2351,7 +2351,7 @@ let users = [
     nickname: 'Sydelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lchappel84@virginia.edu',
@@ -2359,7 +2359,7 @@ let users = [
     nickname: 'Linet',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eleney85@google.nl',
@@ -2367,7 +2367,7 @@ let users = [
     nickname: 'Elbert',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ppollack86@i2i.jp',
@@ -2375,7 +2375,7 @@ let users = [
     nickname: 'Padriac',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cbaudoux87@mysql.com',
@@ -2383,7 +2383,7 @@ let users = [
     nickname: 'Carling',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cmainland88@columbia.edu',
@@ -2391,7 +2391,7 @@ let users = [
     nickname: 'Celie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sthecham89@foxnews.com',
@@ -2399,7 +2399,7 @@ let users = [
     nickname: 'Sharia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lbrightie8a@t.co',
@@ -2407,7 +2407,7 @@ let users = [
     nickname: 'Lorri',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kmaccrae8b@opera.com',
@@ -2415,7 +2415,7 @@ let users = [
     nickname: 'Korry',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gosgorby8c@miibeian.gov.cn',
@@ -2423,7 +2423,7 @@ let users = [
     nickname: 'Gawain',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'smerkle8d@indiegogo.com',
@@ -2431,7 +2431,7 @@ let users = [
     nickname: 'Saxon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ssmewin8e@dropbox.com',
@@ -2439,7 +2439,7 @@ let users = [
     nickname: 'Sidonnie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'spoff8f@purevolume.com',
@@ -2447,7 +2447,7 @@ let users = [
     nickname: 'Shurlock',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gcashmore8g@ft.com',
@@ -2455,7 +2455,7 @@ let users = [
     nickname: 'Gillan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pmenlow8h@techcrunch.com',
@@ -2463,7 +2463,7 @@ let users = [
     nickname: 'Pia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pwellfare8i@ning.com',
@@ -2471,7 +2471,7 @@ let users = [
     nickname: 'Petey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mgrishakov8j@mapy.cz',
@@ -2479,7 +2479,7 @@ let users = [
     nickname: 'Marcella',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gfudge8k@sbwire.com',
@@ -2487,7 +2487,7 @@ let users = [
     nickname: 'Giacopo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'abrusin8l@spotify.com',
@@ -2495,7 +2495,7 @@ let users = [
     nickname: 'Archaimbaud',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dcrielly8m@networkadvertising.org',
@@ -2503,7 +2503,7 @@ let users = [
     nickname: 'Dorey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nathridge8n@dedecms.com',
@@ -2511,7 +2511,7 @@ let users = [
     nickname: 'Nonnah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jwhawell8o@diigo.com',
@@ -2519,7 +2519,7 @@ let users = [
     nickname: 'Jaymee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mnyssens8p@webmd.com',
@@ -2527,7 +2527,7 @@ let users = [
     nickname: 'Mozelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nlounds8q@fastcompany.com',
@@ -2535,7 +2535,7 @@ let users = [
     nickname: 'Nikolia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bvirgin8r@last.fm',
@@ -2543,7 +2543,7 @@ let users = [
     nickname: 'Brigida',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dtuxill8s@aboutads.info',
@@ -2551,7 +2551,7 @@ let users = [
     nickname: 'Davide',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mpridie8t@so-net.ne.jp',
@@ -2559,7 +2559,7 @@ let users = [
     nickname: 'Melisa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'prubinsztein8u@4shared.com',
@@ -2567,7 +2567,7 @@ let users = [
     nickname: 'Preston',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ulowers8v@census.gov',
@@ -2575,7 +2575,7 @@ let users = [
     nickname: 'Urson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'viddison8w@bloomberg.com',
@@ -2583,7 +2583,7 @@ let users = [
     nickname: 'Vida',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dbastiman8x@dyndns.org',
@@ -2591,7 +2591,7 @@ let users = [
     nickname: 'Darla',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lkleinzweig8y@harvard.edu',
@@ -2599,7 +2599,7 @@ let users = [
     nickname: 'Lenna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'swoehler8z@about.me',
@@ -2607,7 +2607,7 @@ let users = [
     nickname: 'Sharron',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bharnell90@github.io',
@@ -2615,7 +2615,7 @@ let users = [
     nickname: 'Blanch',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cpre91@indiegogo.com',
@@ -2623,7 +2623,7 @@ let users = [
     nickname: 'Claresta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lalu92@jalbum.net',
@@ -2631,7 +2631,7 @@ let users = [
     nickname: 'Lorrayne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rpittel93@ted.com',
@@ -2639,7 +2639,7 @@ let users = [
     nickname: 'Ramsey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'phurtic94@cbslocal.com',
@@ -2647,7 +2647,7 @@ let users = [
     nickname: 'Phillip',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vguerrier95@nhs.uk',
@@ -2655,7 +2655,7 @@ let users = [
     nickname: 'Vern',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'agummer96@themeforest.net',
@@ -2663,7 +2663,7 @@ let users = [
     nickname: 'Aldon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mstooders97@earthlink.net',
@@ -2671,7 +2671,7 @@ let users = [
     nickname: 'Muffin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kmarkwell98@behance.net',
@@ -2679,7 +2679,7 @@ let users = [
     nickname: 'Kippy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mmitchiner99@moonfruit.com',
@@ -2687,7 +2687,7 @@ let users = [
     nickname: 'Malvin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'btoffaloni9a@delicious.com',
@@ -2695,7 +2695,7 @@ let users = [
     nickname: 'Barry',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cbrunsdon9b@wp.com',
@@ -2703,7 +2703,7 @@ let users = [
     nickname: 'Cornelia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dsatterfitt9c@blogs.com',
@@ -2711,7 +2711,7 @@ let users = [
     nickname: 'Dyane',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tbaldacco9d@hostgator.com',
@@ -2719,7 +2719,7 @@ let users = [
     nickname: 'Talbot',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sbearward9e@ibm.com',
@@ -2727,7 +2727,7 @@ let users = [
     nickname: 'Sheppard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jbygrave9f@qq.com',
@@ -2735,7 +2735,7 @@ let users = [
     nickname: 'Jackie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nzanicchi9g@admin.ch',
@@ -2743,7 +2743,7 @@ let users = [
     nickname: 'Nick',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ssarten9h@huffingtonpost.com',
@@ -2751,7 +2751,7 @@ let users = [
     nickname: 'Sanson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ntailby9i@comcast.net',
@@ -2759,7 +2759,7 @@ let users = [
     nickname: 'Noe',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'omegroff9j@ycombinator.com',
@@ -2767,7 +2767,7 @@ let users = [
     nickname: 'Oralle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gbreagan9k@vkontakte.ru',
@@ -2775,7 +2775,7 @@ let users = [
     nickname: 'Garret',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sjanak9l@stanford.edu',
@@ -2783,7 +2783,7 @@ let users = [
     nickname: 'Siobhan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hbloyes9m@china.com.cn',
@@ -2791,7 +2791,7 @@ let users = [
     nickname: 'Heidie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dcockson9n@yellowpages.com',
@@ -2799,7 +2799,7 @@ let users = [
     nickname: 'Dillie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cpateman9o@bigcartel.com',
@@ -2807,7 +2807,7 @@ let users = [
     nickname: 'Cinderella',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gkier9p@paypal.com',
@@ -2815,7 +2815,7 @@ let users = [
     nickname: 'Gilly',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vjanatka9q@vimeo.com',
@@ -2823,7 +2823,7 @@ let users = [
     nickname: 'Vonnie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kweed9r@twitpic.com',
@@ -2831,7 +2831,7 @@ let users = [
     nickname: 'Karyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'smckeighen9s@geocities.jp',
@@ -2839,7 +2839,7 @@ let users = [
     nickname: 'Sergio',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'schesley9t@netvibes.com',
@@ -2847,7 +2847,7 @@ let users = [
     nickname: 'Stephi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mwindrus9u@e-recht24.de',
@@ -2855,7 +2855,7 @@ let users = [
     nickname: 'Mead',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jaiers9v@webmd.com',
@@ -2863,7 +2863,7 @@ let users = [
     nickname: 'Jaine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mfrancklin9w@sun.com',
@@ -2871,7 +2871,7 @@ let users = [
     nickname: 'Minda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jsames9x@examiner.com',
@@ -2879,7 +2879,7 @@ let users = [
     nickname: 'Justina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jhollyard9y@fda.gov',
@@ -2887,7 +2887,7 @@ let users = [
     nickname: 'Jesselyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gnazair9z@gizmodo.com',
@@ -2895,7 +2895,7 @@ let users = [
     nickname: 'Gillian',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cdursleya0@naver.com',
@@ -2903,7 +2903,7 @@ let users = [
     nickname: 'Clareta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rkennerleya1@mail.ru',
@@ -2911,7 +2911,7 @@ let users = [
     nickname: 'Rozalin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'clamartinea2@geocities.jp',
@@ -2919,7 +2919,7 @@ let users = [
     nickname: 'Che',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fcurreya3@opensource.org',
@@ -2927,7 +2927,7 @@ let users = [
     nickname: 'Friedrich',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kbroadfoota4@addtoany.com',
@@ -2935,7 +2935,7 @@ let users = [
     nickname: 'Karyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'msignoria5@google.cn',
@@ -2943,7 +2943,7 @@ let users = [
     nickname: 'Morten',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'shillabya6@wufoo.com',
@@ -2951,7 +2951,7 @@ let users = [
     nickname: 'Saudra',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dpipesa7@businesswire.com',
@@ -2959,7 +2959,7 @@ let users = [
     nickname: 'Dalenna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lkennairda8@i2i.jp',
@@ -2967,7 +2967,7 @@ let users = [
     nickname: 'Loretta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'estempa9@marketwatch.com',
@@ -2975,7 +2975,7 @@ let users = [
     nickname: 'Ennis',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lbohlaa@over-blog.com',
@@ -2983,7 +2983,7 @@ let users = [
     nickname: 'Lewiss',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'srosoneab@skyrock.com',
@@ -2991,7 +2991,7 @@ let users = [
     nickname: 'Sharia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ssnowballac@oaic.gov.au',
@@ -2999,7 +2999,7 @@ let users = [
     nickname: 'Suellen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aabellaad@dedecms.com',
@@ -3007,7 +3007,7 @@ let users = [
     nickname: 'Alla',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sriddochae@github.com',
@@ -3015,7 +3015,7 @@ let users = [
     nickname: 'Sandy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'escrauniageaf@biglobe.ne.jp',
@@ -3023,7 +3023,7 @@ let users = [
     nickname: 'Evered',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ctaysbilag@reverbnation.com',
@@ -3031,7 +3031,7 @@ let users = [
     nickname: 'Cirillo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'toheneryah@spotify.com',
@@ -3039,7 +3039,7 @@ let users = [
     nickname: 'Tildie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rmonaghanai@spotify.com',
@@ -3047,7 +3047,7 @@ let users = [
     nickname: 'Robers',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lmiallaj@dedecms.com',
@@ -3055,7 +3055,7 @@ let users = [
     nickname: 'Laurie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mdarceyak@census.gov',
@@ -3063,7 +3063,7 @@ let users = [
     nickname: 'Mirabel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'khearnesal@gizmodo.com',
@@ -3071,7 +3071,7 @@ let users = [
     nickname: 'Kalinda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cmullenderam@webs.com',
@@ -3079,7 +3079,7 @@ let users = [
     nickname: 'Cariotta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'csambellsan@about.me',
@@ -3087,7 +3087,7 @@ let users = [
     nickname: 'Cristine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ngrisbrookao@tumblr.com',
@@ -3095,7 +3095,7 @@ let users = [
     nickname: 'Nathan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hbartelotap@columbia.edu',
@@ -3103,7 +3103,7 @@ let users = [
     nickname: 'Hildegaard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'scaustickaq@symantec.com',
@@ -3111,7 +3111,7 @@ let users = [
     nickname: 'Sutherlan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'akippinar@yahoo.co.jp',
@@ -3119,7 +3119,7 @@ let users = [
     nickname: 'Alica',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mneilusas@globo.com',
@@ -3127,7 +3127,7 @@ let users = [
     nickname: 'Marcie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'erapaat@sourceforge.net',
@@ -3135,7 +3135,7 @@ let users = [
     nickname: 'Elisabet',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rwhorfau@ning.com',
@@ -3143,7 +3143,7 @@ let users = [
     nickname: 'Randy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sharryav@ezinearticles.com',
@@ -3151,7 +3151,7 @@ let users = [
     nickname: 'Shandee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nyedyaw@blinklist.com',
@@ -3159,7 +3159,7 @@ let users = [
     nickname: 'Nonnah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jhardsax@phoca.cz',
@@ -3167,7 +3167,7 @@ let users = [
     nickname: 'Jareb',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'croostanay@msu.edu',
@@ -3175,7 +3175,7 @@ let users = [
     nickname: 'Clemente',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wandreyaz@miitbeian.gov.cn',
@@ -3183,7 +3183,7 @@ let users = [
     nickname: 'Wald',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rpottieb0@archive.org',
@@ -3191,7 +3191,7 @@ let users = [
     nickname: 'Raf',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vcommanderb1@java.com',
@@ -3199,7 +3199,7 @@ let users = [
     nickname: 'Vincents',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fkuhndelb2@typepad.com',
@@ -3207,7 +3207,7 @@ let users = [
     nickname: 'Frankie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sgonsalob3@studiopress.com',
@@ -3215,7 +3215,7 @@ let users = [
     nickname: 'Sawyere',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hbeckensallb4@engadget.com',
@@ -3223,7 +3223,7 @@ let users = [
     nickname: 'Harwell',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kdunrigeb5@deviantart.com',
@@ -3231,7 +3231,7 @@ let users = [
     nickname: 'Kristan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kurchb6@rediff.com',
@@ -3239,7 +3239,7 @@ let users = [
     nickname: 'Kikelia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nentresb7@symantec.com',
@@ -3247,7 +3247,7 @@ let users = [
     nickname: 'Noak',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nshoebridgeb8@com.com',
@@ -3255,7 +3255,7 @@ let users = [
     nickname: 'Nisse',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'marsmithb9@utexas.edu',
@@ -3263,7 +3263,7 @@ let users = [
     nickname: 'Madelyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tbonnifaceba@lycos.com',
@@ -3271,7 +3271,7 @@ let users = [
     nickname: 'Toni',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wliddelbb@geocities.jp',
@@ -3279,7 +3279,7 @@ let users = [
     nickname: 'Wang',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'icamillobc@cocolog-nifty.com',
@@ -3287,7 +3287,7 @@ let users = [
     nickname: 'Izaak',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rguddbd@vimeo.com',
@@ -3295,7 +3295,7 @@ let users = [
     nickname: 'Rutter',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sdennidgebe@bloglines.com',
@@ -3303,7 +3303,7 @@ let users = [
     nickname: 'Sally',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tbillinghambf@cargocollective.com',
@@ -3311,7 +3311,7 @@ let users = [
     nickname: 'Terencio',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hgomezbg@deliciousdays.com',
@@ -3319,7 +3319,7 @@ let users = [
     nickname: 'Hobard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tcrippsbh@youtube.com',
@@ -3327,7 +3327,7 @@ let users = [
     nickname: 'Tito',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'agibbbi@springer.com',
@@ -3335,7 +3335,7 @@ let users = [
     nickname: 'Aldus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nhamerbj@g.co',
@@ -3343,7 +3343,7 @@ let users = [
     nickname: 'Noby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sriggsbk@illinois.edu',
@@ -3351,7 +3351,7 @@ let users = [
     nickname: 'Sisely',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'warmellbl@domainmarket.com',
@@ -3359,7 +3359,7 @@ let users = [
     nickname: 'Windham',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bplampeynbm@plala.or.jp',
@@ -3367,7 +3367,7 @@ let users = [
     nickname: 'Belita',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'meriebn@smugmug.com',
@@ -3375,7 +3375,7 @@ let users = [
     nickname: 'Meredith',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'slongsonbo@surveymonkey.com',
@@ -3383,7 +3383,7 @@ let users = [
     nickname: 'Sawyer',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vmacieiczykbp@geocities.com',
@@ -3391,7 +3391,7 @@ let users = [
     nickname: 'Vanya',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tjakuszewskibq@cdc.gov',
@@ -3399,7 +3399,7 @@ let users = [
     nickname: 'Town',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adanzigbr@gmpg.org',
@@ -3407,7 +3407,7 @@ let users = [
     nickname: 'Aldridge',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sfavellbs@disqus.com',
@@ -3415,7 +3415,7 @@ let users = [
     nickname: 'Sigfrid',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fthurbybt@hc360.com',
@@ -3423,7 +3423,7 @@ let users = [
     nickname: 'Fidela',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ssandisonbu@stumbleupon.com',
@@ -3431,7 +3431,7 @@ let users = [
     nickname: 'Sargent',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vrazouxbv@istockphoto.com',
@@ -3439,7 +3439,7 @@ let users = [
     nickname: 'Valentijn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pmayallbw@seesaa.net',
@@ -3447,7 +3447,7 @@ let users = [
     nickname: 'Petey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'obastiebx@ucoz.ru',
@@ -3455,7 +3455,7 @@ let users = [
     nickname: 'Odille',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'shenrionby@ft.com',
@@ -3463,7 +3463,7 @@ let users = [
     nickname: 'Sheena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dcaccavellabz@cdc.gov',
@@ -3471,7 +3471,7 @@ let users = [
     nickname: 'Demetris',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ghanckec0@sohu.com',
@@ -3479,7 +3479,7 @@ let users = [
     nickname: 'Garner',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bmcsparranc1@ustream.tv',
@@ -3487,7 +3487,7 @@ let users = [
     nickname: 'Bertha',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'efluinc2@i2i.jp',
@@ -3495,7 +3495,7 @@ let users = [
     nickname: 'Eddi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hsedgemorec3@businesswire.com',
@@ -3503,7 +3503,7 @@ let users = [
     nickname: 'Hadrian',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'abenettoloc4@globo.com',
@@ -3511,7 +3511,7 @@ let users = [
     nickname: 'Allene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ecaunterc5@wordpress.org',
@@ -3519,7 +3519,7 @@ let users = [
     nickname: 'Elfrieda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mpostlesc6@hubpages.com',
@@ -3527,7 +3527,7 @@ let users = [
     nickname: 'Melonie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dbuddlesc7@ebay.co.uk',
@@ -3535,7 +3535,7 @@ let users = [
     nickname: 'Darrelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'btoorc8@hostgator.com',
@@ -3543,7 +3543,7 @@ let users = [
     nickname: 'Beryle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aheffronc9@ebay.co.uk',
@@ -3551,7 +3551,7 @@ let users = [
     nickname: 'Alanson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kimpeyca@cmu.edu',
@@ -3559,7 +3559,7 @@ let users = [
     nickname: 'Kerwin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ewhapplescb@thetimes.co.uk',
@@ -3567,7 +3567,7 @@ let users = [
     nickname: 'Earlie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbiffencc@yahoo.co.jp',
@@ -3575,7 +3575,7 @@ let users = [
     nickname: 'Marylee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'slittoncd@tmall.com',
@@ -3583,7 +3583,7 @@ let users = [
     nickname: 'Sonnie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dbucknerce@sfgate.com',
@@ -3591,7 +3591,7 @@ let users = [
     nickname: 'Danit',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ngaughancf@ustream.tv',
@@ -3599,7 +3599,7 @@ let users = [
     nickname: 'Norrie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbreakwellcg@theglobeandmail.com',
@@ -3607,7 +3607,7 @@ let users = [
     nickname: 'Margie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rbutchersch@discuz.net',
@@ -3615,7 +3615,7 @@ let users = [
     nickname: 'Rutherford',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'efoottitci@wiley.com',
@@ -3623,7 +3623,7 @@ let users = [
     nickname: 'Ernest',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rashfieldcj@constantcontact.com',
@@ -3631,7 +3631,7 @@ let users = [
     nickname: 'Rayna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kphuprateck@nbcnews.com',
@@ -3639,7 +3639,7 @@ let users = [
     nickname: 'Kipp',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dhothersallcl@i2i.jp',
@@ -3647,7 +3647,7 @@ let users = [
     nickname: 'Domingo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pandriveaucm@google.nl',
@@ -3655,7 +3655,7 @@ let users = [
     nickname: 'Pietrek',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccullneancn@yahoo.co.jp',
@@ -3663,7 +3663,7 @@ let users = [
     nickname: 'Carmon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bdorseyco@columbia.edu',
@@ -3671,7 +3671,7 @@ let users = [
     nickname: 'Bonnibelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tgammagecp@usatoday.com',
@@ -3679,7 +3679,7 @@ let users = [
     nickname: 'Toma',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nmondaycq@stumbleupon.com',
@@ -3687,7 +3687,7 @@ let users = [
     nickname: 'Nataline',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vdellocr@mozilla.com',
@@ -3695,7 +3695,7 @@ let users = [
     nickname: 'Vassili',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rduffittcs@ask.com',
@@ -3703,7 +3703,7 @@ let users = [
     nickname: 'Robbert',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bpedycanct@usatoday.com',
@@ -3711,7 +3711,7 @@ let users = [
     nickname: 'Bekki',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'oellicockcu@amazon.com',
@@ -3719,7 +3719,7 @@ let users = [
     nickname: 'Oliver',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rstavescv@about.com',
@@ -3727,7 +3727,7 @@ let users = [
     nickname: 'Randie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mcorlettcw@dedecms.com',
@@ -3735,7 +3735,7 @@ let users = [
     nickname: 'Manon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cbanfordcx@hubpages.com',
@@ -3743,7 +3743,7 @@ let users = [
     nickname: 'Ciel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'avasilyevskicy@skype.com',
@@ -3751,7 +3751,7 @@ let users = [
     nickname: 'Aimil',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bghionicz@tripadvisor.com',
@@ -3759,7 +3759,7 @@ let users = [
     nickname: 'Barry',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bbjorkand0@japanpost.jp',
@@ -3767,7 +3767,7 @@ let users = [
     nickname: 'Benjamen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mpawelekd1@google.ca',
@@ -3775,7 +3775,7 @@ let users = [
     nickname: 'Marshal',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sbanbrookd2@netvibes.com',
@@ -3783,7 +3783,7 @@ let users = [
     nickname: 'Scott',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wbergeond3@com.com',
@@ -3791,7 +3791,7 @@ let users = [
     nickname: 'Way',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mkimmeld4@rambler.ru',
@@ -3799,7 +3799,7 @@ let users = [
     nickname: 'Maribelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'escatesd5@un.org',
@@ -3807,7 +3807,7 @@ let users = [
     nickname: 'Esma',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kfrostd6@gizmodo.com',
@@ -3815,7 +3815,7 @@ let users = [
     nickname: 'Kenneth',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cblaisdaled7@1und1.de',
@@ -3823,7 +3823,7 @@ let users = [
     nickname: 'Cristi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mromerod8@tinyurl.com',
@@ -3831,7 +3831,7 @@ let users = [
     nickname: 'Mei',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'astuttmand9@about.com',
@@ -3839,7 +3839,7 @@ let users = [
     nickname: 'Anestassia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'yglanisterda@webmd.com',
@@ -3847,7 +3847,7 @@ let users = [
     nickname: 'Yvette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bmcentagartdb@nature.com',
@@ -3855,7 +3855,7 @@ let users = [
     nickname: 'Bryn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jdecourtneydc@acquirethisname.com',
@@ -3863,7 +3863,7 @@ let users = [
     nickname: 'Jeanna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sbilsforddd@lycos.com',
@@ -3871,7 +3871,7 @@ let users = [
     nickname: 'Sinclair',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mpaxfordede@bbb.org',
@@ -3879,7 +3879,7 @@ let users = [
     nickname: 'Martino',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'scronkshawdf@wikispaces.com',
@@ -3887,7 +3887,7 @@ let users = [
     nickname: 'Shae',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'spiatekdg@businesswire.com',
@@ -3895,7 +3895,7 @@ let users = [
     nickname: 'Sadie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bmccreerydh@twitter.com',
@@ -3903,7 +3903,7 @@ let users = [
     nickname: 'Bree',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'woreillydi@hud.gov',
@@ -3911,7 +3911,7 @@ let users = [
     nickname: 'Waverly',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rpinnockdj@cafepress.com',
@@ -3919,7 +3919,7 @@ let users = [
     nickname: 'Romola',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hmacginleydk@mozilla.com',
@@ -3927,7 +3927,7 @@ let users = [
     nickname: 'Husein',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jetondl@simplemachines.org',
@@ -3935,7 +3935,7 @@ let users = [
     nickname: 'Judi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nwordleydm@nsw.gov.au',
@@ -3943,7 +3943,7 @@ let users = [
     nickname: 'Noni',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rfulforddn@plala.or.jp',
@@ -3951,7 +3951,7 @@ let users = [
     nickname: 'Raimondo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jredsalldo@altervista.org',
@@ -3959,7 +3959,7 @@ let users = [
     nickname: 'Jessey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hcuniamdp@privacy.gov.au',
@@ -3967,7 +3967,7 @@ let users = [
     nickname: 'Hugues',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'candriveaudq@go.com',
@@ -3975,7 +3975,7 @@ let users = [
     nickname: 'Carmelita',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mrumbellowdr@vimeo.com',
@@ -3983,7 +3983,7 @@ let users = [
     nickname: 'Maurene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bfaierds@elegantthemes.com',
@@ -3991,7 +3991,7 @@ let users = [
     nickname: 'Britta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mfilipputtidt@geocities.com',
@@ -3999,7 +3999,7 @@ let users = [
     nickname: 'Merrielle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fmaffidu@t.co',
@@ -4007,7 +4007,7 @@ let users = [
     nickname: 'Frederik',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jbealdv@yandex.ru',
@@ -4015,7 +4015,7 @@ let users = [
     nickname: 'Jacquelyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ttetlowdw@angelfire.com',
@@ -4023,7 +4023,7 @@ let users = [
     nickname: 'Tasia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mguynemerdx@toplist.cz',
@@ -4031,7 +4031,7 @@ let users = [
     nickname: 'Mariana',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rridgwaydy@msn.com',
@@ -4039,7 +4039,7 @@ let users = [
     nickname: 'Rania',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fpollanddz@wiley.com',
@@ -4047,7 +4047,7 @@ let users = [
     nickname: 'Friedrich',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tcicchinellie0@patch.com',
@@ -4055,7 +4055,7 @@ let users = [
     nickname: 'Timmy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eslemminge1@diigo.com',
@@ -4063,7 +4063,7 @@ let users = [
     nickname: 'Elyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aboisee2@disqus.com',
@@ -4071,7 +4071,7 @@ let users = [
     nickname: 'Anabal',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lmcpakee3@flickr.com',
@@ -4079,7 +4079,7 @@ let users = [
     nickname: 'Lia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gchancee4@addtoany.com',
@@ -4087,7 +4087,7 @@ let users = [
     nickname: 'Gearard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rpallise5@vistaprint.com',
@@ -4095,7 +4095,7 @@ let users = [
     nickname: 'Rey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccasbone6@goodreads.com',
@@ -4103,7 +4103,7 @@ let users = [
     nickname: 'Cristin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fbelchere7@usda.gov',
@@ -4111,7 +4111,7 @@ let users = [
     nickname: 'Freemon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mshoutee8@creativecommons.org',
@@ -4119,7 +4119,7 @@ let users = [
     nickname: 'Mandie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'esteninge9@bandcamp.com',
@@ -4127,7 +4127,7 @@ let users = [
     nickname: 'Ezechiel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bkillingsworthea@woothemes.com',
@@ -4135,7 +4135,7 @@ let users = [
     nickname: 'Bennett',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'crommeeb@oracle.com',
@@ -4143,7 +4143,7 @@ let users = [
     nickname: 'Cristiano',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'klydiattec@comsenz.com',
@@ -4151,7 +4151,7 @@ let users = [
     nickname: 'Keeley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'criccardoed@reuters.com',
@@ -4159,7 +4159,7 @@ let users = [
     nickname: 'Cullie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cmeusee@reuters.com',
@@ -4167,7 +4167,7 @@ let users = [
     nickname: 'Clarette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rpruckneref@usnews.com',
@@ -4175,7 +4175,7 @@ let users = [
     nickname: 'Roslyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mrouteg@rakuten.co.jp',
@@ -4183,7 +4183,7 @@ let users = [
     nickname: 'Melantha',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fsanpereeh@trellian.com',
@@ -4191,7 +4191,7 @@ let users = [
     nickname: 'Florance',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rsamsinei@mtv.com',
@@ -4199,7 +4199,7 @@ let users = [
     nickname: 'Renelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ldilaweyej@typepad.com',
@@ -4207,7 +4207,7 @@ let users = [
     nickname: 'Lyell',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tlorraineek@businessweek.com',
@@ -4215,7 +4215,7 @@ let users = [
     nickname: 'Theo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sserfatiel@webmd.com',
@@ -4223,7 +4223,7 @@ let users = [
     nickname: 'Sebastiano',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sdenoreem@mapy.cz',
@@ -4231,7 +4231,7 @@ let users = [
     nickname: 'Shannan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fpedderen@skyrock.com',
@@ -4239,7 +4239,7 @@ let users = [
     nickname: 'Flynn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'abartolomieueo@imgur.com',
@@ -4247,7 +4247,7 @@ let users = [
     nickname: 'Andi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tgallicoep@bluehost.com',
@@ -4255,7 +4255,7 @@ let users = [
     nickname: 'Tibold',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'alancashireeq@tamu.edu',
@@ -4263,7 +4263,7 @@ let users = [
     nickname: 'Amandy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pmayhoer@mayoclinic.com',
@@ -4271,7 +4271,7 @@ let users = [
     nickname: 'Piotr',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bnannininies@de.vu',
@@ -4279,7 +4279,7 @@ let users = [
     nickname: 'Barclay',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hfeatherbyet@multiply.com',
@@ -4287,7 +4287,7 @@ let users = [
     nickname: 'Halette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'coguzeu@elegantthemes.com',
@@ -4295,7 +4295,7 @@ let users = [
     nickname: 'Carri',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gbrockleyev@blogspot.com',
@@ -4303,7 +4303,7 @@ let users = [
     nickname: 'Gayelord',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ebergeauew@bbc.co.uk',
@@ -4311,7 +4311,7 @@ let users = [
     nickname: 'Ellen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'epottberryex@plala.or.jp',
@@ -4319,7 +4319,7 @@ let users = [
     nickname: 'Emanuel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbarringerey@reddit.com',
@@ -4327,7 +4327,7 @@ let users = [
     nickname: 'Melly',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'btissellez@infoseek.co.jp',
@@ -4335,7 +4335,7 @@ let users = [
     nickname: 'Bryant',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dlumsdainef0@privacy.gov.au',
@@ -4343,7 +4343,7 @@ let users = [
     nickname: 'Dacey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'afearsf1@epa.gov',
@@ -4351,7 +4351,7 @@ let users = [
     nickname: 'Alyss',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gsirkettf2@themeforest.net',
@@ -4359,7 +4359,7 @@ let users = [
     nickname: 'Griffie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gsmedmoref3@gnu.org',
@@ -4367,7 +4367,7 @@ let users = [
     nickname: 'Gifford',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fphilipsf4@hp.com',
@@ -4375,7 +4375,7 @@ let users = [
     nickname: 'Farleigh',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rstaubynf5@multiply.com',
@@ -4383,7 +4383,7 @@ let users = [
     nickname: 'Rycca',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ageorghiouf6@i2i.jp',
@@ -4391,7 +4391,7 @@ let users = [
     nickname: 'Avery',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rhuckfieldf7@abc.net.au',
@@ -4399,7 +4399,7 @@ let users = [
     nickname: 'Ray',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tverseyf8@apache.org',
@@ -4407,7 +4407,7 @@ let users = [
     nickname: 'Town',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sprewerf9@exblog.jp',
@@ -4415,7 +4415,7 @@ let users = [
     nickname: 'Shelly',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ltwallinfa@photobucket.com',
@@ -4423,7 +4423,7 @@ let users = [
     nickname: 'Lesley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cetchesfb@jugem.jp',
@@ -4431,7 +4431,7 @@ let users = [
     nickname: 'Charmian',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mwheelhousefc@wunderground.com',
@@ -4439,7 +4439,7 @@ let users = [
     nickname: 'Magdalena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cchiltonfd@cbsnews.com',
@@ -4447,7 +4447,7 @@ let users = [
     nickname: 'Cindy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'apolackfe@slideshare.net',
@@ -4455,7 +4455,7 @@ let users = [
     nickname: 'Arel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cgwillimff@altervista.org',
@@ -4463,7 +4463,7 @@ let users = [
     nickname: 'Chandal',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ghumphreyfg@hostgator.com',
@@ -4471,7 +4471,7 @@ let users = [
     nickname: 'Gan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rlyddyardfh@vistaprint.com',
@@ -4479,7 +4479,7 @@ let users = [
     nickname: 'Reider',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fcluleyfi@wix.com',
@@ -4487,7 +4487,7 @@ let users = [
     nickname: 'Fiann',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'acullityfj@canalblog.com',
@@ -4495,7 +4495,7 @@ let users = [
     nickname: 'Aldrich',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adeknevetfk@ucoz.ru',
@@ -4503,7 +4503,7 @@ let users = [
     nickname: 'Adah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dtomasinifl@bandcamp.com',
@@ -4511,7 +4511,7 @@ let users = [
     nickname: 'Dexter',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gcaisleyfm@tripadvisor.com',
@@ -4519,7 +4519,7 @@ let users = [
     nickname: 'Gabby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ttailefn@unblog.fr',
@@ -4527,7 +4527,7 @@ let users = [
     nickname: 'Tony',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'elomaxfo@dailymotion.com',
@@ -4535,7 +4535,7 @@ let users = [
     nickname: 'Emiline',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jzamorranofp@storify.com',
@@ -4543,7 +4543,7 @@ let users = [
     nickname: 'Jaquith',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wthackhamfq@vinaora.com',
@@ -4551,7 +4551,7 @@ let users = [
     nickname: 'Wyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aoehmefr@timesonline.co.uk',
@@ -4559,7 +4559,7 @@ let users = [
     nickname: 'Addy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'iavrahmfs@merriam-webster.com',
@@ -4567,7 +4567,7 @@ let users = [
     nickname: 'Inna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ekleinhautft@mashable.com',
@@ -4575,7 +4575,7 @@ let users = [
     nickname: 'Enoch',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hsummerladfu@soup.io',
@@ -4583,7 +4583,7 @@ let users = [
     nickname: 'Hedwiga',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dscotsonfv@hibu.com',
@@ -4591,7 +4591,7 @@ let users = [
     nickname: 'Dore',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pgudgeonfw@wikipedia.org',
@@ -4599,7 +4599,7 @@ let users = [
     nickname: 'Price',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dpietruszkafx@aol.com',
@@ -4607,7 +4607,7 @@ let users = [
     nickname: 'Dallis',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eocaheyfy@abc.net.au',
@@ -4615,7 +4615,7 @@ let users = [
     nickname: 'Ephrem',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jpetkovicfz@huffingtonpost.com',
@@ -4623,7 +4623,7 @@ let users = [
     nickname: 'Jody',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mburbidgeg0@google.ru',
@@ -4631,7 +4631,7 @@ let users = [
     nickname: 'Michel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nsmeadg1@list-manage.com',
@@ -4639,7 +4639,7 @@ let users = [
     nickname: 'Nils',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'arayerg2@ask.com',
@@ -4647,7 +4647,7 @@ let users = [
     nickname: 'Allyce',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cbortolomeig3@icio.us',
@@ -4655,7 +4655,7 @@ let users = [
     nickname: 'Cinda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bfeitosag4@google.ca',
@@ -4663,7 +4663,7 @@ let users = [
     nickname: 'Brigitte',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tkochsg5@bravesites.com',
@@ -4671,7 +4671,7 @@ let users = [
     nickname: 'Tanitansy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hconklingg6@cyberchimps.com',
@@ -4679,7 +4679,7 @@ let users = [
     nickname: 'Herbert',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rranceg7@w3.org',
@@ -4687,7 +4687,7 @@ let users = [
     nickname: 'Rosalia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lpappsg8@woothemes.com',
@@ -4695,7 +4695,7 @@ let users = [
     nickname: 'Liane',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'qoldknowg9@indiatimes.com',
@@ -4703,7 +4703,7 @@ let users = [
     nickname: 'Quentin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'smarleyga@topsy.com',
@@ -4711,7 +4711,7 @@ let users = [
     nickname: 'Siffre',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aumbersgb@miitbeian.gov.cn',
@@ -4719,7 +4719,7 @@ let users = [
     nickname: 'Astra',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wklambtgc@delicious.com',
@@ -4727,7 +4727,7 @@ let users = [
     nickname: 'Winonah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fscarisbrickgd@studiopress.com',
@@ -4735,7 +4735,7 @@ let users = [
     nickname: 'Freemon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'atrautge@cisco.com',
@@ -4743,7 +4743,7 @@ let users = [
     nickname: 'Archie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bdefontgf@cnet.com',
@@ -4751,7 +4751,7 @@ let users = [
     nickname: 'Brose',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cbirkheadgg@barnesandnoble.com',
@@ -4759,7 +4759,7 @@ let users = [
     nickname: 'Casie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eclarycottgh@blogtalkradio.com',
@@ -4767,7 +4767,7 @@ let users = [
     nickname: 'Esta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'svanzongi@statcounter.com',
@@ -4775,7 +4775,7 @@ let users = [
     nickname: 'Saloma',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'msoallgj@altervista.org',
@@ -4783,7 +4783,7 @@ let users = [
     nickname: 'Myrna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'clackemanngk@amazon.co.jp',
@@ -4791,7 +4791,7 @@ let users = [
     nickname: 'Cynthia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pkelfgl@patch.com',
@@ -4799,7 +4799,7 @@ let users = [
     nickname: 'Pall',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'estuddegm@statcounter.com',
@@ -4807,7 +4807,7 @@ let users = [
     nickname: 'Emogene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ckemerygn@hexun.com',
@@ -4815,7 +4815,7 @@ let users = [
     nickname: 'Camilla',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'earnettgo@taobao.com',
@@ -4823,7 +4823,7 @@ let users = [
     nickname: 'Ettie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'amelmargp@arstechnica.com',
@@ -4831,7 +4831,7 @@ let users = [
     nickname: 'Ahmed',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lrosenfruchtgq@sitemeter.com',
@@ -4839,7 +4839,7 @@ let users = [
     nickname: 'Levon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jsignegr@mapquest.com',
@@ -4847,7 +4847,7 @@ let users = [
     nickname: 'Joey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jcarbrygs@mac.com',
@@ -4855,7 +4855,7 @@ let users = [
     nickname: 'Jasmin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hlequesnegt@wix.com',
@@ -4863,7 +4863,7 @@ let users = [
     nickname: 'Harli',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cjegergu@nasa.gov',
@@ -4871,7 +4871,7 @@ let users = [
     nickname: 'Clara',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cdenfordgv@google.com',
@@ -4879,7 +4879,7 @@ let users = [
     nickname: 'Cicely',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'iclellgw@webmd.com',
@@ -4887,7 +4887,7 @@ let users = [
     nickname: 'Ingelbert',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tnardrupgx@senate.gov',
@@ -4895,7 +4895,7 @@ let users = [
     nickname: 'Thaddeus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bgwinnelgy@guardian.co.uk',
@@ -4903,7 +4903,7 @@ let users = [
     nickname: 'Bunnie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bspollengz@yale.edu',
@@ -4911,7 +4911,7 @@ let users = [
     nickname: 'Binny',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'daltreeh0@si.edu',
@@ -4919,7 +4919,7 @@ let users = [
     nickname: 'Dorette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lcoggingsh1@reuters.com',
@@ -4927,7 +4927,7 @@ let users = [
     nickname: 'Langsdon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mconboyh2@digg.com',
@@ -4935,7 +4935,7 @@ let users = [
     nickname: 'Merrel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wrabjohnh3@mediafire.com',
@@ -4943,7 +4943,7 @@ let users = [
     nickname: 'Wallie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dwallh4@freewebs.com',
@@ -4951,7 +4951,7 @@ let users = [
     nickname: 'Deni',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aglowachah5@sohu.com',
@@ -4959,7 +4959,7 @@ let users = [
     nickname: 'Allsun',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rgossonh6@nifty.com',
@@ -4967,7 +4967,7 @@ let users = [
     nickname: 'Rosemaria',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'agarrettsonh7@answers.com',
@@ -4975,7 +4975,7 @@ let users = [
     nickname: 'Ashli',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sfuttyh8@nydailynews.com',
@@ -4983,7 +4983,7 @@ let users = [
     nickname: 'Steve',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bpiercyh9@php.net',
@@ -4991,7 +4991,7 @@ let users = [
     nickname: 'Benjie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mjanowiczha@wufoo.com',
@@ -4999,7 +4999,7 @@ let users = [
     nickname: 'Marcie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'oblasgenhb@wikipedia.org',
@@ -5007,7 +5007,7 @@ let users = [
     nickname: 'Olive',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bbradlyhc@unesco.org',
@@ -5015,7 +5015,7 @@ let users = [
     nickname: 'Bartholemy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gwiskerhd@freewebs.com',
@@ -5023,7 +5023,7 @@ let users = [
     nickname: 'Gillan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jconershe@mit.edu',
@@ -5031,7 +5031,7 @@ let users = [
     nickname: 'Jelene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ddonehf@bloomberg.com',
@@ -5039,7 +5039,7 @@ let users = [
     nickname: 'Dewain',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hmuirheadhg@addtoany.com',
@@ -5047,7 +5047,7 @@ let users = [
     nickname: 'Horten',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rsaleryhh@washington.edu',
@@ -5055,7 +5055,7 @@ let users = [
     nickname: 'Rebecka',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wpaeckmeyerhi@sciencedirect.com',
@@ -5063,7 +5063,7 @@ let users = [
     nickname: 'Wilma',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'epoultneyhj@com.com',
@@ -5071,7 +5071,7 @@ let users = [
     nickname: 'Elisabetta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'efalconbridgehk@shinystat.com',
@@ -5079,7 +5079,7 @@ let users = [
     nickname: 'Elaina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'daureliushl@yelp.com',
@@ -5087,7 +5087,7 @@ let users = [
     nickname: 'Davidson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lblackallerhm@howstuffworks.com',
@@ -5095,7 +5095,7 @@ let users = [
     nickname: 'Lorne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'qeasmanhn@flavors.me',
@@ -5103,7 +5103,7 @@ let users = [
     nickname: 'Quint',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'twaterfallho@pcworld.com',
@@ -5111,7 +5111,7 @@ let users = [
     nickname: 'Timothee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gclashhp@nytimes.com',
@@ -5119,7 +5119,7 @@ let users = [
     nickname: 'Gualterio',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'broscherhq@time.com',
@@ -5127,7 +5127,7 @@ let users = [
     nickname: 'Bartram',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'trayhillhr@toplist.cz',
@@ -5135,7 +5135,7 @@ let users = [
     nickname: 'Ty',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cescalerahs@networkadvertising.org',
@@ -5143,7 +5143,7 @@ let users = [
     nickname: 'Caroljean',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bnewcombeht@deliciousdays.com',
@@ -5151,7 +5151,7 @@ let users = [
     nickname: 'Bev',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lcafferkyhu@columbia.edu',
@@ -5159,7 +5159,7 @@ let users = [
     nickname: 'Lon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbangerhv@exblog.jp',
@@ -5167,7 +5167,7 @@ let users = [
     nickname: 'Madlin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dvanniekerkhw@toplist.cz',
@@ -5175,7 +5175,7 @@ let users = [
     nickname: 'Danny',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pembertonhx@liveinternet.ru',
@@ -5183,7 +5183,7 @@ let users = [
     nickname: 'Pearline',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'btrotterhy@msu.edu',
@@ -5191,7 +5191,7 @@ let users = [
     nickname: 'Bryant',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ngilliehz@diigo.com',
@@ -5199,7 +5199,7 @@ let users = [
     nickname: 'Natale',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jmullisi0@instagram.com',
@@ -5207,7 +5207,7 @@ let users = [
     nickname: 'Jobyna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dwallworthi1@yelp.com',
@@ -5215,7 +5215,7 @@ let users = [
     nickname: 'Drake',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cschustli2@zimbio.com',
@@ -5223,7 +5223,7 @@ let users = [
     nickname: 'Clovis',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'psideyi3@infoseek.co.jp',
@@ -5231,7 +5231,7 @@ let users = [
     nickname: 'Pasquale',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ppoyseri4@wikia.com',
@@ -5239,7 +5239,7 @@ let users = [
     nickname: 'Perla',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sinworthi5@techcrunch.com',
@@ -5247,7 +5247,7 @@ let users = [
     nickname: 'Shela',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kdounbarei6@ebay.com',
@@ -5255,7 +5255,7 @@ let users = [
     nickname: 'Kay',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccaudlei7@nbcnews.com',
@@ -5263,7 +5263,7 @@ let users = [
     nickname: 'Claribel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rberminghami8@bandcamp.com',
@@ -5271,7 +5271,7 @@ let users = [
     nickname: 'Reginauld',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'erollingi9@woothemes.com',
@@ -5279,7 +5279,7 @@ let users = [
     nickname: 'Emilio',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'olagaduia@wikimedia.org',
@@ -5287,7 +5287,7 @@ let users = [
     nickname: 'Oliy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'glancastleib@ebay.co.uk',
@@ -5295,7 +5295,7 @@ let users = [
     nickname: 'Gratia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'akillingsworthic@lycos.com',
@@ -5303,7 +5303,7 @@ let users = [
     nickname: 'Alexa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dgreenleyid@reference.com',
@@ -5311,7 +5311,7 @@ let users = [
     nickname: 'Deloria',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dgriptonie@google.ca',
@@ -5319,7 +5319,7 @@ let users = [
     nickname: 'Drew',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nschimoniif@lulu.com',
@@ -5327,7 +5327,7 @@ let users = [
     nickname: 'Neilla',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cbeddowig@cafepress.com',
@@ -5335,7 +5335,7 @@ let users = [
     nickname: 'Chic',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fwongih@macromedia.com',
@@ -5343,7 +5343,7 @@ let users = [
     nickname: 'Fleurette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'blyburnii@newyorker.com',
@@ -5351,7 +5351,7 @@ let users = [
     nickname: 'Barclay',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nbanceij@trellian.com',
@@ -5359,7 +5359,7 @@ let users = [
     nickname: 'Natassia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'khalfheadik@icq.com',
@@ -5367,7 +5367,7 @@ let users = [
     nickname: 'Kara-lynn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dkenanil@tmall.com',
@@ -5375,7 +5375,7 @@ let users = [
     nickname: 'Deerdre',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kheislerim@wix.com',
@@ -5383,7 +5383,7 @@ let users = [
     nickname: 'Kyle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dshieldsin@nba.com',
@@ -5391,7 +5391,7 @@ let users = [
     nickname: "D'arcy",
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'emercikio@nasa.gov',
@@ -5399,7 +5399,7 @@ let users = [
     nickname: 'Elli',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nruddiforthip@php.net',
@@ -5407,7 +5407,7 @@ let users = [
     nickname: 'Nani',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'flowndsboroughiq@sciencedirect.com',
@@ -5415,7 +5415,7 @@ let users = [
     nickname: 'Fancie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ncoitir@comsenz.com',
@@ -5423,7 +5423,7 @@ let users = [
     nickname: 'Nadiya',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jlimbis@macromedia.com',
@@ -5431,7 +5431,7 @@ let users = [
     nickname: 'Juli',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cpudenit@arstechnica.com',
@@ -5439,7 +5439,7 @@ let users = [
     nickname: 'Clo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'npennamaniu@prweb.com',
@@ -5447,7 +5447,7 @@ let users = [
     nickname: 'Nona',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hfonesiv@gmpg.org',
@@ -5455,7 +5455,7 @@ let users = [
     nickname: 'Hallie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dspinkiw@blogspot.com',
@@ -5463,7 +5463,7 @@ let users = [
     nickname: 'Darsie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adebenedettiix@google.com.br',
@@ -5471,7 +5471,7 @@ let users = [
     nickname: 'Alex',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mpaynesiy@sfgate.com',
@@ -5479,7 +5479,7 @@ let users = [
     nickname: 'Mellisent',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gdustingiz@yahoo.com',
@@ -5487,7 +5487,7 @@ let users = [
     nickname: 'Gena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ngeeringj0@timesonline.co.uk',
@@ -5495,7 +5495,7 @@ let users = [
     nickname: 'Noella',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'woldroydej1@blogtalkradio.com',
@@ -5503,7 +5503,7 @@ let users = [
     nickname: 'Winn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tswinglehurstj2@who.int',
@@ -5511,7 +5511,7 @@ let users = [
     nickname: 'Theobald',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mcreberj3@shinystat.com',
@@ -5519,7 +5519,7 @@ let users = [
     nickname: 'Maudie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'twilborj4@virginia.edu',
@@ -5527,7 +5527,7 @@ let users = [
     nickname: 'Thornie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rchallenorj5@over-blog.com',
@@ -5535,7 +5535,7 @@ let users = [
     nickname: 'Ramsey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ckollachj6@wsj.com',
@@ -5543,7 +5543,7 @@ let users = [
     nickname: 'Correna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kblancej7@ed.gov',
@@ -5551,7 +5551,7 @@ let users = [
     nickname: 'Kiley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'acansdillj8@ustream.tv',
@@ -5559,7 +5559,7 @@ let users = [
     nickname: 'Alaster',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbollej9@parallels.com',
@@ -5567,7 +5567,7 @@ let users = [
     nickname: 'Minne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'severixja@cafepress.com',
@@ -5575,7 +5575,7 @@ let users = [
     nickname: 'Sutherlan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eriepljb@alexa.com',
@@ -5583,7 +5583,7 @@ let users = [
     nickname: 'Earle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tcarnewjc@google.com.au',
@@ -5591,7 +5591,7 @@ let users = [
     nickname: 'Tierney',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vchellamjd@ifeng.com',
@@ -5599,7 +5599,7 @@ let users = [
     nickname: 'Verina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tgilmourje@un.org',
@@ -5607,7 +5607,7 @@ let users = [
     nickname: 'Thea',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mhealejf@list-manage.com',
@@ -5615,7 +5615,7 @@ let users = [
     nickname: 'Manuel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kkaddjg@cbc.ca',
@@ -5623,7 +5623,7 @@ let users = [
     nickname: 'Katha',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'geagersjh@devhub.com',
@@ -5631,7 +5631,7 @@ let users = [
     nickname: 'Gradeigh',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rwacklyji@usatoday.com',
@@ -5639,7 +5639,7 @@ let users = [
     nickname: 'Rhianna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adewdneyjj@yahoo.co.jp',
@@ -5647,7 +5647,7 @@ let users = [
     nickname: 'Anthiathia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nmebiusjk@google.nl',
@@ -5655,7 +5655,7 @@ let users = [
     nickname: 'Natty',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rcrucesjl@globo.com',
@@ -5663,7 +5663,7 @@ let users = [
     nickname: 'Rubie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cgallyjm@icio.us',
@@ -5671,7 +5671,7 @@ let users = [
     nickname: 'Clara',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sghirigorijn@earthlink.net',
@@ -5679,7 +5679,7 @@ let users = [
     nickname: 'Saunderson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wfarreyjo@guardian.co.uk',
@@ -5687,7 +5687,7 @@ let users = [
     nickname: 'Winifield',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'snannjp@aol.com',
@@ -5695,7 +5695,7 @@ let users = [
     nickname: 'Syman',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ibillsberryjq@earthlink.net',
@@ -5703,7 +5703,7 @@ let users = [
     nickname: 'Ida',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'psangwinejr@bandcamp.com',
@@ -5711,7 +5711,7 @@ let users = [
     nickname: 'Page',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nmerrimentjs@yahoo.com',
@@ -5719,7 +5719,7 @@ let users = [
     nickname: 'Nonna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rgarvaghjt@sourceforge.net',
@@ -5727,7 +5727,7 @@ let users = [
     nickname: 'Roy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ghughmanju@illinois.edu',
@@ -5735,7 +5735,7 @@ let users = [
     nickname: 'Georgiana',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sgudyerjv@ocn.ne.jp',
@@ -5743,7 +5743,7 @@ let users = [
     nickname: 'Sayre',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dpawlickjw@dailymail.co.uk',
@@ -5751,7 +5751,7 @@ let users = [
     nickname: 'Debee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mheapsjx@earthlink.net',
@@ -5759,7 +5759,7 @@ let users = [
     nickname: 'Maisie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pbirtjy@techcrunch.com',
@@ -5767,7 +5767,7 @@ let users = [
     nickname: 'Paula',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rlummjz@youku.com',
@@ -5775,7 +5775,7 @@ let users = [
     nickname: 'Robenia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fmuckk0@disqus.com',
@@ -5783,7 +5783,7 @@ let users = [
     nickname: 'Faulkner',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ledmonstonek1@about.me',
@@ -5791,7 +5791,7 @@ let users = [
     nickname: 'Leeann',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nhamblingk2@google.co.uk',
@@ -5799,7 +5799,7 @@ let users = [
     nickname: 'Nadia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fszymanowiczk3@ustream.tv',
@@ -5807,7 +5807,7 @@ let users = [
     nickname: 'Fania',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mcaddiesk4@jugem.jp',
@@ -5815,7 +5815,7 @@ let users = [
     nickname: 'Melanie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lplettsk5@webeden.co.uk',
@@ -5823,7 +5823,7 @@ let users = [
     nickname: 'Leroi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mcroncheyk6@digg.com',
@@ -5831,7 +5831,7 @@ let users = [
     nickname: 'Marissa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mtumiltyk7@amazon.de',
@@ -5839,7 +5839,7 @@ let users = [
     nickname: 'Mikel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nspillmank8@columbia.edu',
@@ -5847,7 +5847,7 @@ let users = [
     nickname: 'Nelie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ukuhntk9@ameblo.jp',
@@ -5855,7 +5855,7 @@ let users = [
     nickname: 'Ulrick',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gbalharrieka@vimeo.com',
@@ -5863,7 +5863,7 @@ let users = [
     nickname: 'Glyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ushoutekb@i2i.jp',
@@ -5871,7 +5871,7 @@ let users = [
     nickname: 'Una',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mjennaroykc@hc360.com',
@@ -5879,7 +5879,7 @@ let users = [
     nickname: 'Mureil',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jeedekd@yolasite.com',
@@ -5887,7 +5887,7 @@ let users = [
     nickname: 'Junina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kthaimke@pinterest.com',
@@ -5895,7 +5895,7 @@ let users = [
     nickname: 'Korrie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sbachanskikf@google.com.au',
@@ -5903,7 +5903,7 @@ let users = [
     nickname: 'Stefan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'etimsonkg@uol.com.br',
@@ -5911,7 +5911,7 @@ let users = [
     nickname: 'Eloise',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jtodorkh@amazon.de',
@@ -5919,7 +5919,7 @@ let users = [
     nickname: 'Jackquelin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kjeanonki@usa.gov',
@@ -5927,7 +5927,7 @@ let users = [
     nickname: 'Kora',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cthawkj@umn.edu',
@@ -5935,7 +5935,7 @@ let users = [
     nickname: 'Claudine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'crickeardkk@photobucket.com',
@@ -5943,7 +5943,7 @@ let users = [
     nickname: 'Carlyle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rbordessakl@themeforest.net',
@@ -5951,7 +5951,7 @@ let users = [
     nickname: 'Renelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bcolbournkm@cdc.gov',
@@ -5959,7 +5959,7 @@ let users = [
     nickname: 'Baldwin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sfussellkn@hubpages.com',
@@ -5967,7 +5967,7 @@ let users = [
     nickname: 'Skipp',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'arewanko@dion.ne.jp',
@@ -5975,7 +5975,7 @@ let users = [
     nickname: 'Ainslee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fvannskp@irs.gov',
@@ -5983,7 +5983,7 @@ let users = [
     nickname: 'Ferdinanda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hmountneykq@webs.com',
@@ -5991,7 +5991,7 @@ let users = [
     nickname: 'Hettie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ebohikekr@example.com',
@@ -5999,7 +5999,7 @@ let users = [
     nickname: 'Elisabeth',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mvautinks@whitehouse.gov',
@@ -6007,7 +6007,7 @@ let users = [
     nickname: 'Moria',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fmccluskeykt@fc2.com',
@@ -6015,7 +6015,7 @@ let users = [
     nickname: 'Fayth',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lbenzaku@cisco.com',
@@ -6023,7 +6023,7 @@ let users = [
     nickname: 'Lorena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dblightkv@psu.edu',
@@ -6031,7 +6031,7 @@ let users = [
     nickname: 'Darell',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'brabbekw@nature.com',
@@ -6039,7 +6039,7 @@ let users = [
     nickname: 'Borden',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gollerearnshawkx@geocities.com',
@@ -6047,7 +6047,7 @@ let users = [
     nickname: 'Gerladina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbjerkanky@qq.com',
@@ -6055,7 +6055,7 @@ let users = [
     nickname: 'Morten',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'larndtsenkz@4shared.com',
@@ -6063,7 +6063,7 @@ let users = [
     nickname: 'Laurette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gfancel0@cocolog-nifty.com',
@@ -6071,7 +6071,7 @@ let users = [
     nickname: 'Gale',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lsimoninil1@gov.uk',
@@ -6079,7 +6079,7 @@ let users = [
     nickname: 'Lana',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'nbellinghaml2@businesswire.com',
@@ -6087,7 +6087,7 @@ let users = [
     nickname: 'Nicola',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'abossonl3@cmu.edu',
@@ -6095,7 +6095,7 @@ let users = [
     nickname: 'Aleta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ntraslerl4@spotify.com',
@@ -6103,7 +6103,7 @@ let users = [
     nickname: 'Nananne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hfarragherl5@yellowpages.com',
@@ -6111,7 +6111,7 @@ let users = [
     nickname: 'Humfrid',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hodoml6@deviantart.com',
@@ -6119,7 +6119,7 @@ let users = [
     nickname: 'Hadrian',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gankersl7@desdev.cn',
@@ -6127,7 +6127,7 @@ let users = [
     nickname: 'Gerrard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vwoodbridgel8@squidoo.com',
@@ -6135,7 +6135,7 @@ let users = [
     nickname: 'Vladamir',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gblowfeldel9@yahoo.co.jp',
@@ -6143,7 +6143,7 @@ let users = [
     nickname: 'Gabby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rbohinla@furl.net',
@@ -6151,7 +6151,7 @@ let users = [
     nickname: 'Richard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ldomineclb@angelfire.com',
@@ -6159,7 +6159,7 @@ let users = [
     nickname: 'Lars',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mtorrittilc@biglobe.ne.jp',
@@ -6167,7 +6167,7 @@ let users = [
     nickname: 'Mariejeanne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jjenckenld@newyorker.com',
@@ -6175,7 +6175,7 @@ let users = [
     nickname: 'Jamill',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lmcginleyle@nyu.edu',
@@ -6183,7 +6183,7 @@ let users = [
     nickname: 'Livvy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ypaviourlf@360.cn',
@@ -6191,7 +6191,7 @@ let users = [
     nickname: 'Yoshiko',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kfrancktonlg@wikispaces.com',
@@ -6199,7 +6199,7 @@ let users = [
     nickname: 'Ki',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lvanellilh@nih.gov',
@@ -6207,7 +6207,7 @@ let users = [
     nickname: 'Leonore',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mmacli@drupal.org',
@@ -6215,7 +6215,7 @@ let users = [
     nickname: 'Morly',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jschwandermannlj@princeton.edu',
@@ -6223,7 +6223,7 @@ let users = [
     nickname: 'Joycelin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gjewislk@fema.gov',
@@ -6231,7 +6231,7 @@ let users = [
     nickname: 'Giralda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ecrownell@networksolutions.com',
@@ -6239,7 +6239,7 @@ let users = [
     nickname: 'Essa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lcraigglm@de.vu',
@@ -6247,7 +6247,7 @@ let users = [
     nickname: 'Layney',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ubricknerln@taobao.com',
@@ -6255,7 +6255,7 @@ let users = [
     nickname: 'Ulla',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'amiddlehurstlo@accuweather.com',
@@ -6263,7 +6263,7 @@ let users = [
     nickname: 'Audrye',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kcranstonlp@webeden.co.uk',
@@ -6271,7 +6271,7 @@ let users = [
     nickname: 'Kippie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dfaraharlq@cloudflare.com',
@@ -6279,7 +6279,7 @@ let users = [
     nickname: 'Dani',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mtresiselr@google.fr',
@@ -6287,7 +6287,7 @@ let users = [
     nickname: 'Mordy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dwillshirels@sciencedirect.com',
@@ -6295,7 +6295,7 @@ let users = [
     nickname: 'Doe',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sscracelt@symantec.com',
@@ -6303,7 +6303,7 @@ let users = [
     nickname: 'Shayne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'chabershonlu@ocn.ne.jp',
@@ -6311,7 +6311,7 @@ let users = [
     nickname: 'Corabella',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cravenhillslv@dell.com',
@@ -6319,7 +6319,7 @@ let users = [
     nickname: 'Chen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'opulfordlw@nps.gov',
@@ -6327,7 +6327,7 @@ let users = [
     nickname: 'Ofelia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'amokeslx@elpais.com',
@@ -6335,7 +6335,7 @@ let users = [
     nickname: 'Aurelea',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pjouhningly@nhs.uk',
@@ -6343,7 +6343,7 @@ let users = [
     nickname: 'Pansie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cjaffreylz@state.tx.us',
@@ -6351,7 +6351,7 @@ let users = [
     nickname: 'Cissiee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fcolgravem0@sciencedirect.com',
@@ -6359,7 +6359,7 @@ let users = [
     nickname: 'Freida',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cocriganm1@telegraph.co.uk',
@@ -6367,7 +6367,7 @@ let users = [
     nickname: 'Celestyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bpefferm2@ed.gov',
@@ -6375,7 +6375,7 @@ let users = [
     nickname: 'Benedetto',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pmacfaulm3@wordpress.com',
@@ -6383,7 +6383,7 @@ let users = [
     nickname: 'Pippa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rrusbridgem4@virginia.edu',
@@ -6391,7 +6391,7 @@ let users = [
     nickname: 'Rita',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gvernam5@photobucket.com',
@@ -6399,7 +6399,7 @@ let users = [
     nickname: 'Gerianne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adraycottm6@nih.gov',
@@ -6407,7 +6407,7 @@ let users = [
     nickname: 'Angelika',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rtudballm7@gov.uk',
@@ -6415,7 +6415,7 @@ let users = [
     nickname: 'Roley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sdictym8@163.com',
@@ -6423,7 +6423,7 @@ let users = [
     nickname: 'Salomon',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sbulbrookm9@spiegel.de',
@@ -6431,7 +6431,7 @@ let users = [
     nickname: 'Sumner',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'oshovlinma@hao123.com',
@@ -6439,7 +6439,7 @@ let users = [
     nickname: 'Ofilia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cshevlanmb@ihg.com',
@@ -6447,7 +6447,7 @@ let users = [
     nickname: 'Cody',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tgodballmc@free.fr',
@@ -6455,7 +6455,7 @@ let users = [
     nickname: 'Thane',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccammmd@google.it',
@@ -6463,7 +6463,7 @@ let users = [
     nickname: 'Clerissa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hhuddme@wired.com',
@@ -6471,7 +6471,7 @@ let users = [
     nickname: 'Hasheem',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aphilpotmf@blogger.com',
@@ -6479,7 +6479,7 @@ let users = [
     nickname: 'Ardene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'echarrettmg@tiny.cc',
@@ -6487,7 +6487,7 @@ let users = [
     nickname: 'Evangelin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'orubiemh@surveymonkey.com',
@@ -6495,7 +6495,7 @@ let users = [
     nickname: 'Osbourn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gdulantymi@wp.com',
@@ -6503,7 +6503,7 @@ let users = [
     nickname: 'Gabby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mkrysztowczykmj@aol.com',
@@ -6511,7 +6511,7 @@ let users = [
     nickname: 'Mireielle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ebrydiemk@w3.org',
@@ -6519,7 +6519,7 @@ let users = [
     nickname: 'Emera',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lthomasml@163.com',
@@ -6527,7 +6527,7 @@ let users = [
     nickname: 'Liv',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'xfourmymm@addthis.com',
@@ -6535,7 +6535,7 @@ let users = [
     nickname: 'Xerxes',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'anuttingmn@wiley.com',
@@ -6543,7 +6543,7 @@ let users = [
     nickname: 'Artie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'candriveauxmo@cpanel.net',
@@ -6551,7 +6551,7 @@ let users = [
     nickname: 'Correy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rearymp@biblegateway.com',
@@ -6559,7 +6559,7 @@ let users = [
     nickname: 'Rod',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mpettetmq@behance.net',
@@ -6567,7 +6567,7 @@ let users = [
     nickname: 'Marris',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gcosansmr@histats.com',
@@ -6575,7 +6575,7 @@ let users = [
     nickname: 'Gertrud',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ybritoms@delicious.com',
@@ -6583,7 +6583,7 @@ let users = [
     nickname: 'Yvor',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ospurginmt@cloudflare.com',
@@ -6591,7 +6591,7 @@ let users = [
     nickname: 'Oby',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jbeadlesmu@toplist.cz',
@@ -6599,7 +6599,7 @@ let users = [
     nickname: 'Jean',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tgouldstrawmv@delicious.com',
@@ -6607,7 +6607,7 @@ let users = [
     nickname: 'Theo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dhukinsmw@chron.com',
@@ -6615,7 +6615,7 @@ let users = [
     nickname: 'Dew',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dstorrsmx@mediafire.com',
@@ -6623,7 +6623,7 @@ let users = [
     nickname: 'Dido',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kgabbettmy@oakley.com',
@@ -6631,7 +6631,7 @@ let users = [
     nickname: 'Kellia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dfolanmz@4shared.com',
@@ -6639,7 +6639,7 @@ let users = [
     nickname: 'Doris',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dkarimn0@nature.com',
@@ -6647,7 +6647,7 @@ let users = [
     nickname: 'Delores',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mhessentalern1@google.pl',
@@ -6655,7 +6655,7 @@ let users = [
     nickname: 'Mendy',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rastyn2@joomla.org',
@@ -6663,7 +6663,7 @@ let users = [
     nickname: 'Roxie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccasboltn3@ow.ly',
@@ -6671,7 +6671,7 @@ let users = [
     nickname: 'Curry',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dmccutcheonn4@accuweather.com',
@@ -6679,7 +6679,7 @@ let users = [
     nickname: 'Deva',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rraitien5@skype.com',
@@ -6687,7 +6687,7 @@ let users = [
     nickname: 'Rudyard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'geschn6@nature.com',
@@ -6695,7 +6695,7 @@ let users = [
     nickname: 'Grissel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tarmingern7@eepurl.com',
@@ -6703,7 +6703,7 @@ let users = [
     nickname: 'Tyson',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'amccliffertyn8@mashable.com',
@@ -6711,7 +6711,7 @@ let users = [
     nickname: 'Ashley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'csacksn9@wufoo.com',
@@ -6719,7 +6719,7 @@ let users = [
     nickname: 'Cosimo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hbrimilcomena@biblegateway.com',
@@ -6727,7 +6727,7 @@ let users = [
     nickname: 'Hedi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'msalmoninb@sina.com.cn',
@@ -6735,7 +6735,7 @@ let users = [
     nickname: 'Merrili',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'athunnercliffnc@google.de',
@@ -6743,7 +6743,7 @@ let users = [
     nickname: 'Alysia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rosheerinnd@nydailynews.com',
@@ -6751,7 +6751,7 @@ let users = [
     nickname: 'Roze',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sguslonne@unblog.fr',
@@ -6759,7 +6759,7 @@ let users = [
     nickname: 'Sindee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rkilcullennf@pen.io',
@@ -6767,7 +6767,7 @@ let users = [
     nickname: 'Rora',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mbattersonng@ezinearticles.com',
@@ -6775,7 +6775,7 @@ let users = [
     nickname: 'Maurizio',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'condrichnh@arizona.edu',
@@ -6783,7 +6783,7 @@ let users = [
     nickname: 'Cosmo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'qmcgibbonni@a8.net',
@@ -6791,7 +6791,7 @@ let users = [
     nickname: 'Quinn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ovettorenj@sciencedaily.com',
@@ -6799,7 +6799,7 @@ let users = [
     nickname: 'Osbourn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kcrumpenk@sfgate.com',
@@ -6807,7 +6807,7 @@ let users = [
     nickname: 'Kelley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vrourkenl@storify.com',
@@ -6815,7 +6815,7 @@ let users = [
     nickname: 'Vicky',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'baskamnm@salon.com',
@@ -6823,7 +6823,7 @@ let users = [
     nickname: 'Brady',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'imcguanenn@ask.com',
@@ -6831,7 +6831,7 @@ let users = [
     nickname: 'Itch',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bschnitterno@nyu.edu',
@@ -6839,7 +6839,7 @@ let users = [
     nickname: 'Benji',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'awigelsworthnp@mozilla.org',
@@ -6847,7 +6847,7 @@ let users = [
     nickname: 'Alane',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mtippettsnq@bbb.org',
@@ -6855,7 +6855,7 @@ let users = [
     nickname: 'Moshe',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'phovardnr@biglobe.ne.jp',
@@ -6863,7 +6863,7 @@ let users = [
     nickname: 'Philipa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rertns@opensource.org',
@@ -6871,7 +6871,7 @@ let users = [
     nickname: 'Rosanne',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tmccroftnt@economist.com',
@@ -6879,7 +6879,7 @@ let users = [
     nickname: 'Tallulah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pjackalinnu@bravesites.com',
@@ -6887,7 +6887,7 @@ let users = [
     nickname: 'Paolo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lrawlenv@redcross.org',
@@ -6895,7 +6895,7 @@ let users = [
     nickname: 'Latrina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ebremmellnw@soundcloud.com',
@@ -6903,7 +6903,7 @@ let users = [
     nickname: 'Eduardo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lkeelnx@cbc.ca',
@@ -6911,7 +6911,7 @@ let users = [
     nickname: 'Lilian',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hballny@china.com.cn',
@@ -6919,7 +6919,7 @@ let users = [
     nickname: 'Hobard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mweeklynz@ucla.edu',
@@ -6927,7 +6927,7 @@ let users = [
     nickname: 'Manda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gfullicko0@nytimes.com',
@@ -6935,7 +6935,7 @@ let users = [
     nickname: 'Gaylene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ppeopleso1@gravatar.com',
@@ -6943,7 +6943,7 @@ let users = [
     nickname: 'Putnam',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kclausewitzo2@bravesites.com',
@@ -6951,7 +6951,7 @@ let users = [
     nickname: 'Keary',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ccoyo3@booking.com',
@@ -6959,7 +6959,7 @@ let users = [
     nickname: 'Celesta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hpetrowskyo4@yellowpages.com',
@@ -6967,7 +6967,7 @@ let users = [
     nickname: 'Haroun',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'meastamo5@engadget.com',
@@ -6975,7 +6975,7 @@ let users = [
     nickname: 'Mikol',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mblencho6@live.com',
@@ -6983,7 +6983,7 @@ let users = [
     nickname: 'Malvin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bhalloweso7@csmonitor.com',
@@ -6991,7 +6991,7 @@ let users = [
     nickname: 'Barnie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jspurlingo8@si.edu',
@@ -6999,7 +6999,7 @@ let users = [
     nickname: 'Joelynn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'csemonino9@ebay.co.uk',
@@ -7007,7 +7007,7 @@ let users = [
     nickname: 'Carina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jwiggamoa@addtoany.com',
@@ -7015,7 +7015,7 @@ let users = [
     nickname: 'Jena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'isplevinob@google.nl',
@@ -7023,7 +7023,7 @@ let users = [
     nickname: 'Ivette',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pheningamoc@amazon.com',
@@ -7031,7 +7031,7 @@ let users = [
     nickname: 'Patrica',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cguinnessod@scribd.com',
@@ -7039,7 +7039,7 @@ let users = [
     nickname: 'Constantina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mwalkowskioe@github.com',
@@ -7047,7 +7047,7 @@ let users = [
     nickname: 'Marve',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hpinckardof@imageshack.us',
@@ -7055,7 +7055,7 @@ let users = [
     nickname: 'Hamid',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'iaronovog@hao123.com',
@@ -7063,7 +7063,7 @@ let users = [
     nickname: 'Ike',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dgabboh@ustream.tv',
@@ -7071,7 +7071,7 @@ let users = [
     nickname: 'Dov',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'redesoi@bbb.org',
@@ -7079,7 +7079,7 @@ let users = [
     nickname: 'Rodd',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mraimbauldoj@wikispaces.com',
@@ -7087,7 +7087,7 @@ let users = [
     nickname: 'Mariana',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'zvannucciniiok@who.int',
@@ -7095,7 +7095,7 @@ let users = [
     nickname: 'Zacharie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ggregoraceol@sun.com',
@@ -7103,7 +7103,7 @@ let users = [
     nickname: 'Gerrard',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rstronoughom@npr.org',
@@ -7111,7 +7111,7 @@ let users = [
     nickname: 'Ronalda',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gpetterson@disqus.com',
@@ -7119,7 +7119,7 @@ let users = [
     nickname: 'Gaylene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'skeddyoo@constantcontact.com',
@@ -7127,7 +7127,7 @@ let users = [
     nickname: 'Sascha',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lprudenceop@squarespace.com',
@@ -7135,7 +7135,7 @@ let users = [
     nickname: 'Lief',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bcapplemanoq@4shared.com',
@@ -7143,7 +7143,7 @@ let users = [
     nickname: 'Bil',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adransfieldor@answers.com',
@@ -7151,7 +7151,7 @@ let users = [
     nickname: 'Audrey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bpinwillos@npr.org',
@@ -7159,7 +7159,7 @@ let users = [
     nickname: 'Bryant',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'atilstonot@xrea.com',
@@ -7167,7 +7167,7 @@ let users = [
     nickname: 'Andee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'stripettou@army.mil',
@@ -7175,7 +7175,7 @@ let users = [
     nickname: 'Sutherland',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'owixeyov@earthlink.net',
@@ -7183,7 +7183,7 @@ let users = [
     nickname: 'Orly',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bbaddeleyow@foxnews.com',
@@ -7191,7 +7191,7 @@ let users = [
     nickname: 'Berty',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bthompstoneox@blogger.com',
@@ -7199,7 +7199,7 @@ let users = [
     nickname: 'Boycey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'voharneyoy@sina.com.cn',
@@ -7207,7 +7207,7 @@ let users = [
     nickname: 'Valdemar',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lmaesoz@furl.net',
@@ -7215,7 +7215,7 @@ let users = [
     nickname: 'Laraine',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tscusep0@ifeng.com',
@@ -7223,7 +7223,7 @@ let users = [
     nickname: 'Theodoric',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hpolhillp1@seattletimes.com',
@@ -7231,7 +7231,7 @@ let users = [
     nickname: 'Homere',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sbischofp2@studiopress.com',
@@ -7239,7 +7239,7 @@ let users = [
     nickname: 'Seamus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dcavep3@sciencedirect.com',
@@ -7247,7 +7247,7 @@ let users = [
     nickname: 'Damita',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cmacveanp4@quantcast.com',
@@ -7255,7 +7255,7 @@ let users = [
     nickname: 'Cathrin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mschimankp5@last.fm',
@@ -7263,7 +7263,7 @@ let users = [
     nickname: 'Marcie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rplaistowep6@smh.com.au',
@@ -7271,7 +7271,7 @@ let users = [
     nickname: 'Rafi',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fhazeleyp7@goo.ne.jp',
@@ -7279,7 +7279,7 @@ let users = [
     nickname: 'Fields',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lsackerp8@yahoo.com',
@@ -7287,7 +7287,7 @@ let users = [
     nickname: 'Lazare',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cdunkerleyp9@is.gd',
@@ -7295,7 +7295,7 @@ let users = [
     nickname: 'Constancia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gscottipa@phpbb.com',
@@ -7303,7 +7303,7 @@ let users = [
     nickname: 'Gustavus',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hmonteauxpb@plala.or.jp',
@@ -7311,7 +7311,7 @@ let users = [
     nickname: 'Hanan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'arubinowitzpc@oracle.com',
@@ -7319,7 +7319,7 @@ let users = [
     nickname: 'Arnoldo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cnellepd@storify.com',
@@ -7327,7 +7327,7 @@ let users = [
     nickname: 'Christan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rpooltonpe@bloglovin.com',
@@ -7335,7 +7335,7 @@ let users = [
     nickname: 'Rodd',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'smarcpf@acquirethisname.com',
@@ -7343,7 +7343,7 @@ let users = [
     nickname: 'Sonia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'beisoldpg@oracle.com',
@@ -7351,7 +7351,7 @@ let users = [
     nickname: 'Bab',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ecavanph@joomla.org',
@@ -7359,7 +7359,7 @@ let users = [
     nickname: 'Ebonee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dsteedmanpi@1688.com',
@@ -7367,7 +7367,7 @@ let users = [
     nickname: 'Dareen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'emillettpj@smh.com.au',
@@ -7375,7 +7375,7 @@ let users = [
     nickname: 'Erie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hmattockspk@slashdot.org',
@@ -7383,7 +7383,7 @@ let users = [
     nickname: 'Had',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cmulrenanpl@pcworld.com',
@@ -7391,7 +7391,7 @@ let users = [
     nickname: 'Chas',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ecicuttopm@aol.com',
@@ -7399,7 +7399,7 @@ let users = [
     nickname: 'Ebba',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tmcilorypn@ed.gov',
@@ -7407,7 +7407,7 @@ let users = [
     nickname: 'Trish',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mfairfootpo@is.gd',
@@ -7415,7 +7415,7 @@ let users = [
     nickname: 'Marketa',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hsemourpp@yahoo.co.jp',
@@ -7423,7 +7423,7 @@ let users = [
     nickname: 'Hart',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jhiscockspq@parallels.com',
@@ -7431,7 +7431,7 @@ let users = [
     nickname: 'Justinn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ksnaithpr@fema.gov',
@@ -7439,7 +7439,7 @@ let users = [
     nickname: 'Keeley',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kbrozssetps@arstechnica.com',
@@ -7447,7 +7447,7 @@ let users = [
     nickname: 'Kerrin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'kbeadellpt@blogtalkradio.com',
@@ -7455,7 +7455,7 @@ let users = [
     nickname: 'Kristin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ltoddpu@shop-pro.jp',
@@ -7463,7 +7463,7 @@ let users = [
     nickname: 'Lev',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'etomeopv@mysql.com',
@@ -7471,7 +7471,7 @@ let users = [
     nickname: 'Ebba',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'apigerampw@jalbum.net',
@@ -7479,7 +7479,7 @@ let users = [
     nickname: 'Audra',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gbrewinspx@sciencedaily.com',
@@ -7487,7 +7487,7 @@ let users = [
     nickname: 'Gan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jsalisburypy@ezinearticles.com',
@@ -7495,7 +7495,7 @@ let users = [
     nickname: 'Janeva',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'aconstantpz@ucla.edu',
@@ -7503,7 +7503,7 @@ let users = [
     nickname: 'Arliene',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'hmcculloghq0@examiner.com',
@@ -7511,7 +7511,7 @@ let users = [
     nickname: 'Hunt',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'asalzburgerq1@cbc.ca',
@@ -7519,7 +7519,7 @@ let users = [
     nickname: 'Alleyn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tgronaverq2@sogou.com',
@@ -7527,7 +7527,7 @@ let users = [
     nickname: 'Thatch',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ecranageq3@bloglovin.com',
@@ -7535,7 +7535,7 @@ let users = [
     nickname: 'Emylee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rdedmanq4@harvard.edu',
@@ -7543,7 +7543,7 @@ let users = [
     nickname: 'Rick',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'maxelbeyq5@flickr.com',
@@ -7551,7 +7551,7 @@ let users = [
     nickname: 'Miner',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'odominicacciq6@hp.com',
@@ -7559,7 +7559,7 @@ let users = [
     nickname: 'Ollie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mdowdeswellq7@census.gov',
@@ -7567,7 +7567,7 @@ let users = [
     nickname: 'Mavra',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jjulyanq8@hhs.gov',
@@ -7575,7 +7575,7 @@ let users = [
     nickname: 'Jsandye',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wmarjoribanksq9@constantcontact.com',
@@ -7583,7 +7583,7 @@ let users = [
     nickname: 'Waldemar',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'jbugdenqa@i2i.jp',
@@ -7591,7 +7591,7 @@ let users = [
     nickname: 'Jobina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rcawsbyqb@qq.com',
@@ -7599,7 +7599,7 @@ let users = [
     nickname: 'Reynold',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'acustardqc@ask.com',
@@ -7607,7 +7607,7 @@ let users = [
     nickname: 'Aylmar',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'brennerqd@xing.com',
@@ -7615,7 +7615,7 @@ let users = [
     nickname: 'Bud',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lgeatorqe@cornell.edu',
@@ -7623,7 +7623,7 @@ let users = [
     nickname: 'Laural',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'npreuvostqf@ebay.co.uk',
@@ -7631,7 +7631,7 @@ let users = [
     nickname: 'Natassia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'avanarsdaleqg@ustream.tv',
@@ -7639,7 +7639,7 @@ let users = [
     nickname: 'Anna-diane',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cdumelowqh@ifeng.com',
@@ -7647,7 +7647,7 @@ let users = [
     nickname: 'Cari',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gvaldeqi@miibeian.gov.cn',
@@ -7655,7 +7655,7 @@ let users = [
     nickname: 'Gil',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'fmanueliqj@home.pl',
@@ -7663,7 +7663,7 @@ let users = [
     nickname: 'Francisca',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'rherrerosqk@wisc.edu',
@@ -7671,7 +7671,7 @@ let users = [
     nickname: 'Rosaleen',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bjiruql@dell.com',
@@ -7679,7 +7679,7 @@ let users = [
     nickname: 'Brennan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mchelleyqm@wordpress.com',
@@ -7687,7 +7687,7 @@ let users = [
     nickname: 'Mariel',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'danthoinqn@bloglines.com',
@@ -7695,7 +7695,7 @@ let users = [
     nickname: 'Davina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gfullunqo@timesonline.co.uk',
@@ -7703,7 +7703,7 @@ let users = [
     nickname: 'Grenville',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'clunbechqp@slashdot.org',
@@ -7711,7 +7711,7 @@ let users = [
     nickname: 'Cody',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tpostanceqq@sciencedaily.com',
@@ -7719,7 +7719,7 @@ let users = [
     nickname: 'Taddeo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mcushqr@omniture.com',
@@ -7727,7 +7727,7 @@ let users = [
     nickname: 'Milo',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'balkinqs@youtube.com',
@@ -7735,7 +7735,7 @@ let users = [
     nickname: 'Bjorn',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tdinneenqt@illinois.edu',
@@ -7743,7 +7743,7 @@ let users = [
     nickname: 'Tobin',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'pphelipeauqu@fema.gov',
@@ -7751,7 +7751,7 @@ let users = [
     nickname: 'Pavla',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ddaintreeqv@pcworld.com',
@@ -7759,7 +7759,7 @@ let users = [
     nickname: 'Doyle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'mshambrookqw@noaa.gov',
@@ -7767,7 +7767,7 @@ let users = [
     nickname: 'Mira',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eemlinqx@indiegogo.com',
@@ -7775,7 +7775,7 @@ let users = [
     nickname: 'Erna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'epelzqy@pagesperso-orange.fr',
@@ -7783,7 +7783,7 @@ let users = [
     nickname: 'Earl',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lneachellqz@columbia.edu',
@@ -7791,7 +7791,7 @@ let users = [
     nickname: 'Lavena',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vcaldecottr0@yale.edu',
@@ -7799,7 +7799,7 @@ let users = [
     nickname: 'Velma',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'uruterr1@ycombinator.com',
@@ -7807,7 +7807,7 @@ let users = [
     nickname: 'Uriah',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'acancellorr2@prlog.org',
@@ -7815,7 +7815,7 @@ let users = [
     nickname: 'Ara',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ucannawayr3@yelp.com',
@@ -7823,7 +7823,7 @@ let users = [
     nickname: 'Ulrike',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gcastellanosr4@constantcontact.com',
@@ -7831,7 +7831,7 @@ let users = [
     nickname: 'Genvieve',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wronchettir5@dagondesign.com',
@@ -7839,7 +7839,7 @@ let users = [
     nickname: 'Willie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'oritchmanr6@feedburner.com',
@@ -7847,7 +7847,7 @@ let users = [
     nickname: 'Orelee',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bwhinesr7@rediff.com',
@@ -7855,7 +7855,7 @@ let users = [
     nickname: 'Barbey',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eburberryr8@spiegel.de',
@@ -7863,7 +7863,7 @@ let users = [
     nickname: 'Ernie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'yelverstoner9@hostgator.com',
@@ -7871,7 +7871,7 @@ let users = [
     nickname: 'Yolanthe',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'bmaynardra@mashable.com',
@@ -7879,7 +7879,7 @@ let users = [
     nickname: 'Bradan',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'vkabischrb@senate.gov',
@@ -7887,7 +7887,7 @@ let users = [
     nickname: 'Vina',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dmoncurrc@plala.or.jp',
@@ -7895,7 +7895,7 @@ let users = [
     nickname: 'Dinny',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lpaddlerd@senate.gov',
@@ -7903,7 +7903,7 @@ let users = [
     nickname: 'Lettie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dculverre@github.com',
@@ -7911,7 +7911,7 @@ let users = [
     nickname: 'Dasie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'gbloxamrf@google.de',
@@ -7919,7 +7919,7 @@ let users = [
     nickname: 'Gianna',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dgrassirg@tumblr.com',
@@ -7927,7 +7927,7 @@ let users = [
     nickname: 'Drusie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'sedgcumberh@hostgator.com',
@@ -7935,7 +7935,7 @@ let users = [
     nickname: 'Sibylle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'siddiensri@dedecms.com',
@@ -7943,7 +7943,7 @@ let users = [
     nickname: 'Sonia',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'ifenbyrj@cargocollective.com',
@@ -7951,7 +7951,7 @@ let users = [
     nickname: 'Iago',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'eroacherk@abc.net.au',
@@ -7959,7 +7959,7 @@ let users = [
     nickname: 'Emera',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'csommerlinrl@barnesandnoble.com',
@@ -7967,7 +7967,7 @@ let users = [
     nickname: 'Celie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'dkidsonrm@tuttocitta.it',
@@ -7975,7 +7975,7 @@ let users = [
     nickname: 'Dody',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'tmagorrn@mlb.com',
@@ -7983,7 +7983,7 @@ let users = [
     nickname: 'Tobe',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'lbrightro@infoseek.co.jp',
@@ -7991,7 +7991,7 @@ let users = [
     nickname: 'Leonelle',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'adohmsrp@ucoz.com',
@@ -7999,7 +7999,7 @@ let users = [
     nickname: 'Alfie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'cissakovrq@parallels.com',
@@ -8007,7 +8007,7 @@ let users = [
     nickname: 'Coletta',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
   {
     email: 'wfifieldrr@nsw.gov.au',
@@ -8015,7 +8015,7 @@ let users = [
     nickname: 'Wendie',
     myLink: '',
     isCertified: false,
-    voteOrder: [],
+    votedCategoryOrder: [],
   },
 ];
 

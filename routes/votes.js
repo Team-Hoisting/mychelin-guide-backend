@@ -11,10 +11,16 @@ router.get('/', (req, res) => {
   res.send(data);
 });
 
+// router.get('/total', (req, res) => {
+//   const data = votes.getTotalCount();
+
+//   console.log(data);
+
+//   res.send(data);
+// });
+
 router.get('/:nickname', (req, res) => {
-  const { email } = users
-    .getUsers()
-    .filter((user) => user.nickname === req.params.nickname)[0];
+  const { email } = users.findByNickname(req.params.nickname);
 
   const data = votes.findVotesByEmail(email);
 

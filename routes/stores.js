@@ -4,12 +4,18 @@ const users = require('../models/users');
 const votes = require('../models/votes');
 const archives = require('../models/archives');
 
+const { findStoreById } = require('../models/stores');
+
 const router = express.Router();
 
 router.get('/', (req, res) => {
   const { category, page_size, page } = req.query;
 
-  const rankedStores = stores.getRankedStores(votes.getVotes());
+  const rankedStores = stores.getRankedStores(
+    votes.getVotes(),
+    archives.getArcivesByStoreId,
+    votes.getStarCount,
+  );
 
   const startIndex = (page - 1) * page_size;
   const endIndex = startIndex + +page_size;
@@ -26,9 +32,18 @@ router.get('/', (req, res) => {
 });
 
 router.get('/search', (req, res) => {
-  const { usersearch } = req.query;
+  const { usersearch, page_size, page } = req.query;
 
-  res.send(stores.getSearchedStores(usersearch));
+  if (!page_size && !page) res.send(stores.getSearchedStores(usersearch));
+
+  const searchedStores = stores.getSearchedStores(usersearch);
+
+  const startIndex = (page - 1) * page_size;
+  const endIndex = startIndex + +page_size;
+
+  const pageStores = searchedStores.slice(startIndex, endIndex);
+
+  res.send(pageStores);
 });
 
 router.get('/:id', (req, res) => {
@@ -53,6 +68,19 @@ router.get('/:id', (req, res) => {
   const archivedCnt = archives.getArcivesByStoreId(storeId);
 
   res.send({ ...storeData, voteCnt, firstVoteUser: userName, archivedCnt });
+});
+
+router.get('/voted/:nickname', (req, res) => {
+  const { email } = users.findByNickname(req.params.nickname);
+
+  const votesByUser = votes.findVotesByEmail(email);
+
+  const data = votesByUser.map(({ categoryCode, storeId }) => ({
+    categoryCode,
+    store: findStoreById(storeId),
+  }));
+
+  res.send(data);
 });
 
 module.exports = router;
