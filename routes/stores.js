@@ -10,7 +10,11 @@ const router = express.Router();
 router.get('/', (req, res) => {
   const { category, page_size, page } = req.query;
 
-  const rankedStores = stores.getRankedStores(votes.getVotes());
+  const rankedStores = stores.getRankedStores(
+    votes.getVotes(),
+    archives.getArcivesByStoreId,
+    votes.getStarCount,
+  );
 
   const startIndex = (page - 1) * page_size;
   const endIndex = startIndex + +page_size;
