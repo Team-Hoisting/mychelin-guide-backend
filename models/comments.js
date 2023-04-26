@@ -372,6 +372,9 @@ const getComments = () => comments;
 const findCommentsByStoreId = (storeid) =>
   comments.filter((comment) => comment.storeId === storeid);
 
+const generateCommentId = () =>
+  Math.max(...comments.map((comment) => comment.commentId), 0) + 1;
+
 const createComment = (newComment) => {
   comments = [newComment, ...comments];
 };
@@ -379,9 +382,6 @@ const createComment = (newComment) => {
 const deleteComment = (commentId) => {
   comments = comments.filter((comment) => comment.commentId !== +commentId);
 };
-
-const generateCommentId = () =>
-  Math.max(...comments.map((comment) => comment.commentId), 0) + 1;
 
 module.exports = {
   getComments,
