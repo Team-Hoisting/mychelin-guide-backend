@@ -409,12 +409,12 @@ const getArchivesByEmail = (email) =>
 
 const generateNextId = () => Math.max(...archives.map((arc) => arc.seq), 0) + 1;
 
-const addArchive = ({ storeId, userId }) => {
+const addArchive = ({ storeId, email }) => {
   archives = [
     ...archives,
     {
       seq: generateNextId(),
-      userId,
+      email,
       storeId,
     },
   ];
@@ -422,12 +422,12 @@ const addArchive = ({ storeId, userId }) => {
   return archives;
 };
 
-const deleteArchive = (seq) => {
-  const deletedSeq = archives.find((arc) => arc.seq === seq).seq;
+const deleteArchive = ({ email, storeId }) => {
+  const [{ seq }] = archives.filter(
+    (arc) => arc.email === email && arc.storeId === storeId,
+  );
 
-  console.log('deletedSeq: ', deletedSeq);
-
-  archives = archives.filter((arc) => arc.seq !== deletedSeq);
+  archives = archives.filter((arc) => arc.seq !== seq);
 };
 
 module.exports = {

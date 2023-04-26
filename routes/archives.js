@@ -3,19 +3,15 @@ const archives = require('../models/archives');
 
 const router = express.Router();
 
-router.post('/like', (req, res) => {
-  console.log('arc body: ', req.body);
+router.post('/archive', (req, res) => {
   const newArchive = req.body;
   archives.addArchive(newArchive);
 
   res.send(newArchive);
 });
 
-router.post('/dislike', (req, res) => {
-  console.log('dislike: ', req.body);
-  const { seq } = req.body;
-
-  archives.deleteArchive(seq);
+router.post('/unarchive', (req, res) => {
+  archives.deleteArchive(req.body);
 
   res.send(200);
 });

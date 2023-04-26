@@ -14,6 +14,8 @@ router.get('/:storeid', (req, res) => {
   const storeComments = comments.findCommentsByStoreId(req.params.storeid);
 
   const commentUser = storeComments.map((comment) => {
+    // 예외 처리 필요
+    if (!comment.email) return;
     const { nickname, isCertified } = users.findUserByEmail(comment.email);
     return { ...comment, nickname, isCertified };
   });
@@ -22,15 +24,14 @@ router.get('/:storeid', (req, res) => {
 });
 
 router.post('/', (req, res) => {
+  if (!req.body.email) return;
   const newComment = { ...req.body, commentId: comments.generateCommentId() };
   comments.createComment(newComment);
-  console.log('newcomment: ', newComment);
 
   res.sendStatus(200);
 });
 
 router.delete('/:commentId', (req, res) => {
-  console.log('delete: ', req.params.commentId);
   comments.deleteComment(req.params.commentId);
 
   res.sendStatus(200);
