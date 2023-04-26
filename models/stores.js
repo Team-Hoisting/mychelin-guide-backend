@@ -1,3 +1,5 @@
+// const { getStarCount } = require('./votes');
+
 let stores = [
   {
     storeId: '26571895', // 카카오 API의 매장 id
@@ -1109,11 +1111,13 @@ const getStores = () => stores;
 const getSearchedStores = (searched) =>
   stores.filter((store) => store.storeName.includes(searched));
 
-const getRankedStores = (votes) => {
+const getRankedStores = (votes, archivedCounter, starCounter) => {
+  const allVotesCount = votes.length;
   let sortedStores = [];
 
   stores.forEach((store) => {
     const validVotes = votes.filter(({ storeId }) => storeId === store.storeId);
+    const archivedCount = archivedCounter(store.storeId);
 
     const votesByCategory = {};
 
@@ -1126,6 +1130,7 @@ const getRankedStores = (votes) => {
     const storeData = {
       ...store,
       totalVotes: validVotes.length,
+      starCount: starCounter(allVotesCount, archivedCount, validVotes.length),
       votesByCategory,
     };
 

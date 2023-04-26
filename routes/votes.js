@@ -11,6 +11,14 @@ router.get('/', (req, res) => {
   res.send(data);
 });
 
+// router.get('/total', (req, res) => {
+//   const data = votes.getTotalCount();
+
+//   console.log(data);
+
+//   res.send(data);
+// });
+
 router.get('/:nickname', (req, res) => {
   const { email } = users.findByNickname(req.params.nickname);
 
