@@ -12,9 +12,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:nickname', (req, res) => {
-  const { email } = users
-    .getUsers()
-    .filter((user) => user.nickname === req.params.nickname)[0];
+  const { email } = users.findByNickname(req.params.nickname);
 
   const data = votes.findVotesByEmail(email);
 
