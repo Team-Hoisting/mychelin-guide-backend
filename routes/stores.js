@@ -3,6 +3,7 @@ const stores = require('../models/stores');
 const users = require('../models/users');
 const votes = require('../models/votes');
 const archives = require('../models/archives');
+
 const { findStoreById } = require('../models/stores');
 
 const router = express.Router();
@@ -72,9 +73,9 @@ router.get('/:id', (req, res) => {
 router.get('/voted/:nickname', (req, res) => {
   const { email } = users.findByNickname(req.params.nickname);
 
-  const votedStores = votes.findVotesByEmail(email);
+  const votesByUser = votes.findVotesByEmail(email);
 
-  const data = votedStores.map(({ categoryCode, storeId }) => ({
+  const data = votesByUser.map(({ categoryCode, storeId }) => ({
     categoryCode,
     store: findStoreById(storeId),
   }));
