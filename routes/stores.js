@@ -26,9 +26,18 @@ router.get('/', (req, res) => {
 });
 
 router.get('/search', (req, res) => {
-  const { usersearch } = req.query;
+  const { usersearch, page_size, page } = req.query;
 
-  res.send(stores.getSearchedStores(usersearch));
+  if (!page_size && !page) res.send(stores.getSearchedStores(usersearch));
+
+  const searchedStores = stores.getSearchedStores(usersearch);
+
+  const startIndex = (page - 1) * page_size;
+  const endIndex = startIndex + +page_size;
+
+  const pageStores = searchedStores.slice(startIndex, endIndex);
+
+  res.send(pageStores);
 });
 
 router.get('/:id', (req, res) => {
