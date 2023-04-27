@@ -100,4 +100,10 @@ router.delete('/:nickname/:categoryCode', (req, res) => {
   res.send(voteList[index]);
 });
 
+router.get('/:storeId/:nickname/:categoryCode', (req, res) => {
+  const { storeId, nickname, categoryCode } = req.params;
+
+  console.log(storeId, nickname, categoryCode);
+});
+
 module.exports = router;
