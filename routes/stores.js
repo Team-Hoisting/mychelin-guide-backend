@@ -97,4 +97,28 @@ router.get('/voted/:nickname', (req, res) => {
   res.send(data);
 });
 
+router.get('/archived/:nickname', (req, res) => {
+  const { nickname } = req.params;
+  const { email } = users.findByNickname(nickname);
+
+  console.log(email);
+
+  const { page_size, page } = req.query;
+
+  const startIndex = (page - 1) * page_size;
+  const endIndex = startIndex + +page_size;
+
+  const archivesByUser = archives.getArchivesByEmail(email);
+
+  const archiveStores = archivesByUser.map(({ storeId }) => {
+    const newStore = stores.findStoreById(storeId);
+    if (!newStore) console.log('WRONG', storeId);
+    return newStore;
+  });
+
+  const pageStores = archiveStores.slice(startIndex, endIndex);
+
+  res.send(pageStores);
+});
+
 module.exports = router;
