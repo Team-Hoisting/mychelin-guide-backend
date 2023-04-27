@@ -6,9 +6,10 @@ const stores = require('../models/stores');
 
 const router = express.Router();
 
-router.get('/:nickname/all', (req, res) => {
+router.get('/:nickname/profile', (req, res) => {
   const user = users.findByNickname(req.params.nickname);
 
+  // votes
   const votesByUser = votes.findVotesByEmail(user.email);
 
   const voteStores = votesByUser.map(({ categoryCode, storeId, votedAt }) => ({
@@ -17,16 +18,9 @@ router.get('/:nickname/all', (req, res) => {
     votedAt,
   }));
 
-  const archivesByUser = archives.getArchivesByEmail(user.email);
-
-  const archiveStores = archivesByUser.map(({ storeId }) =>
-    stores.findStoreById(storeId),
-  );
-
   res.send({
     user,
     voteStores,
-    archiveStores,
   });
 });
 
