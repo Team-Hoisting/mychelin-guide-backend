@@ -65,9 +65,23 @@ router.get('/:id', (req, res) => {
     return acc;
   }, {});
 
+  const totalVotes = votes.getTotalCount();
+  const totalStoreVoteCnt = votes.findVotesByStoreId(storeId).length;
   const archivedCnt = archives.getArcivesByStoreId(storeId);
 
-  res.send({ ...storeData, voteCnt, firstVoteUser: userName, archivedCnt });
+  const starCnt = votes.getStarCount(
+    totalVotes,
+    archivedCnt,
+    totalStoreVoteCnt,
+  );
+
+  res.send({
+    ...storeData,
+    voteCnt,
+    firstVoteUser: userName,
+    archivedCnt,
+    starCnt,
+  });
 });
 
 router.get('/voted/:nickname', (req, res) => {
