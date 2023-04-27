@@ -254,19 +254,19 @@ let comments = [
   {
     commentId: 42,
     email: 'sanbondeveloper@gmail.com',
-    storeId: '971062870',
+    storeId: '25634322',
     content: '맛의 꼭대기',
   },
   {
     commentId: 43,
     email: 'alswl99710@gmail.com',
-    storeId: '971062870',
+    storeId: '25634322',
     content: '너무 좋아요',
   },
   {
     commentId: 44,
     email: 'rok.ksohn@gmail.com',
-    storeId: '971062870',
+    storeId: '25634322',
     content: '또 가고 싶은 곳',
   },
   {

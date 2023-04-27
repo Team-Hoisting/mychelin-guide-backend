@@ -178,7 +178,7 @@ let stores = [
     y: '37.37526461345179',
   },
   {
-    storeId: '"25634322"',
+    storeId: '25634322',
     storeName: '우판등심 수원점',
     address: '경기 수원시 영통구 권선로908번길 10',
     firstUserId: 'rok.ksohn@gmail.com',
