@@ -30,6 +30,21 @@ router.get('/:nickname/all', (req, res) => {
   });
 });
 
+router.patch('/:nickname', (req, res) => {
+  const { nickname } = req.params;
+  const content = req.body;
+
+  let user = users.findByNickname(nickname);
+
+  if (Object.keys(content).includes('nickname'))
+    user.nickname = content.nickname;
+  else user.password = content.password;
+
+  user = users.findByNickname(content.nickname);
+
+  res.send(user);
+});
+
 router.post('/:nickname/votedcategoryorder', (req, res) => {
   const nickname = req.params.nickname;
   const votedCategoryOrder = req.body.votedCategoryOrder;
