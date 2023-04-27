@@ -15,7 +15,7 @@ let users = [
     nickname: '웨스트달러예빈',
     myLink: '',
     isCertified: true,
-    votedCategoryOrder: [],
+    votedCategoryOrder: ['CH02', 'PB12'],
   },
   {
     email: 'rok.ksohn@gmail.com',
@@ -8054,6 +8054,12 @@ const createUser = (user) => {
   return newUser;
 };
 
+const updateUserInfo = (nickname, newUserInfo) => {
+  users = users.map((user) =>
+    user.nickname === nickname ? { ...user, ...newUserInfo } : user,
+  );
+};
+
 const getUsers = () => users;
 
 module.exports = {
@@ -8064,4 +8070,5 @@ module.exports = {
   findUser,
   getUsers,
   generateToken,
+  updateUserInfo,
 };
