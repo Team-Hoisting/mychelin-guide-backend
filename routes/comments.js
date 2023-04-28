@@ -11,16 +11,28 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:storeid', (req, res) => {
+  const { pageSize, page } = req.query;
   const storeComments = comments.findCommentsByStoreId(req.params.storeid);
 
-  const commentUser = storeComments.map((comment) => {
+  const startIndex = (page - 1) * pageSize;
+  const endIndex = startIndex + +pageSize;
+
+  const paginatedComments = storeComments.slice(startIndex, endIndex);
+  const totalCommentsPagesByStore = Math.ceil(storeComments.length / pageSize);
+  console.log('comments: ', paginatedComments);
+
+  const commentResult = paginatedComments.map((comment) => {
     // 예외 처리 필요
     if (!comment.email) return;
     const { nickname, isCertified } = users.findUserByEmail(comment.email);
-    return { ...comment, nickname, isCertified };
+    return {
+      ...comment,
+      nickname,
+      isCertified,
+    };
   });
 
-  res.send(commentUser);
+  res.send({ data: commentResult, totalPages: totalCommentsPagesByStore });
 });
 
 router.post('/', (req, res) => {

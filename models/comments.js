@@ -365,8 +365,158 @@ let comments = [
     storeId: '14513092',
     content: '아주 좋아요',
   },
+  {
+    commentId: 61,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요1.',
+  },
+  {
+    commentId: 62,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요2.',
+  },
+  {
+    commentId: 63,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요3.',
+  },
+  {
+    commentId: 64,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요4.',
+  },
+  {
+    commentId: 65,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요5.',
+  },
+  {
+    commentId: 66,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요6.',
+  },
+  {
+    commentId: 67,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요7.',
+  },
+  {
+    commentId: 68,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요8.',
+  },
+  {
+    commentId: 69,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.9',
+  },
+  {
+    commentId: 70,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요10.',
+  },
+  {
+    commentId: 71,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.11',
+  },
+  {
+    commentId: 72,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.12',
+  },
+  {
+    commentId: 73,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.13',
+  },
+  {
+    commentId: 74,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.14',
+  },
+  {
+    commentId: 75,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.15',
+  },
+  {
+    commentId: 76,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.16',
+  },
+  {
+    commentId: 77,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.17',
+  },
+  {
+    commentId: 78,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.18',
+  },
+  {
+    commentId: 79,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.19',
+  },
+  {
+    commentId: 80,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.20',
+  },
+  {
+    commentId: 81,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.21',
+  },
+  {
+    commentId: 82,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.22',
+  },
+  {
+    commentId: 83,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.23',
+  },
+  {
+    commentId: 84,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.24',
+  },
+  {
+    commentId: 85,
+    email: 'rok.ksohn@gmail.com',
+    storeId: '26571895',
+    content: '여기 단골인데 사장님 너무 좋아요.25',
+  },
 ];
-
+// comments reverse 해서 가져와야 하나?
 const getComments = () => comments;
 
 const findCommentsByStoreId = (storeid) =>
