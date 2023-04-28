@@ -3,9 +3,6 @@ const comments = require('../models/comments');
 const users = require('../models/users');
 
 const router = express.Router();
-// 전체
-// post
-// delete
 router.get('/', (req, res) => {
   res.send(comments.getComments());
 });
@@ -19,7 +16,6 @@ router.get('/:storeid', (req, res) => {
 
   const paginatedComments = storeComments.slice(startIndex, endIndex);
   const totalCommentsPagesByStore = Math.ceil(storeComments.length / pageSize);
-  console.log('comments: ', paginatedComments);
 
   const commentResult = paginatedComments.map((comment) => {
     // 예외 처리 필요
