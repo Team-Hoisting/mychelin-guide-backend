@@ -1,18 +1,16 @@
 const express = require('express');
 const users = require('../models/users');
 const archives = require('../models/archives');
+const votes = require('../models/votes');
 
 const router = express.Router();
 
 router.post('/signin', (req, res) => {
   const { email, password } = req.body;
 
-  console.log(email, password);
   const user = users.findUser(email, password);
   const archived = archives.getArchivesByEmail(email);
-
-  console.log('로그인한 계정:', user);
-  console.log('user: ');
+  const voteStatus = votes.findVotesByEmail(email);
 
   if (!user)
     return res
@@ -26,7 +24,7 @@ router.post('/signin', (req, res) => {
     httpOnly: true,
   });
 
-  res.send({ email, nickname: user.nickname, archived });
+  res.send({ email, nickname: user.nickname, archived, voteStatus });
 });
 
 router.post('/signup', (req, res) => {
@@ -53,7 +51,7 @@ router.post('/signup', (req, res) => {
     httpOnly: true,
   });
 
-  res.send({ email, nickname });
+  res.send({ email, nickname, archived: [], voteStatus: [] });
 });
 
 router.get('/check', (req, res) => {
