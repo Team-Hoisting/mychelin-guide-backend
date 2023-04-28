@@ -1111,11 +1111,18 @@ const getStores = () => stores;
 const getSearchedStores = (searched) =>
   stores.filter((store) => store.storeName.includes(searched));
 
-const getRankedStores = (votes, archivedCounter, starCounter) => {
+// prettier-ignore
+const getRankedStores = ({ votes, userSearch, category, archivedCounter, starCounter }) => {
   const allVotesCount = votes.length;
   let sortedStores = [];
 
-  stores.forEach((store) => {
+  // 1. if userSearch exists, get only the stores with names that includes searched content
+  const validStores = userSearch
+    ? stores.filter((store) => store.storeName.includes(userSearch))
+    : stores;
+
+  // 2. Loop through validStores and add 'totalVotes', 'starCount', 'votesByCategory: <object>' to each store data
+  validStores.forEach((store) => {
     const validVotes = votes.filter(({ storeId }) => storeId === store.storeId);
     const archivedCount = archivedCounter(store.storeId);
 
@@ -1136,6 +1143,11 @@ const getRankedStores = (votes, archivedCounter, starCounter) => {
 
     sortedStores.push(storeData);
   });
+
+  // 3. if category exists, filter stores without votes in the specified category 
+  sortedStores = !category
+    ? sortedStores 
+    : sortedStores.filter(({ votesByCategory }) => Object.keys(votesByCategory).includes(category));
 
   return sortedStores.sort((a, b) => b.totalVotes - a.totalVotes);
 };

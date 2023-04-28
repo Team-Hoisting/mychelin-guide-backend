@@ -9,24 +9,20 @@ const { findStoreById } = require('../models/stores');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  const { category, page_size, page } = req.query;
+  const { usersearch, category, page_size, page } = req.query;
 
-  const rankedStores = stores.getRankedStores(
-    votes.getVotes(),
-    archives.getArcivesByStoreId,
-    votes.getStarCount,
-  );
+  const rankedStores = stores.getRankedStores({
+    votes: votes.getVotes(),
+    userSearch: usersearch,
+    category: category,
+    archivedCounter: archives.getArcivesByStoreId,
+    starCounter: votes.getStarCount,
+  });
 
   const startIndex = (page - 1) * page_size;
   const endIndex = startIndex + +page_size;
 
-  const filteredStores = category
-    ? rankedStores.filter(({ votesByCategory }) =>
-        Object.keys(votesByCategory).includes(category),
-      )
-    : rankedStores;
-
-  const pageStores = filteredStores.slice(startIndex, endIndex);
+  const pageStores = rankedStores.slice(startIndex, endIndex);
 
   res.send(pageStores);
 });
