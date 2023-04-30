@@ -36,7 +36,24 @@ router.patch('/:nickname', (req, res) => {
 
   user = users.findByNickname(content.nickname);
 
-  res.send(user);
+  if (!content.nickname) return res.sendStatus(200);
+
+  const accessToken = users.generateToken(user.email, user.nickname);
+
+  res.cookie('accessToken', accessToken, {
+    maxAge: 1000 * 60 * 60 * 24 * 7,
+    httpOnly: true,
+  });
+
+  const archived = archives.getArchivesByEmail(user.email);
+  const voteStatus = votes.findVotesByEmail(user.email);
+
+  res.send({
+    email: user.email,
+    nickname: user.nickname,
+    archived,
+    voteStatus,
+  });
 });
 
 router.post('/:nickname/votedcategoryorder', (req, res) => {
