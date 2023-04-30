@@ -29,6 +29,7 @@ const jwtMiddleware = require('../lib/jwtMiddleware');
 app.use(express.json());
 app.use(cookieParser());
 app.use(jwtMiddleware);
+app.use(express.static('public'));
 
 app.use('/api', api);
 
