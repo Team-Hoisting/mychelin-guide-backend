@@ -37,8 +37,6 @@ router.get('/:nickname/:category', (req, res) => {
 
   const userVotes = votes.findVotesByEmail(email);
 
-  console.log(userVotes);
-
   const duplicatedVote = userVotes.find(
     (vote) => vote.categoryCode === category,
   );
@@ -56,7 +54,7 @@ router.post('/', (req, res) => {
 
   voteList.push(req.body);
 
-  res.send(req.body);
+  res.send(voteList.filter((vote) => vote.email === req.body.email));
 });
 
 // 재투표
@@ -77,7 +75,7 @@ router.patch('/:nickname/:categoryCode', (req, res) => {
   target.storeId = storeId;
   target.votedAt = votedAt ?? target.votedAt;
 
-  res.send(target);
+  res.send(voteList.filter((vote) => vote.email === email));
 });
 
 router.delete('/:nickname/:categoryCode', (req, res) => {
@@ -93,17 +91,9 @@ router.delete('/:nickname/:categoryCode', (req, res) => {
     (vote) => vote.email === email && vote.categoryCode === categoryCode,
   );
 
-  voteList.splice(index, 1);
+  console.log('here', voteList.splice(index, 1));
 
-  console.log(voteList[index]);
-
-  res.send(voteList[index]);
-});
-
-router.get('/:storeId/:nickname/:categoryCode', (req, res) => {
-  const { storeId, nickname, categoryCode } = req.params;
-
-  console.log(storeId, nickname, categoryCode);
+  res.send(voteList.filter((vote) => vote.email === email));
 });
 
 module.exports = router;
