@@ -690,27 +690,32 @@ let comments = [
     content: '여기 단골인데 사장님 너무 좋아요.25',
   },
 ];
-// comments reverse 해서 가져와야 하나?
-const getComments = () => comments;
 
-const findCommentsByStoreId = (storeid) =>
-  comments.filter((comment) => comment.storeId === storeid);
+const getCommentsByStoreId = (storeId) =>
+  comments.filter((comment) => comment.storeId === storeId);
 
-const generateCommentId = () =>
+const createCommentId = () =>
   Math.max(...comments.map((comment) => comment.commentId), 0) + 1;
 
 const createComment = (newComment) => {
   comments = [newComment, ...comments];
+
+  return newComment;
 };
 
 const deleteComment = (commentId) => {
-  comments = comments.filter((comment) => comment.commentId !== +commentId);
+  const deletedComment = comments.find(
+    (comment) => comment.commentId === +commentId,
+  );
+
+  comments = comments.filter((comment) => comment !== deletedComment);
+
+  return deletedComment;
 };
 
 module.exports = {
-  getComments,
-  findCommentsByStoreId,
+  getCommentsByStoreId,
   createComment,
   deleteComment,
-  generateCommentId,
+  createCommentId,
 };

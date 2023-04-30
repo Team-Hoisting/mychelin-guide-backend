@@ -8,16 +8,19 @@ const router = express.Router();
 router.post('/signin', (req, res) => {
   const { email, password } = req.body;
 
-  const user = users.findUser(email, password);
+  const user = users.getUserByEmailPw({ email, password });
   const archived = archives.getArchivesByEmail(email);
-  const voteStatus = votes.findVotesByEmail(email);
+  const voteStatus = votes.getVotesByEmail(email);
 
   if (!user)
     return res
       .status(401)
       .send({ error: '아이디 또는 패스워드가 틀렸습니다.' });
 
-  const accessToken = users.generateToken(user.email, user.nickname);
+  const accessToken = users.generateToken({
+    email: user.email,
+    nickname: user.nickname,
+  });
 
   res.cookie('accessToken', accessToken, {
     maxAge: 1000 * 60 * 60 * 24 * 7,
@@ -30,21 +33,18 @@ router.post('/signin', (req, res) => {
 router.post('/signup', (req, res) => {
   const { email, password, nickname } = req.body;
 
-  let user = users.findUserByEmail(email);
-
-  console.log('중복된 이메일:', user);
-
-  if (user)
+  if (users.getUserByNickname(email))
     return res.status(409).send({ error: '중복된 이메일이 존재합니다. ' });
 
-  user = users.findByNickname(nickname);
-
-  if (user)
+  if (users.getUserByNickname(nickname))
     return res.status(409).send({ error: '중복된 닉네임이 존재합니다. ' });
 
   const newUser = users.createUser({ email, password, nickname });
 
-  const accessToken = users.generateToken(newUser.email, newUser.nickname);
+  const accessToken = users.generateToken({
+    email: newUser.email,
+    nickname: newUser.nickname,
+  });
 
   res.cookie('accessToken', accessToken, {
     maxAge: 1000 * 60 * 60 * 24 * 7,
@@ -57,8 +57,6 @@ router.post('/signup', (req, res) => {
 router.get('/check', (req, res) => {
   const { user } = req;
 
-  console.log('현재 유저:', user);
-
   if (!user) return res.status(401).send({ error: '토큰 정보가 없습니다.' });
 
   return res.send(user);
@@ -67,11 +65,7 @@ router.get('/check', (req, res) => {
 router.post('/checkEmail', (req, res) => {
   const { email } = req.body;
 
-  console.log('확인할 이메일: ', email);
-
-  const user = users.findUserByEmail(email);
-
-  console.log('중복 이메일 유저: ', user);
+  const user = users.getUserByEmail(email);
 
   if (user) return res.sendStatus(409);
 
@@ -81,11 +75,7 @@ router.post('/checkEmail', (req, res) => {
 router.post('/checkNickname', (req, res) => {
   const { nickname } = req.body;
 
-  console.log('확인할 닉네임: ', nickname);
-
-  const user = users.findByNickname(nickname);
-
-  console.log('중복 닉네임 유저: ', user);
+  const user = users.getUserByNickname(nickname);
 
   if (user) return res.sendStatus(409);
 
