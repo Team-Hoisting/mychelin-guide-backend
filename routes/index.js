@@ -21,9 +21,26 @@ router.use('/votes', votes);
 router.use('/comments', comments);
 router.use('/archives', archives);
 router.use('/users', users);
+const multer = require('multer');
 
-router.get('/', (req, res) => {
-  res.send('Hello, World!');
+// Todo: Store용 분리
+const upload = multer({
+  limits: { fileSize: 5 * 1024 * 1024 },
+  storage: multer.diskStorage({
+    destination(req, file, callback) {
+      callback(null, 'public/img/');
+    },
+    filename(req, file, callback) {
+      // Todo: originalname 변경
+      callback(null, file.originalname);
+    },
+  }),
+});
+
+router.post('/upload', upload.single('img'), (req, res) => {
+  console.log('이미지 업로드 완료', req.file);
+
+  res.json({ success: true, file: req.file });
 });
 
 module.exports = router;

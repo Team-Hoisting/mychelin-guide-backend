@@ -1,5 +1,3 @@
-// const { getStarCount } = require('./votes');
-
 let stores = [
   {
     storeId: '26571895', // 카카오 API의 매장 id
@@ -1106,60 +1104,62 @@ let stores = [
   },
 ];
 
-const getStores = () => stores;
-
-const getSearchedStores = (searched) =>
-  stores.filter((store) => store.storeName.includes(searched));
+const getAllStores = () => stores;
 
 // prettier-ignore
-const getRankedStores = ({ votes, userSearch, category, archivedCounter, starCounter }) => {
-  const allVotesCount = votes.length;
-  let sortedStores = [];
+const getStoresByKeyword = (keyword) => stores.filter(({ storeName }) => storeName.includes(keyword));
 
-  // 1. if userSearch exists, get only the stores with names that includes searched content
-  const validStores = userSearch
-    ? stores.filter((store) => store.storeName.includes(userSearch))
+// prettier-ignore
+const getStoreByStoreId = (storeId) => stores.find((store) => store.storeId === storeId);
+
+const createStore = (newStore) => {
+  stores = [...stores, newStore];
+
+  return newStore;
+};
+
+// prettier-ignore
+const getStoresByOrder = ({ allVotes, keyword, categoryCode, archivesCounterFn, starCounterFn }) => {
+  const allVotesCount = allVotes.length;
+  let beforeSort = [];
+
+  const validStores = keyword
+    ? stores.filter((store) => store.storeName.includes(keyword))
     : stores;
 
-  // 2. Loop through validStores and add 'totalVotes', 'starCount', 'votesByCategory: <object>' to each store data
   validStores.forEach((store) => {
-    const validVotes = votes.filter(({ storeId }) => storeId === store.storeId);
-    const archivedCount = archivedCounter(store.storeId);
+    const validVotes = allVotes.filter(({ storeId }) => storeId === store.storeId);
+    const archivesCount = archivesCounterFn(store.storeId);
 
     const votesByCategory = {};
 
-    validVotes.forEach(({ categoryCode }) =>
-      votesByCategory[categoryCode]
-        ? votesByCategory[categoryCode]++
-        : (votesByCategory[categoryCode] = 1),
+    validVotes.forEach(({ categoryCode: code }) =>
+      votesByCategory[code]
+        ? votesByCategory[code]++
+        : (votesByCategory[code] = 1),
     );
 
     const storeData = {
       ...store,
       totalVotes: validVotes.length,
-      starCount: starCounter(allVotesCount, archivedCount, validVotes.length),
+      starsCount: starCounterFn({ totalVotes: allVotesCount, archivesCount, votesCount: validVotes.length }),
       votesByCategory,
     };
 
-    sortedStores.push(storeData);
+    beforeSort.push(storeData);
   });
 
-  // 3. if category exists, filter stores without votes in the specified category 
-  sortedStores = !category
-    ? sortedStores 
-    : sortedStores.filter(({ votesByCategory }) => Object.keys(votesByCategory).includes(category));
+  beforeSort = !categoryCode
+    ? beforeSort 
+    : beforeSort.filter(({ votesByCategory }) => Object.keys(votesByCategory).includes(categoryCode));
 
-  return sortedStores.sort((a, b) => b.totalVotes - a.totalVotes);
+  return beforeSort.sort((a, b) => b.totalVotes - a.totalVotes);
 };
 
-const findStoreById = (id) => stores.find((store) => store.storeId === id);
-
-const getStoreIds = () => stores.map(({ storeId }) => storeId);
-
 module.exports = {
-  getStores,
-  getStoreIds,
-  getSearchedStores,
-  findStoreById,
-  getRankedStores,
+  getAllStores,
+  getStoresByKeyword,
+  getStoresByOrder,
+  getStoreByStoreId,
+  createStore,
 };

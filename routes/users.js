@@ -6,15 +6,14 @@ const stores = require('../models/stores');
 
 const router = express.Router();
 
-router.get('/:nickname/profile', (req, res) => {
-  const user = users.findByNickname(req.params.nickname);
+router.get('/:nickname', (req, res) => {
+  const user = users.getUserByNickname(req.params.nickname);
 
-  // votes
-  const votesByUser = votes.findVotesByEmail(user.email);
+  const votesByUser = votes.getVotesByEmail(user.email);
 
   const voteStores = votesByUser.map(({ categoryCode, storeId, votedAt }) => ({
     categoryCode,
-    store: stores.findStoreById(storeId),
+    store: stores.getStoreByStoreId(storeId),
     votedAt,
   }));
 
@@ -28,17 +27,14 @@ router.patch('/:nickname', (req, res) => {
   const { nickname } = req.params;
   const content = req.body;
 
-  let user = users.findByNickname(nickname);
+  const user = users.updateUser({ nickname, newInfo: content });
 
-  if (Object.keys(content).includes('nickname'))
-    user.nickname = content.nickname;
-  else user.password = content.password;
+  if (!content.nickname) return res.status(200).send(user);
 
-  user = users.findByNickname(content.nickname);
-
-  if (!content.nickname) return res.sendStatus(200);
-
-  const accessToken = users.generateToken(user.email, user.nickname);
+  const accessToken = users.generateToken({
+    email: user.email,
+    nickname: user.nickname,
+  });
 
   res.cookie('accessToken', accessToken, {
     maxAge: 1000 * 60 * 60 * 24 * 7,
@@ -46,9 +42,9 @@ router.patch('/:nickname', (req, res) => {
   });
 
   const archived = archives.getArchivesByEmail(user.email);
-  const voteStatus = votes.findVotesByEmail(user.email);
+  const voteStatus = votes.getVotesByEmail(user.email);
 
-  res.send({
+  res.status(200).send({
     email: user.email,
     nickname: user.nickname,
     archived,
@@ -56,14 +52,14 @@ router.patch('/:nickname', (req, res) => {
   });
 });
 
-router.post('/:nickname/votedcategoryorder', (req, res) => {
+router.patch('/:nickname/votedcategoryorder', (req, res) => {
   const nickname = req.params.nickname;
   const votedCategoryOrder = req.body.votedCategoryOrder;
 
   // req.params.nickname 유효한 값인지 확인?
   if (!req.body.votedCategoryOrder) return;
 
-  users.updateUserInfo(nickname, { votedCategoryOrder });
+  users.updateUser({ nickname, newInfo: { votedCategoryOrder } });
 
   res.sendStatus(200);
 });

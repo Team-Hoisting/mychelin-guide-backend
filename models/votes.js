@@ -1,13 +1,19 @@
-const votesData = require('./voteData');
+let votesData = require('./voteData');
 
-const getVotes = () => votesData;
+const getAllVotes = () => votesData;
 
-const getTotalCount = () => votesData.length;
+const countAllVotes = () => votesData.length;
 
-const getStarCount = (totalVotes, archiveCount, voteCount) => {
-  const score = archiveCount * 0.001 + voteCount;
+const getVotesByStoreId = (storeId) =>
+  votesData.filter((vote) => vote.storeId === storeId);
 
-  const starCount =
+const getVotesByEmail = (email) =>
+  votesData.filter((vote) => vote.email === email);
+
+const countStars = ({ totalVotes, archivesCount, votesCount }) => {
+  const score = archivesCount * 0.001 + votesCount;
+
+  const starsCount =
     score >= totalVotes * 0.03
       ? 3
       : score >= totalVotes * 0.02
@@ -16,19 +22,46 @@ const getStarCount = (totalVotes, archiveCount, voteCount) => {
       ? 1
       : 0;
 
-  return starCount;
+  return starsCount;
 };
 
-const findVotesByStoreId = (id) =>
-  votesData.filter((vote) => vote.storeId === id);
+const createVote = (newVote) => {
+  votesData = [...votesData, newVote];
 
-const findVotesByEmail = (email) =>
-  votesData.filter((vote) => vote.email === email);
+  return newVote;
+};
+
+const updateVote = ({ email, categoryCode, storeId, votedAt }) => {
+  votesData = votesData.map((vote) =>
+    vote.email === email && vote.categoryCode === categoryCode
+      ? { ...vote, storeId, votedAt }
+      : vote,
+  );
+
+  return votesData.find(
+    (vote) => vote.email === email && vote.categoryCode === categoryCode,
+  );
+};
+
+const deleteVote = ({ email, categoryCode }) => {
+  const deletedVote = votesData.find(
+    (vote) => vote.email === email && vote.categoryCode === categoryCode,
+  );
+
+  votesData = votesData.filter(
+    (vote) => vote.email !== email || vote.categoryCode !== categoryCode,
+  );
+
+  return deletedVote;
+};
 
 module.exports = {
-  getVotes,
-  getTotalCount,
-  findVotesByStoreId,
-  findVotesByEmail,
-  getStarCount,
+  getAllVotes,
+  countAllVotes,
+  getVotesByStoreId,
+  getVotesByEmail,
+  countStars,
+  createVote,
+  updateVote,
+  deleteVote,
 };
