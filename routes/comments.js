@@ -3,28 +3,20 @@ const comments = require('../models/comments');
 const users = require('../models/users');
 
 const router = express.Router();
-// 전체
-// post
-// delete
-router.get('/', (req, res) => {
-  res.send(comments.getComments());
-});
 
-router.get('/:storeid', (req, res) => {
-  const { pageSize, page } = req.query;
-  const storeComments = comments.findCommentsByStoreId(req.params.storeid);
+router.get('/:storeId', (req, res) => {
+  const { page_size, page } = req.query;
+  const storeComments = comments.getCommentsByStoreId(req.params.storeId);
 
-  const startIndex = (page - 1) * pageSize;
-  const endIndex = startIndex + +pageSize;
+  const startIndex = (page - 1) * page_size;
+  const endIndex = startIndex + +page_size;
 
   const paginatedComments = storeComments.slice(startIndex, endIndex);
-  const totalCommentsPagesByStore = Math.ceil(storeComments.length / pageSize);
-  console.log('comments: ', paginatedComments);
+  const totalCommentsPagesByStore = Math.ceil(storeComments.length / page_size);
 
   const commentResult = paginatedComments.map((comment) => {
-    // 예외 처리 필요
     if (!comment.email) return;
-    const { nickname, isCertified } = users.findUserByEmail(comment.email);
+    const { nickname, isCertified } = users.getUserByEmail(comment.email);
     return {
       ...comment,
       nickname,
@@ -37,7 +29,7 @@ router.get('/:storeid', (req, res) => {
 
 router.post('/', (req, res) => {
   if (!req.body.email) return;
-  const newComment = { ...req.body, commentId: comments.generateCommentId() };
+  const newComment = { ...req.body, commentId: comments.createCommentId() };
   comments.createComment(newComment);
 
   res.sendStatus(200);

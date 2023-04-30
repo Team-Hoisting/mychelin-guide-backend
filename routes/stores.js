@@ -4,19 +4,17 @@ const users = require('../models/users');
 const votes = require('../models/votes');
 const archives = require('../models/archives');
 
-const { findStoreById } = require('../models/stores');
-
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  const { usersearch, category, page_size, page } = req.query;
+  const { keyword, categoryCode, page_size, page } = req.query;
 
-  const rankedStores = stores.getRankedStores({
-    votes: votes.getVotes(),
-    userSearch: usersearch,
-    category: category,
-    archivedCounter: archives.getArcivesByStoreId,
-    starCounter: votes.getStarCount,
+  const rankedStores = stores.getStoresByOrder({
+    allVotes: votes.getAllVotes(),
+    keyword,
+    categoryCode,
+    archivesCounterFn: archives.getArchivesByStoreId,
+    starCounterFn: votes.countStars,
   });
 
   const startIndex = (page - 1) * page_size;
@@ -28,11 +26,11 @@ router.get('/', (req, res) => {
 });
 
 router.get('/search', (req, res) => {
-  const { usersearch, page_size, page } = req.query;
+  const { keyword, page_size, page } = req.query;
 
-  if (!page_size && !page) res.send(stores.getSearchedStores(usersearch));
+  if (!page_size && !page) res.send(stores.getStoresByKeyword(keyword));
 
-  const searchedStores = stores.getSearchedStores(usersearch);
+  const searchedStores = stores.getStoresByKeyword(keyword);
 
   const startIndex = (page - 1) * page_size;
   const endIndex = startIndex + +page_size;
@@ -42,8 +40,8 @@ router.get('/search', (req, res) => {
   res.send(pageStores);
 });
 
-router.get('/:id', (req, res) => {
-  const storeData = stores.findStoreById(req.params.id);
+router.get('/:storeId', (req, res) => {
+  const storeData = stores.getStoreByStoreId(req.params.storeId);
 
   if (!storeData) {
     res.send(null);
@@ -52,54 +50,51 @@ router.get('/:id', (req, res) => {
 
   const storeId = storeData.storeId;
 
-  const userName = users.findUserByEmail(storeData.firstUserId).nickname;
-  const votesCategorized = votes.findVotesByStoreId(storeId);
+  const nickname = users.getUserByEmail(storeData.firstUserId).nickname;
+  const votesCategorized = votes.getVotesByStoreId(storeId);
 
-  const voteCnt = votesCategorized.reduce((acc, vote) => {
+  const votesCount = votesCategorized.reduce((acc, vote) => {
     const voteCode = vote.categoryCode;
     acc[voteCode] = (acc[voteCode] || 0) + 1;
     return acc;
   }, {});
 
-  const totalVotes = votes.getTotalCount();
-  const totalStoreVoteCnt = votes.findVotesByStoreId(storeId).length;
-  const archivedCnt = archives.getArcivesByStoreId(storeId);
+  const totalVotes = votes.countAllVotes();
+  const totalStoreVoteCnt = votes.getVotesByStoreId(storeId).length;
+  const archivesCount = archives.getArchivesByStoreId(storeId);
 
-  const starCnt = votes.getStarCount(
+  const starsCount = votes.countStars(
     totalVotes,
-    archivedCnt,
+    archivesCount,
     totalStoreVoteCnt,
   );
 
   res.send({
     ...storeData,
-    voteCnt,
-    firstVoteUser: userName,
-    archivedCnt,
-    starCnt,
+    votesCount,
+    firstVoteUser: nickname,
+    archivesCount,
+    starsCount,
   });
 });
 
 router.get('/voted/:nickname', (req, res) => {
-  const { email } = users.findByNickname(req.params.nickname);
+  const { email } = users.getUserByNickname(req.params.nickname);
 
-  const votesByUser = votes.findVotesByEmail(email);
+  const votesByUser = votes.getVotesByEmail(email);
 
   const data = votesByUser.map(({ categoryCode, storeId }) => ({
     categoryCode,
-    store: findStoreById(storeId),
+    store: stores.getStoreByStoreId(storeId),
   }));
 
   res.send(data);
 });
 
 router.get('/archived/:nickname', (req, res) => {
-  const { nickname } = req.params;
-  const { email } = users.findByNickname(nickname);
-
-  console.log(email);
-
   const { page_size, page } = req.query;
+  const { nickname } = req.params;
+  const { email } = users.getUserByNickname(nickname);
 
   const startIndex = (page - 1) * page_size;
   const endIndex = startIndex + +page_size;
@@ -107,8 +102,8 @@ router.get('/archived/:nickname', (req, res) => {
   const archivesByUser = archives.getArchivesByEmail(email);
 
   const archiveStores = archivesByUser.map(({ storeId }) => {
-    const newStore = stores.findStoreById(storeId);
-    if (!newStore) console.log('WRONG', storeId);
+    const newStore = stores.getStoreByStoreId(storeId);
+
     return newStore;
   });
 

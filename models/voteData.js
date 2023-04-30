@@ -1,6 +1,6 @@
 const curDate = new Date();
 
-const votesData = [
+let votesData = [
   {
     storeId: '21366133',
     email: 'bin000527@naver.com',

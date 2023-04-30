@@ -3,17 +3,17 @@ const archives = require('../models/archives');
 
 const router = express.Router();
 
-router.post('/archive', (req, res) => {
+router.post('/', (req, res) => {
   const newArchive = req.body;
   archives.addArchive(newArchive);
 
-  res.send(newArchive);
+  res.sendStatus(200);
 });
 
-router.post('/unarchive', (req, res) => {
+router.delete('/', (req, res) => {
   archives.deleteArchive(req.body);
 
-  res.send(200);
+  res.sendStatus(200);
 });
 
 module.exports = router;
