@@ -4,6 +4,7 @@
  * @see https://inpa.tistory.com/entry/EXPRESS-%F0%9F%93%9A-%EB%9D%BC%EC%9A%B0%ED%84%B0-Router
  */
 const express = require('express');
+const fs = require('fs');
 
 const router = express.Router();
 
@@ -24,23 +25,35 @@ router.use('/users', users);
 const multer = require('multer');
 
 // Todo: Store용 분리
-const upload = multer({
+const uploadUser = multer({
   limits: { fileSize: 5 * 1024 * 1024 },
   storage: multer.diskStorage({
     destination(req, file, callback) {
-      callback(null, 'public/img/');
+      callback(null, 'public/img/users');
     },
     filename(req, file, callback) {
       // Todo: originalname 변경
-      callback(null, file.originalname);
+      callback(null, req.user.nickname);
     },
   }),
 });
 
-router.post('/upload', upload.single('img'), (req, res) => {
+router.post('/upload/user', uploadUser.single('img'), (req, res) => {
   console.log('이미지 업로드 완료', req.file);
 
   res.json({ success: true, file: req.file });
+});
+
+router.delete('/upload/user', (req, res) => {
+  try {
+    fs.unlinkSync(`public/img/users/${req.user.nickname}`);
+
+    res.json({ success: true });
+  } catch (err) {
+    if (err.code == 'ENOENT') {
+      console.log('파일 삭제 Error 발생');
+    }
+  }
 });
 
 module.exports = router;

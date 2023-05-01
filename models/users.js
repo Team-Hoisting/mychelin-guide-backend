@@ -8043,11 +8043,14 @@ const createUser = (user) => {
 };
 
 const updateUser = ({ nickname, newInfo }) => {
-  users = users.map((user) =>
-    user.nickname === nickname ? { ...user, ...newInfo } : user,
-  );
+  let targetUser = {
+    ...users.find((user) => user.nickname === nickname),
+    ...newInfo,
+  };
 
-  return getUserByNickname(nickname);
+  users = users.map((user) => (user.nickname === nickname ? targetUser : user));
+
+  return targetUser;
 };
 
 module.exports = {

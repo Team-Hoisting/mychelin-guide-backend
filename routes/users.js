@@ -3,6 +3,7 @@ const users = require('../models/users');
 const votes = require('../models/votes');
 const archives = require('../models/archives');
 const stores = require('../models/stores');
+const fs = require('fs');
 
 const router = express.Router();
 
@@ -30,6 +31,14 @@ router.patch('/:nickname', (req, res) => {
   const user = users.updateUser({ nickname, newInfo: content });
 
   if (!content.nickname) return res.status(200).send(user);
+
+  fs.rename(
+    `public/img/users/${nickname}`,
+    `public/img/users/${content.nickname}`,
+    (err) => {
+      if (err) console.log('ERROR: ' + err);
+    },
+  );
 
   const accessToken = users.generateToken({
     email: user.email,
