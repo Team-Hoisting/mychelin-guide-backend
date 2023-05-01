@@ -1,6 +1,7 @@
 const express = require('express');
 const votes = require('../models/votes');
 const users = require('../models/users');
+const stores = require('../models/stores');
 
 const router = express.Router();
 
@@ -19,18 +20,50 @@ router.get('/:nickname', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  const content = req.body;
+  const { storeId, email, categoryCode, votedAt, storeInfo } = req.body;
 
-  votes.createVote(content);
+  console.log('[storeId]: ', storeId);
 
-  res.send(votes.getVotesByEmail(content.email));
+  const store = stores.getStoreByStoreId(storeId);
+
+  console.log('[store]', store);
+
+  if (!store)
+    console.log(
+      stores.createStore({
+        storeId,
+        firstUserId: email,
+        imgUrl: '',
+        ...storeInfo,
+      }),
+    );
+
+  votes.createVote({
+    storeId,
+    email,
+    categoryCode,
+    votedAt,
+  });
+
+  res.send(votes.getVotesByEmail(email));
 });
 
 router.patch('/:nickname/:categoryCode', (req, res) => {
   const { nickname, categoryCode } = req.params;
-  const { storeId, votedAt } = req.body;
-
+  const { storeId, votedAt, storeInfo } = req.body;
   const { email } = users.getUserByNickname(nickname);
+
+  const store = stores.getStoreByStoreId(storeId);
+
+  if (!store)
+    console.log(
+      stores.createStore({
+        storeId,
+        firstUserId: email,
+        imgUrl: '',
+        ...storeInfo,
+      }),
+    );
 
   votes.updateVote({ email, categoryCode, storeId, votedAt });
 

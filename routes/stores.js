@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
 router.get('/search', (req, res) => {
   const { keyword, page_size, page } = req.query;
 
-  if (!page_size && !page) res.send(stores.getStoresByKeyword(keyword));
+  if (!page_size && !page) return res.send(stores.getStoresByKeyword(keyword));
 
   const searchedStores = stores.getStoresByKeyword(keyword);
 
