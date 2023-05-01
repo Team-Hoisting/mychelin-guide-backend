@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
 router.get('/search', (req, res) => {
   const { keyword, page_size, page } = req.query;
 
-  if (!page_size && !page) res.send(stores.getStoresByKeyword(keyword));
+  if (!page_size && !page) return res.send(stores.getStoresByKeyword(keyword));
 
   const searchedStores = stores.getStoresByKeyword(keyword);
 
@@ -110,6 +110,18 @@ router.get('/archived/:nickname', (req, res) => {
   const pageStores = archiveStores.slice(startIndex, endIndex);
 
   res.send(pageStores);
+});
+
+router.get('/searchMap/:condition', (req, res) => {
+  if (req.params.condition !== 'isRegistered') return;
+
+  const data = {};
+
+  Object.values(req.query).forEach((id) => {
+    data[id] = stores.getStoreByStoreId(id) ? true : false;
+  });
+
+  res.send(data);
 });
 
 module.exports = router;
