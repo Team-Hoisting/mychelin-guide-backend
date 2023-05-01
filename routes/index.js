@@ -38,8 +38,6 @@ const uploadUser = multer({
   }),
 });
 
-// 이미지 삭제, 닉네임 변경 시 사진 이름 변경
-
 router.post('/upload/user', uploadUser.single('img'), (req, res) => {
   console.log('이미지 업로드 완료', req.file);
 
