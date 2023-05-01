@@ -112,4 +112,16 @@ router.get('/archived/:nickname', (req, res) => {
   res.send(pageStores);
 });
 
+router.get('/searchMap/:condition', (req, res) => {
+  if (req.params.condition !== 'isRegistered') return;
+
+  const data = {};
+
+  Object.values(req.query).forEach((id) => {
+    data[id] = stores.getStoreByStoreId(id) ? true : false;
+  });
+
+  res.send(data);
+});
+
 module.exports = router;
