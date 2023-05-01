@@ -423,12 +423,15 @@ const createArchive = ({ storeId, email }) => {
 };
 
 const deleteArchive = ({ email, storeId }) => {
-  const [{ archiveId }] = archives.filter(
+  const deletedArchive = archives.filter(
     (arc) => arc.email === email && arc.storeId === storeId,
   );
 
-  const deletedArchive = archives.filter((arc) => arc.archiveId === +archiveId);
-  archives = archives.filter((arc) => arc !== deleteArchive);
+  if (!deletedArchive.length) return;
+
+  const [{ archiveId: archiveToDeleteSeq }] = deletedArchive;
+
+  archives = archives.filter((arc) => arc.archiveId !== archiveToDeleteSeq);
 
   return deletedArchive;
 };
