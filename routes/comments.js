@@ -12,6 +12,7 @@ router.get('/:storeId', (req, res) => {
   const endIndex = startIndex + +page_size;
 
   const paginatedComments = storeComments.slice(startIndex, endIndex);
+
   const totalCommentsPagesByStore = Math.ceil(storeComments.length / page_size);
 
   const commentResult = paginatedComments.map((comment) => {

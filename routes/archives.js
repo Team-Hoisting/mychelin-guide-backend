@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.post('/', (req, res) => {
   const newArchive = req.body;
-  archives.addArchive(newArchive);
+  archives.createArchive(newArchive);
 
   res.sendStatus(200);
 });
