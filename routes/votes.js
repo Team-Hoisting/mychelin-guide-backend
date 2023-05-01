@@ -22,22 +22,6 @@ router.get('/:nickname', (req, res) => {
 router.post('/', (req, res) => {
   const { storeId, email, categoryCode, votedAt, storeInfo } = req.body;
 
-  console.log('[storeId]: ', storeId);
-
-  const store = stores.getStoreByStoreId(storeId);
-
-  console.log('[store]', store);
-
-  if (!store)
-    console.log(
-      stores.createStore({
-        storeId,
-        firstUserId: email,
-        imgUrl: '',
-        ...storeInfo,
-      }),
-    );
-
   votes.createVote({
     storeId,
     email,
@@ -45,7 +29,19 @@ router.post('/', (req, res) => {
     votedAt,
   });
 
-  res.send(votes.getVotesByEmail(email));
+  const store = stores.getStoreByStoreId(storeId);
+  const voteStatus = votes.getVotesByEmail(email);
+
+  if (store) return res.send({ voteStatus });
+
+  const newStore = stores.createStore({
+    storeId,
+    firstUserId: email,
+    imgUrl: '',
+    ...storeInfo,
+  });
+
+  res.send({ voteStatus, newStore });
 });
 
 router.patch('/:nickname/:categoryCode', (req, res) => {
@@ -53,21 +49,21 @@ router.patch('/:nickname/:categoryCode', (req, res) => {
   const { storeId, votedAt, storeInfo } = req.body;
   const { email } = users.getUserByNickname(nickname);
 
-  const store = stores.getStoreByStoreId(storeId);
-
-  if (!store)
-    console.log(
-      stores.createStore({
-        storeId,
-        firstUserId: email,
-        imgUrl: '',
-        ...storeInfo,
-      }),
-    );
-
   votes.updateVote({ email, categoryCode, storeId, votedAt });
 
-  res.send(votes.getVotesByEmail(email));
+  const store = stores.getStoreByStoreId(storeId);
+  const voteStatus = votes.getVotesByEmail(email);
+
+  if (store) return res.send({ voteStatus });
+
+  const newStore = stores.createStore({
+    storeId,
+    firstUserId: email,
+    imgUrl: '',
+    ...storeInfo,
+  });
+
+  res.send({ voteStatus, newStore });
 });
 
 router.delete('/:nickname/:categoryCode', (req, res) => {
@@ -77,7 +73,9 @@ router.delete('/:nickname/:categoryCode', (req, res) => {
 
   votes.deleteVote({ email, categoryCode });
 
-  res.send(votes.getVotesByEmail(email));
+  const voteStatus = votes.getVotesByEmail(email);
+
+  res.send({ voteStatus });
 });
 
 module.exports = router;
