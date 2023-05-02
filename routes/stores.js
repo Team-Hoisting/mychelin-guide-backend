@@ -53,25 +53,25 @@ router.get('/:storeId', (req, res) => {
   const nickname = users.getUserByEmail(storeData.firstUserId).nickname;
   const votesCategorized = votes.getVotesByStoreId(storeId);
 
-  const votesCount = votesCategorized.reduce((acc, vote) => {
+  const votesCountByStoreId = votesCategorized.reduce((acc, vote) => {
     const voteCode = vote.categoryCode;
     acc[voteCode] = (acc[voteCode] || 0) + 1;
     return acc;
   }, {});
 
   const totalVotes = votes.countAllVotes();
-  const totalStoreVoteCnt = votes.getVotesByStoreId(storeId).length;
+  const votesCount = votes.getVotesByStoreId(storeId).length;
   const archivesCount = archives.getArchivesByStoreId(storeId);
 
-  const starsCount = votes.countStars(
+  const starsCount = votes.countStars({
     totalVotes,
     archivesCount,
-    totalStoreVoteCnt,
-  );
+    votesCount,
+  });
 
   res.send({
     ...storeData,
-    votesCount,
+    voteCnt: votesCountByStoreId,
     firstVoteUser: nickname,
     archivesCount,
     starsCount,
