@@ -5,6 +5,7 @@
  */
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 
 const router = express.Router();
 
@@ -36,6 +37,37 @@ const uploadUser = multer({
       callback(null, req.user.nickname);
     },
   }),
+});
+
+const uploadStore = multer({
+  limits: { fileSize: 5 * 1024 * 1024 },
+  storage: multer.diskStorage({
+    destination(req, file, callback) {
+      callback(null, 'public/img/stores');
+    },
+    filename(req, file, callback) {
+      console.log('req: ', file);
+      callback(null, req.body.filename + path.extname(file.originalname));
+    },
+  }),
+});
+
+router.post('/upload/store', uploadStore.single('img'), async (req, res) => {
+  console.log('store 이미지', req.file);
+  console.log(req.file.path.replace('undefined', req.body.filename));
+  console.log(req.file.path);
+
+  if (req.body.filename)
+    await fs.rename(
+      req.file.path,
+      req.file.path.replace('undefined', req.body.filename),
+    );
+  // fs.renameSync(
+  //   req.file.path,
+  //   req.file.path.replace('undefined', req.body.filename),
+  // );
+
+  res.json({ success: true, file: req.file });
 });
 
 router.post('/upload/user', uploadUser.single('img'), (req, res) => {
