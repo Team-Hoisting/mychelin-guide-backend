@@ -46,26 +46,22 @@ const uploadStore = multer({
       callback(null, 'public/img/stores');
     },
     filename(req, file, callback) {
-      console.log('req: ', file);
-      callback(null, req.body.filename + path.extname(file.originalname));
+      console.log('req obj: ', req);
+      callback(null, file.originalname);
     },
   }),
 });
 
-router.post('/upload/store', uploadStore.single('img'), async (req, res) => {
+router.post('/upload/store', uploadStore.single('img'), (req, res) => {
   console.log('store 이미지', req.file);
-  console.log(req.file.path.replace('undefined', req.body.filename));
-  console.log(req.file.path);
 
-  if (req.body.filename)
-    await fs.rename(
-      req.file.path,
-      req.file.path.replace('undefined', req.body.filename),
-    );
-  // fs.renameSync(
-  //   req.file.path,
-  //   req.file.path.replace('undefined', req.body.filename),
-  // );
+  fs.rename(
+    `public/img/stores/${req.file.originalname}`,
+    `public/img/stores/${req.body.filename}`,
+    (err) => {
+      if (err) console.log('ERROR: ' + err);
+    },
+  );
 
   res.json({ success: true, file: req.file });
 });
