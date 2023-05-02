@@ -115,11 +115,9 @@ router.get('/archived/:nickname', (req, res) => {
 router.get('/searchMap/:condition', (req, res) => {
   if (req.params.condition !== 'isRegistered') return;
 
-  const data = {};
-
-  Object.values(req.query).forEach((id) => {
-    data[id] = stores.getStoreByStoreId(id) ? true : false;
-  });
+  const data = Array.from({ length: Object.keys(req.query).length }, (_, idx) =>
+    stores.getStoreByStoreId(req.query[idx]) ? true : false,
+  );
 
   res.send(data);
 });
