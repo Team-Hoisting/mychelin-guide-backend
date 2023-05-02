@@ -25,7 +25,6 @@ router.use('/archives', archives);
 router.use('/users', users);
 const multer = require('multer');
 
-// Todo: Store용 분리
 const uploadUser = multer({
   limits: { fileSize: 5 * 1024 * 1024 },
   storage: multer.diskStorage({
@@ -33,7 +32,6 @@ const uploadUser = multer({
       callback(null, 'public/img/users');
     },
     filename(req, file, callback) {
-      // Todo: originalname 변경
       callback(null, req.user.nickname);
     },
   }),
@@ -46,24 +44,9 @@ const uploadStore = multer({
       callback(null, 'public/img/stores');
     },
     filename(req, file, callback) {
-      console.log('req obj: ', req);
       callback(null, file.originalname);
     },
   }),
-});
-
-router.post('/upload/store', uploadStore.single('img'), (req, res) => {
-  console.log('store 이미지', req.file);
-
-  fs.rename(
-    `public/img/stores/${req.file.originalname}`,
-    `public/img/stores/${req.body.filename}`,
-    (err) => {
-      if (err) console.log('ERROR: ' + err);
-    },
-  );
-
-  res.json({ success: true, file: req.file });
 });
 
 router.post('/upload/user', uploadUser.single('img'), (req, res) => {
@@ -82,6 +65,18 @@ router.delete('/upload/user', (req, res) => {
       console.log('파일 삭제 Error 발생');
     }
   }
+});
+
+router.post('/upload/store', uploadStore.single('img'), (req, res) => {
+  fs.rename(
+    `public/img/stores/${req.file.originalname}`,
+    `public/img/stores/${req.body.filename}`,
+    (err) => {
+      if (err) console.log('ERROR: ' + err);
+    },
+  );
+
+  res.json({ success: true, file: req.file });
 });
 
 module.exports = router;

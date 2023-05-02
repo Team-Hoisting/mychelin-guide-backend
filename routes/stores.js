@@ -59,6 +59,17 @@ router.get('/:storeId', (req, res) => {
     return acc;
   }, {});
 
+  const sortedVotesCountByStoreId = Object.fromEntries(
+    Object.entries(votesCountByStoreId).sort(([, a], [, b]) =>
+      a > b ? -1 : 1,
+    ),
+  );
+
+  const voteCntArr = Object.keys(sortedVotesCountByStoreId).map((item) => ({
+    [item]: sortedVotesCountByStoreId[item],
+  }));
+  console.log('vote: ', voteCntArr);
+
   const totalVotes = votes.countAllVotes();
   const votesCount = votes.getVotesByStoreId(storeId).length;
   const archivesCount = archives.getArchivesByStoreId(storeId);
@@ -71,7 +82,7 @@ router.get('/:storeId', (req, res) => {
 
   res.send({
     ...storeData,
-    voteCnt: votesCountByStoreId,
+    voteCnt: voteCntArr,
     firstVoteUser: nickname,
     archivesCount,
     starsCount,
