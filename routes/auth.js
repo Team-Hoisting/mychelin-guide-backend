@@ -41,17 +41,17 @@ router.post('/signup', (req, res) => {
 
   const newUser = users.createUser({ email, password, nickname });
 
-  const accessToken = users.generateToken({
-    email: newUser.email,
-    nickname: newUser.nickname,
-  });
+  // const accessToken = users.generateToken({
+  //   email: newUser.email,
+  //   nickname: newUser.nickname,
+  // });
 
-  res.cookie('accessToken', accessToken, {
-    maxAge: 1000 * 60 * 60 * 24 * 7,
-    httpOnly: true,
-  });
+  // res.cookie('accessToken', accessToken, {
+  //   maxAge: 1000 * 60 * 60 * 24 * 7,
+  //   httpOnly: true,
+  // });
 
-  res.send({ email, nickname, archived: [], voteStatus: [] });
+  res.send({ newUser });
 });
 
 router.get('/check', (req, res) => {
