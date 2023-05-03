@@ -20,7 +20,7 @@ let users = [
   {
     email: 'rok.ksohn@gmail.com',
     password: '123456789',
-    nickname: '아리조나제임스',
+    nickname: '유사한국인제임스',
 
     isCertified: true,
     votedCategoryOrder: [],
@@ -28,7 +28,7 @@ let users = [
   {
     email: 'alswl99710@gmail.com',
     password: 'abcdefg',
-    nickname: 'MEAN G',
+    nickname: '서면퀸민지',
 
     isCertified: true,
     votedCategoryOrder: [],
@@ -36,95 +36,95 @@ let users = [
   {
     email: 'sanbondeveloper@gmail.com',
     password: 'adfkjadfkjakfd',
-    nickname: '퐉경맥쓰',
+    nickname: '피오깃경민',
 
     isCertified: true,
     votedCategoryOrder: [],
   },
   {
-    email: 'battenborrow3@de.vu',
-    password: 'xlzE9QS',
-    nickname: 'Benni',
+    email: 'kimdongkyu@zerobase.com',
+    password: '1234567',
+    nickname: '마라러버동규',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'abolam4@homestead.com',
-    password: '2TTc30H',
-    nickname: 'Arne',
+    email: 'leedongkyu@zerobase.com',
+    password: '1234567',
+    nickname: '규동규동동경규동',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'ggatherer5@walmart.com',
-    password: 'izyLPyl',
-    nickname: 'Griff',
+    email: 'chayunseul@zerobase.com',
+    password: '1234567',
+    nickname: '못먹는윤슬씨',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'dboxall6@cdc.gov',
-    password: 'bId7mjUIfq',
-    nickname: 'Dawn',
+    email: 'kimkyungwoo@zerobase.com',
+    password: '1234567',
+    nickname: '송도보이경우',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'gyo7@techcrunch.com',
-    password: 'qj4sZzZ',
-    nickname: 'Giffy',
+    email: 'ungmo2@zerobase.com',
+    password: '1234567',
+    nickname: 'JS아버지이웅모',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'kbartali8@accuweather.com',
-    password: 'lj4cVrM',
-    nickname: 'Keri',
+    email: 'choisoomin@zerobase.com',
+    password: '1234567',
+    nickname: '광주걸수민',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'dcosin9@dyndns.org',
-    password: 'EqW4bolu6z',
-    nickname: 'Delphinia',
+    email: 'kimkyungjae@zerobase.com',
+    password: '1234567',
+    nickname: '수학김경재',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'cyendlea@amazon.co.uk',
-    password: 'ugPj38s2P6',
-    nickname: 'Ches',
+    email: 'seojunpyo@zerobase.com',
+    password: '1234567',
+    nickname: '아샷추극혐준표',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'gdjokovicb@google.nl',
-    password: 'Vzq8DR2Us',
-    nickname: 'Gussie',
+    email: 'parksunhwa@zerobase.com',
+    password: '1234567',
+    nickname: '선화는못말려',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'kfontellesc@fc2.com',
-    password: 'v8qCjo1c',
-    nickname: 'Katerine',
+    email: 'choiinae@zerobase.com',
+    password: '1234567',
+    nickname: '인애NOut',
 
     isCertified: false,
     votedCategoryOrder: [],
   },
   {
-    email: 'bdodgshund@csmonitor.com',
-    password: '6nS7RIHtz',
-    nickname: 'Berti',
+    email: 'kwonhyukmin@zerobase.com',
+    password: '1234567',
+    nickname: '권축가혁민',
 
     isCertified: false,
     votedCategoryOrder: [],

@@ -686,6 +686,60 @@ let comments = [
   {
     commentId: 114,
     email: 'rok.ksohn@gmail.com',
+    storeId: '8037122',
+    content: '왠만하면 샐러드 안먹는데 여긴 정말 맛있어요!',
+  },
+  {
+    commentId: 115,
+    email: 'alswl99710@gmail.com',
+    storeId: '8037122',
+    content: '와따 마~ 사장님 좀 치네예~',
+  },
+  {
+    commentId: 116,
+    email: 'sanbondeveloper@gmail.com',
+    storeId: '8037122',
+    content: '솔직히 산본에 더 맛있는 데 많은데 여기도 나쁘지 않음 ㅇㅈ',
+  },
+  {
+    commentId: 117,
+    email: 'seojunpyo@zerobase.com',
+    storeId: '8037122',
+    content: '후식으로 나오는 커피가 나쁘지 않더군요',
+  },
+  {
+    commentId: 118,
+    email: 'bin000527@naver.com',
+    storeId: '8037122',
+    content: '끼야야야야호!!!! 너무 맛있어염!!! 뿜뿜!!!!',
+  },
+  {
+    commentId: 119,
+    email: 'kimdongkyu@zerobase.com',
+    storeId: '8037122',
+    content: '솔직히 마라탕만큼은 아닌데 진짜 맛있긴 합니다.',
+  },
+  {
+    commentId: 120,
+    email: 'chayunseul@zerobase.com',
+    storeId: '8037122',
+    content: '두 입 먹으니까 배불러요.. 냐하!',
+  },
+  {
+    commentId: 121,
+    email: 'kimkyungwoo@zerobase.com',
+    storeId: '8037122',
+    content: '음식 낫배드, 집 가고싶다',
+  },
+  {
+    commentId: 122,
+    email: 'ungmo2@zerobase.com',
+    storeId: '8037122',
+    content: 'JavaScript보단 맛 없네',
+  },
+  {
+    commentId: 123,
+    email: 'rok.ksohn@gmail.com',
     storeId: '26571895',
     content: '여기 단골인데 사장님 너무 좋아요.25',
   },
@@ -713,9 +767,12 @@ const deleteComment = (commentId) => {
   return deletedComment;
 };
 
+const getAllComments = () => comments;
+
 module.exports = {
   getCommentsByStoreId,
   createComment,
   deleteComment,
   createCommentId,
+  getAllComments,
 };
