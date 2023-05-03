@@ -34,6 +34,7 @@ router.post('/', (req, res) => {
   comments.createComment(newComment);
 
   res.sendStatus(200);
+  console.log(comments.getAllComments());
 });
 
 router.delete('/:commentId', (req, res) => {
