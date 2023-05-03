@@ -28,6 +28,11 @@ router.patch('/:nickname', (req, res) => {
   const { nickname } = req.params;
   const content = req.body;
 
+  const target = users.getUserByNickname(nickname);
+
+  if (content.password === target.password)
+    return res.status(409).send({ message: '기존 비밀번호와 동일' });
+
   const user = users.updateUser({ nickname, newInfo: content });
 
   if (!content.nickname) return res.status(200).send(user);
