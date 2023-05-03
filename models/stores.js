@@ -1153,7 +1153,8 @@ const getStoresByOrder = ({ allVotes, keyword, categoryCode, archivesCounterFn, 
       ...store,
       totalVotes: validVotes.length,
       starsCount: starCounterFn({ totalVotes: allVotesCount, archivesCount, votesCount: validVotes.length }),
-      votesByCategory: voteCntArr,
+      votesByCategory,
+      voteCntArr,
     };
 
     beforeSort.push(storeData);
