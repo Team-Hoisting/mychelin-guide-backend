@@ -39,7 +39,13 @@ router.post('/signup', (req, res) => {
   if (users.getUserByNickname(nickname))
     return res.status(409).send({ error: '중복된 닉네임이 존재합니다. ' });
 
-  const newUser = users.createUser({ email, password, nickname });
+  const newUser = users.createUser({
+    email,
+    password,
+    nickname,
+    isCertified: false,
+    votedCategoryOrder: [],
+  });
 
   // const accessToken = users.generateToken({
   //   email: newUser.email,
