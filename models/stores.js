@@ -1138,12 +1138,22 @@ const getStoresByOrder = ({ allVotes, keyword, categoryCode, archivesCounterFn, 
         ? votesByCategory[code]++
         : (votesByCategory[code] = 1),
     );
+    
+  const sortedVotesCountByStoreId = Object.fromEntries(
+    Object.entries(votesByCategory).sort(([, a], [, b]) =>
+      a > b ? -1 : 1,
+    ),
+  );
+
+  const voteCntArr = Object.keys(sortedVotesCountByStoreId).map((item) => ({
+    [item]: sortedVotesCountByStoreId[item],
+  }));
 
     const storeData = {
       ...store,
       totalVotes: validVotes.length,
       starsCount: starCounterFn({ totalVotes: allVotesCount, archivesCount, votesCount: validVotes.length }),
-      votesByCategory,
+      votesByCategory: voteCntArr,
     };
 
     beforeSort.push(storeData);
