@@ -41,7 +41,7 @@ router.patch('/:nickname', (req, res) => {
     `public/img/users/${nickname}`,
     `public/img/users/${content.nickname}`,
     (err) => {
-      if (err) console.log('ERROR: ' + err);
+      if (err) throw new Error(err);
     },
   );
 
