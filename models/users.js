@@ -92,7 +92,7 @@ let users = [
   {
     email: 'kimkyungjae@zerobase.com',
     password: '1234567',
-    nickname: '수학김경재',
+    nickname: '수학킹김경재',
 
     isCertified: false,
     votedCategoryOrder: [],
