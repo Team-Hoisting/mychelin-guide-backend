@@ -53,21 +53,20 @@ router.get('/:storeId', (req, res) => {
   const nickname = users.getUserByEmail(storeData.firstUserId).nickname;
   const votesCategorized = votes.getVotesByStoreId(storeId);
   const totalVotesCnt = votesCategorized.length;
+
   const votesCountByStoreId = votesCategorized.reduce((acc, vote) => {
     const voteCode = vote.categoryCode;
     acc[voteCode] = (acc[voteCode] || 0) + 1;
     return acc;
   }, {});
 
-  const sortedVotesCountByStoreId = Object.fromEntries(
-    Object.entries(votesCountByStoreId).sort(([, a], [, b]) =>
-      a > b ? -1 : 1,
-    ),
-  );
+  const voteCnt = [];
 
-  const voteCntArr = Object.keys(sortedVotesCountByStoreId).map((item) => ({
-    [item]: sortedVotesCountByStoreId[item],
-  }));
+  for (let code in votesCountByStoreId) {
+    voteCnt.push([code, votesCountByStoreId[code]]);
+  }
+
+  voteCnt.sort(([, a], [, b]) => b - a);
 
   const totalVotes = votes.countAllVotes();
   const votesCount = votes.getVotesByStoreId(storeId).length;
@@ -81,7 +80,7 @@ router.get('/:storeId', (req, res) => {
 
   res.send({
     ...storeData,
-    voteCnt: voteCntArr,
+    voteCnt,
     totalVotesCnt,
     firstVoteUser: nickname,
     archivesCount,
