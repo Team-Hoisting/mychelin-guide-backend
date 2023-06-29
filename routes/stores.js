@@ -75,7 +75,7 @@ router.get('/:storeId', (req, res) => {
   const starsCount = votes.countStars({
     totalVotes,
     archivesCount,
-    votesCnt,
+    votesCount: votesCnt,
   });
 
   res.send({
