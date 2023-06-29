@@ -1506,7 +1506,7 @@ const getStoresByOrder = ({ allVotes, keyword, categoryCode, archivesCounterFn, 
     ),
   );
 
-  const voteCntArr = Object.keys(sortedVotesCountByStoreId).map((item) => ({
+  const votesCount = Object.keys(sortedVotesCountByStoreId).map((item) => ({
     [item]: sortedVotesCountByStoreId[item],
   }));
 
@@ -1515,7 +1515,7 @@ const getStoresByOrder = ({ allVotes, keyword, categoryCode, archivesCounterFn, 
       totalVotes: validVotes.length,
       starsCount: starCounterFn({ totalVotes: allVotesCount, archivesCount, votesCount: validVotes.length }),
       votesByCategory,
-      voteCntArr,
+      votesCount,
     };
 
     beforeSort.push(storeData);
