@@ -60,27 +60,27 @@ router.get('/:storeId', (req, res) => {
     return acc;
   }, {});
 
-  const voteCnt = [];
+  const votesCount = [];
 
   for (let code in votesCountByStoreId) {
-    voteCnt.push([code, votesCountByStoreId[code]]);
+    votesCount.push([code, votesCountByStoreId[code]]);
   }
 
-  voteCnt.sort(([, a], [, b]) => b - a);
+  votesCount.sort(([, a], [, b]) => b - a);
 
   const totalVotes = votes.countAllVotes();
-  const votesCount = votes.getVotesByStoreId(storeId).length;
+  const votesCnt = votes.getVotesByStoreId(storeId).length;
   const archivesCount = archives.getArchivesByStoreId(storeId);
 
   const starsCount = votes.countStars({
     totalVotes,
     archivesCount,
-    votesCount,
+    votesCnt,
   });
 
   res.send({
     ...storeData,
-    voteCnt,
+    votesCount,
     totalVotesCnt,
     firstVoteUser: nickname,
     archivesCount,
