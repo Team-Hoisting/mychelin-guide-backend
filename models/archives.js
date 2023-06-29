@@ -401,8 +401,11 @@ let archives = [
   { archiveId: 399, email: 'sanbondeveloper@gmail.com', storeId: '27253757' },
 ];
 
-const getArchivesByStoreId = (storeid) =>
+const getArchivesCntByStoreId = (storeid) =>
   archives.filter((arc) => arc.storeId === storeid).length;
+
+const getArchivesByStoreId = (storeid) =>
+  archives.filter((arc) => arc.storeId === storeid);
 
 const getArchivesByEmail = (email) =>
   archives.filter((arc) => arc.email === email);
@@ -437,6 +440,7 @@ const deleteArchive = ({ email, storeId }) => {
 };
 
 module.exports = {
+  getArchivesCntByStoreId,
   getArchivesByStoreId,
   getArchivesByEmail,
   createArchive,

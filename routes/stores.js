@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
     allVotes: votes.getAllVotes(),
     keyword,
     categoryCode,
-    archivesCounterFn: archives.getArchivesByStoreId,
+    archivesCounterFn: archives.getArchivesCntByStoreId,
     starCounterFn: votes.countStars,
   });
 

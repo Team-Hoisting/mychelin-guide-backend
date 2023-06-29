@@ -55,13 +55,11 @@ router.patch('/:nickname', (req, res) => {
     httpOnly: true,
   });
 
-  const archived = archives.getArchivesByEmail(user.email);
   const voteStatus = votes.getVotesByEmail(user.email);
 
   res.status(200).send({
     email: user.email,
     nickname: user.nickname,
-    archived,
     voteStatus,
   });
 });
