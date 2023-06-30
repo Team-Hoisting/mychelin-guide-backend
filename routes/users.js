@@ -10,6 +10,9 @@ const router = express.Router();
 router.get('/:nickname', (req, res) => {
   const user = users.getUserByNickname(req.params.nickname);
 
+  console.log(req.params.nickname);
+  console.log(user);
+
   const votesByUser = votes.getVotesByEmail(user.email);
 
   const voteStores = votesByUser.map(({ categoryCode, storeId, votedAt }) => ({
