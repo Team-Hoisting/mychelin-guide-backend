@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 require('dotenv').config();
 
@@ -26,6 +27,7 @@ const jwtMiddleware = require('../lib/jwtMiddleware');
 // };
 
 // app.use(cors(corsOptions));
+app.use(compression());
 app.use(express.json());
 app.use(cookieParser());
 app.use(jwtMiddleware);
